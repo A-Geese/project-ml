@@ -1,10 +1,22 @@
-IMAGE_NAME="project-ml"
-CONTAINER_NAME="project-ml"
+#!/bin/bash
+SCRIPT_DIR=$(dirname "$0")
+source "$SCRIPT_DIR/utils.sh"
 
-docker stop "$CONTAINER_NAME" || true && docker rm "$CONTAINER_NAME" || true
-docker build -t "$IMAGE_NAME" .
-docker run \
-    --env-file .env \
-    --name "$CONTAINER_NAME" \
-    -p 8080:8080 \
-    "$IMAGE_NAME"
+# Variables
+COMPOSE_FILE="docker-compose.yml"
+
+# Check if the compose file exists
+if [ ! -f "$COMPOSE_FILE" ]; then
+    log "Compose file ($COMPOSE_FILE) not found. Exiting..."
+    exit 1
+fi
+
+# Pull down any existing container and remove unused images
+log "Stopping and removing any existing services..."
+docker compose down --remove-orphans || error "Failed to stop running services."
+
+# Build and start services
+log "Building $COMPOSE_FILE..."
+docker compose up --build -d || { error "Failed to start services."; exit 1; }
+
+log "Services are running. Use 'docker compose logs -f' to view logs."

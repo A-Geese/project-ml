@@ -1,4 +1,3 @@
-# Use the official Python image
 FROM python:3.10-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
@@ -20,6 +19,6 @@ COPY src/ src/
 
 RUN pip install --no-cache-dir --upgrade pip setuptools wheel
 RUN pip install --no-cache-dir uv
-RUN uv pip install -r pyproject.toml
+RUN uv pip install -r pyproject.toml --system
 
 CMD ["bash"]
