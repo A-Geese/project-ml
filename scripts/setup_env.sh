@@ -13,6 +13,6 @@ source .venv/bin/activate
 log "Installing dependencies..."
 pip install --upgrade pip setuptools wheel
 pip install uv
-uv pip install -r pyproject.toml
+uv pip install -r pyproject.toml --extra dev
 
 log "Environment setup complete. Virtual environment is activated!"

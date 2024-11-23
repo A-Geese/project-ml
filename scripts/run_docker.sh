@@ -2,7 +2,6 @@
 SCRIPT_DIR=$(dirname "$0")
 source "$SCRIPT_DIR/utils.sh"
 
-# Variables
 COMPOSE_FILE="docker-compose.yml"
 
 # Check if the compose file exists

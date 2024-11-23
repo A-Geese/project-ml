@@ -13,7 +13,7 @@ requires-python = ">=3.10"
 dependencies = [
     "streamlit",
     "openai",
-    "asyncpg"
+    "tinydb"
 ]
 
 [project.optional-dependencies]
@@ -21,7 +21,7 @@ dev = [
     "black==23.9.1",
     "ruff==0.8.0",
     "isort==5.12.0",
-    "pyright==1.1.290",
+    "pyright==1.1.389",
 ]
 
 [tool.setuptools.packages.find]
@@ -35,8 +35,13 @@ profile = "black"
 
 [tool.ruff]
 line-length = 88
+include = ["src/*"]
 exclude = [".venv*", "**/__pycache__"]
 
+[tool.ruff.lint.per-file-ignores]
+"**/__init__.py" = ["F401"]
+
 [tool.pyright]
-exclude = [".venv*", "**/__pycache__"]
+include = ["src/*"]
+exclude = [".venv*", "**/__pycache__", "**/__init__.py"]
 typeCheckingMode = "standard"
