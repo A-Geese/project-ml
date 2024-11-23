@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "project-ml"
+version = "0.1.0"
+description = "Project meta llama hackathon"
+readme = "README.md"
+requires-python = ">=3.10"
+
+
+dependencies = [
+    "streamlit",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black==23.9.1",
+    "ruff==0.0.277",
+    "isort==5.12.0",
+    "pyright==1.1.290",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+
+[tool.ruff]
+line-length = 88
+exclude = [".venv*", "**/__pycache__"]
+
+[tool.pyright]
+exclude = [".venv*", "**/__pycache__"]
+typeCheckingMode = "standard"
