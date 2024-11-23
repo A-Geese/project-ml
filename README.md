@@ -15,8 +15,10 @@ bash scripts/setup_env.sh
 Add in new dependencies by updating `pyproject.toml` and running
 
 ```bash
- pip install -e ."[dev]" 
+uv pip install -r pyproject.toml --extra dev
 ```
+
+Packagement management is done with [uv](https://github.com/astral-sh/uv). It's so fast...
 
 
 2. Build & run docker:

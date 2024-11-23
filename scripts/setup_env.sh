@@ -10,6 +10,7 @@ source .venv/bin/activate
 
 echo "Installing dependencies..."
 pip install --upgrade pip setuptools wheel
-pip install -e .[dev]
+pip install uv
+uv pip install -r pyproject.toml
 
 echo "Environment setup complete. Virtual environment is activated!"

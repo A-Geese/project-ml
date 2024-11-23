@@ -19,7 +19,7 @@ COPY pyproject.toml .
 COPY src/ src/
 
 RUN pip install --no-cache-dir --upgrade pip setuptools wheel
-RUN pip install --no-cache-dir .
+RUN pip install --no-cache-dir uv
+RUN uv pip install -r pyproject.toml
 
-# Set the default command to use Bash for easy exploration
 CMD ["bash"]
