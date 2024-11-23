@@ -5,4 +5,15 @@ project meta llama
 
 
 ## Development
-`setup_env.sh` installs local dev environment
+
+Install local dev environment
+
+```bash
+bash scripts/setup_env.sh
+```
+
+Build & run docker
+
+```bash
+bash scripts/run_docker.sh
+```
