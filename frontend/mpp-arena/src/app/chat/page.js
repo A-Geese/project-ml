@@ -1,13 +1,18 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import SendButton from "./components/send_button";
 import TextBox from "./components/text_box";
 import ChatBubble from "./components/chat_bubble";
 import ChatHeader from "./components/chat_header";
 import { FaHandPaper } from "react-icons/fa";
+import { useGlobalContext } from "@/context/GlobalContext";
+
 
 export default function ChatPage() {
+  const { chats, setChats } = useGlobalContext();
+  const [currText, setCurrText] = useState("");
+
   const messages = [
     { id: 1, text: "Hi there!", sender: "user" },
     { id: 2, text: "Hello! How can I help you?", sender: "bot" },
@@ -23,12 +28,17 @@ export default function ChatPage() {
     { id: 12, text: "Alright, have a great day!", sender: "bot" },
   ];
 
+  const handleButtonClick = () => {
+    setChats((prevChats) => [...prevChats, {sender: "user", id: prevChats.length + 1, text: currText}]);
+    setCurrText("");
+  }
+
   return (
     <div className="flex">
         <div className="w-1/2 flex flex-col h-screen bg-gray-100">
             <ChatHeader />
             <div className="flex-1 overflow-y-auto p-4 space-y-4 flex flex-col">
-                {messages.map((message) => (
+                {chats.map((message) => (
                     <ChatBubble image={"/miis/image1.png"} message={message} key={message.id}/>
                 ))}
             </div>
@@ -36,8 +46,8 @@ export default function ChatPage() {
                 <button>
                     <FaHandPaper size={60} className="ml-1 mr-3 text-white p-3 bg-gradient-to-b from-sky-400 to-sky-500 rounded-full hover:shadow-lg hover:scale-105 transition-transform duration-300"/>
                 </button>
-                <TextBox />
-                <SendButton />
+                <TextBox text={currText} setText={setCurrText}/>
+                <SendButton onClick={handleButtonClick} />
             </footer>
         </div>
         <div className="w-1/2 flex flex-col h-screen bg-blue-200">

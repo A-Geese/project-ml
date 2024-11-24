@@ -20,7 +20,7 @@ function ChatAvatar({image, alt}) {
         <img
             src={image}
             alt={alt}
-            className="w-[70px] h-[70px] m-1"
+            className="w-[70px] h-[70px] m-1 animate-tiltWithPause "
         />
     )
 }
