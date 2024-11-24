@@ -223,11 +223,11 @@ def summarize_policy(request: SummarizePolicyRequest):
     try:
         app = FirecrawlApp(api_key="fc-d4f52d5c0584446aae60779f80a8a2d0")
         scrape_result = app.scrape_url(url, params={"formats": ["markdown"]})
-        webpage_content = scrape_result["markdown"]
+        webpage_content = scrape_result["markdown"][:3000]
         # summarize here
         document = Document(text=webpage_content)
 
-        node_parser = SentenceSplitter(chunk_size=5000, chunk_overlap=150)
+        node_parser = SentenceSplitter(chunk_size=1000, chunk_overlap=150)
 
         nodes = node_parser.get_nodes_from_documents([document], show_progress=False)
         chunks = [node.text for node in nodes]
