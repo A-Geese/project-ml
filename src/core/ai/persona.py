@@ -1,11 +1,12 @@
 """
-Define persona creation here
+Define persona creation here. Persona is an Agent's personality.
 """
+
+import instructor
+from openai import OpenAI
 
 from .constants import SYSTEM_PROMPT, USER_PROMPT
 from .traits import Characteristics
-from openai import OpenAI
-import instructor
 
 
 def get_persona_traits(persona_prompt: str) -> dict:

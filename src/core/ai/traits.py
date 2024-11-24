@@ -1,8 +1,3 @@
-from .constants import SYSTEM_PROMPT, USER_PROMPT
-
-from openai import OpenAI
-from pydantic import BaseModel
-
 from pydantic import BaseModel
 
 
