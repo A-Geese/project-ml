@@ -15,6 +15,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 from typing import Tuple
 from pydantic import BaseModel, Field
+from os import getenv
 
 alive = [
     "doug downey",
@@ -221,13 +222,24 @@ def generate(
 def summarize_policy(request: SummarizePolicyRequest):
     url = request.url
     try:
-        app = FirecrawlApp(api_key="fc-d4f52d5c0584446aae60779f80a8a2d0")
+        app = FirecrawlApp(getenv("FIRECRAWL_API_KEY"))
         scrape_result = app.scrape_url(url, params={"formats": ["markdown"]})
-        webpage_content = scrape_result["markdown"][:5000]
+        webpage_content = scrape_result["markdown"]
+
+        total_length = len(webpage_content)
+
+        # Define the percentage range you want to extract
+        start_percentage = 0
+        end_percentage = 100
+        start_index = int(total_length * start_percentage / 100)
+        end_index = int(total_length * end_percentage / 100)
+
+        webpage_content = webpage_content[start_index:end_index]
+
         # summarize here
         document = Document(text=webpage_content)
 
-        node_parser = SentenceSplitter(chunk_size=1000, chunk_overlap=150)
+        node_parser = SentenceSplitter(chunk_size=2500, chunk_overlap=150)
 
         nodes = node_parser.get_nodes_from_documents([document], show_progress=False)
         chunks = [node.text for node in nodes]
@@ -237,7 +249,12 @@ def summarize_policy(request: SummarizePolicyRequest):
         # Summarize each chunk
         summaries = []
         for chunk in chunks:
-            prompt = f"{chunk}\n\nSummarize the above webpage content into a concise bullet point list."
+            prompt = f"""{chunk}\n\nSummarize the above content into a concise paragraph. Focus on the important details instead of the overall structure of the webpage. What are important ideas? Highlight those. Keep the summary concise. DO NOT MENTION THE FACT THAT YOU CANNOT FIND NOTABLE TEXT TO SUMMARIZE.
+            For example, avoid saying this like:
+            "Unfortunately, I could not find any notable info",
+            "There is no important text",
+            "There is nothing of note"
+            """
             # response = requests.post(llama_endpoint, headers=headers, json=data)
             # try:
             #     summary = response.json()["choices"][0]["text"]
@@ -254,7 +271,12 @@ def summarize_policy(request: SummarizePolicyRequest):
         #     "stream": False,
         # }
 
-        prompt = f"{chr(10).join(summaries)}\n\nSummarize the above webpage content into a concise bullet point list."
+        prompt = f"""{chr(10).join(summaries)}\n\nSummarize the above content into a concise paragraph. Focus on the important details instead of the overall structure of the webpage. What are important ideas? Highlight those. Keep the summary concise. DO NOT MENTION THE FACT THAT YOU CANNOT FIND NOTABLE TEXT TO SUMMARIZE.
+        For example, avoid saying this like:
+        "Unfortunately, I could not find any notable info",
+        "There is no important text",
+        "There is nothing of note"
+        """
 
         # response = requests.post(llama_endpoint, headers=headers, json=data)
 

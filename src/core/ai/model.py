@@ -37,7 +37,7 @@ Remember to always be consistent with your statements.
 
 Be less direct. For example, do not start by saying things like "I disagree with the notion that", ""Regarding the balanced budget amendment, I strongly believe", "I strongly disagree with the notion that". Instead, jump to the point and make your stance clear by letting your description of your policies and idea indicate your agreement or disagreement.
 
-If a sentence has been said word for word already. DO NOT REPEAT IT.
+If a sentence has been said word for word already. DO NOT REPEAT IT. Do not mention ANY NAMES of PEOPLE in the conversation.
 """
 
 USER_PROMPT = """
@@ -64,7 +64,7 @@ Remember to always be consistent with your statements.
 
 Be less direct. For example, do not start by saying things like "I disagree with the notion that", ""Regarding the balanced budget amendment, I strongly believe", "I strongly disagree with the notion that". Instead, jump to the point and make your stance clear by letting your description of your policies and idea indicate your agreement or disagreement.
 
-If a sentence has been said word for word already. DO NOT REPEAT IT.
+If a sentence has been said word for word already. DO NOT REPEAT IT. Do not mention ANY NAMES of PEOPLE in the conversation.
 """
 
 EVAL_SYSTEM_PROMPT = """You are a summarization assistant specializing in policy discussions. Your task is to read and analyze a conversation on a specific topic and provide a comprehensive, neutral summary. Focus on aggregating key points, themes, and highlights across all perspectives presented without favoring one side.
@@ -84,7 +84,9 @@ Present the information as a cohesive and unified analysis of the discussion.
 {chat_history}
 
 Do not be verbose. Keep your conversations concise and short. Focus on the highlights and most important ideas. Make a succinct argument as to why you believe what you do.
-Do not include names of the individuals in the chat history. Focus only on the topic at hand. DO NOT render in markdown at all. RENEDER ONLY AS A HTML element.
+Do not include names of the individuals in the chat history. Focus only on the topic at hand. DO NOT render in markdown at all. RENEDER ONLY AS A HTML element. Make titles bold using html bold tags like <b>. For example,
+
+<b>Key Points in Summary</b>
 """
 
 
