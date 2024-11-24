@@ -1,11 +1,11 @@
-from dataclasses import dataclass
 import asyncio
-import aiohttp
-from ratelimit import limits, sleep_and_retry
-from typing import Dict, Any, Optional
-from prompts import NO_SHOT_DEFAULT_PROMPT_LONG_FORM, NO_SHOT_DEFAULT_PROMPT_SHORT_FORM
-import pandas as pd
+from dataclasses import dataclass
+from typing import Any, Dict, Optional
 
+import aiohttp
+import pandas as pd
+from prompts import NO_SHOT_DEFAULT_PROMPT_LONG_FORM, NO_SHOT_DEFAULT_PROMPT_SHORT_FORM
+from ratelimit import limits, sleep_and_retry
 
 API_CALLS_PER_MINUTE = 100
 API_CALLS_TIME_PERIOD = 60

@@ -1,6 +1,6 @@
 import os
 
-from tinydb import TinyDB
+from tinydb import Query, TinyDB
 
 
 def get_db(db_path: str) -> TinyDB:
@@ -15,13 +15,8 @@ def get_db(db_path: str) -> TinyDB:
     return db
 
 
-def write():
-    pass
-
-
-def update():
-    pass
-
-
-def read():
-    pass
+def get_agent_with_name(db: TinyDB, name: str) -> dict:
+    User = Query()
+    name = name.lower()
+    res = db.search(User.name == name)
+    return res[0]

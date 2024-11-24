@@ -16,11 +16,13 @@ dependencies = [
     "fastapi",
     "aiohttp",
     "ratelimit",
+    "firecrawl-py",
 
     # ai stuff :)
     "datasets",
     "ollama",
     "instructor",
+    "llama_index"
 ]
 
 [project.optional-dependencies]

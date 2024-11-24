@@ -1,15 +1,14 @@
 ## Generic
-POLTICIAN_TEMPLATE = """Name: {name}
-Roles: {roles}
-Location: {location}
-Political Party: {party}
+POLTICIAN_TEMPLATE = """**Name:** {name}
+**Roles:**
+{roles}
+**Location:** {location}
+**Political Party:** {party}
 
-Supports the following bills:
+### Supports the following bills:
 {bills}
-
-Brought forth the following motions:
-{motions}
 """
+
 
 ## Long Form Personas
 NO_SHOT_DEFAULT_PROMPT_LONG_FORM = """

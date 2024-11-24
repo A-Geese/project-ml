@@ -1,16 +1,13 @@
-from dataclasses import dataclass
 import asyncio
-import aiohttp
-from ratelimit import limits, sleep_and_retry
-from typing import Dict, Any, Optional
-from constants import NO_SHOT_DEFAULT_PROMPT_LONG_FORM, SYSTEM_PROMPT, USER_PROMPT, POLTICIAN_TEMPLATE
-import pandas as pd
-import instructor
-from openai import OpenAI
-from traits import Characteristics
 import json
-import requests
+from dataclasses import dataclass
+from typing import Any, Dict
 
+import aiohttp
+import pandas as pd
+import requests
+from constants import NO_SHOT_DEFAULT_PROMPT_LONG_FORM, POLTICIAN_TEMPLATE
+from ratelimit import limits, sleep_and_retry
 
 API_CALLS_PER_MINUTE = 10
 API_CALLS_TIME_PERIOD = 15
@@ -41,37 +38,52 @@ class Bill:
 class Motion:
     name: str
     motion_details: str
-    
+
     def __str__(self) -> str:
         return self.motion_details
-        
+
 
 def load_mpps(mpp_df: pd.DataFrame) -> list[MPP]:
     mpps = []
     for i in range(len(mpp_df)):
-        mpp = MPP(_id=i, name=mpp_df["name"][i], party=mpp_df["party"][i], role=mpp_df["role"][i], location=mpp_df["location"][i])
+        mpp = MPP(
+            _id=i,
+            name=mpp_df["name"][i],
+            party=mpp_df["party"][i],
+            role=mpp_df["role"][i],
+            location=mpp_df["location"][i],
+        )
         mpps.append(mpp)
     return mpps
 
 
 def get_mpp_bills(_id: int, bills_df: pd.DataFrame) -> list[Bill]:
-    bill_df = bills_df[(bills_df["mpp_id"] == _id) & (bills_df["explanatory_notes"] != "")].reset_index(drop=True)
+    bill_df = bills_df[
+        (bills_df["mpp_id"] == _id) & (bills_df["explanatory_notes"] != "")
+    ].reset_index(drop=True)
     bills = []
     for i in range(len(bill_df)):
         if type(bill_df["explanatory_notes"][i]) != str:
             continue
-        bill = Bill(name=bill_df["bill_name"][i], details=bill_df["explanatory_notes"][i])
+        bill = Bill(
+            name=bill_df["bill_name"][i], details=bill_df["explanatory_notes"][i]
+        )
         bills.append(bill)
     return bills
 
 
 def get_mpp_motions(_id: int, motions_df: pd.DataFrame) -> list[Motion]:
-    motion_df = motions_df[(motions_df["mpp_id"] == _id) & (motions_df["motion_details"] != None)].reset_index(drop=True)
+    motion_df = motions_df[
+        (motions_df["mpp_id"] == _id) & (motions_df["motion_details"] != None)
+    ].reset_index(drop=True)
     motions = []
     for i in range(len(motion_df)):
         if type(motion_df["motion_details"][i]) != str:
             continue
-        motion = Motion(name=motion_df["motion_name"][i], motion_details=motion_df["motion_details"][i])
+        motion = Motion(
+            name=motion_df["motion_name"][i],
+            motion_details=motion_df["motion_details"][i],
+        )
         motions.append(motion)
     return motions
 
@@ -79,24 +91,28 @@ def get_mpp_motions(_id: int, motions_df: pd.DataFrame) -> list[Motion]:
 def format_prompt_lf(mpp: MPP, bills: list[Bill], motions: list[Motion]) -> str:
     bills_str = "\n".join([str(bill) for bill in bills])
     motions_str = "\n".join([str(motion) for motion in motions])
-    return NO_SHOT_DEFAULT_PROMPT_LONG_FORM.format(bills=bills_str, motions=motions_str, politician=mpp.anonymous_repr())
+    return NO_SHOT_DEFAULT_PROMPT_LONG_FORM.format(
+        bills=bills_str, motions=motions_str, politician=mpp.anonymous_repr()
+    )
 
 
 def format_prompt_skills(mpp: MPP, bills: list[Bill], motions: list[Motion]) -> str:
-    if len(bills)==0:
+    if len(bills) == 0:
         bills_str = "None"
     else:
         bills_str = "\n".join([bill.details for bill in bills])
-    if len(motions)==0:
+    if len(motions) == 0:
         motions_str = "None"
     else:
         motions_str = "\n".join([motion.motion_details for motion in motions])
-    return POLTICIAN_TEMPLATE.format(name=mpp.name, 
-                              roles=mpp.role, 
-                              location=mpp.location, 
-                              party=mpp.party, 
-                              bills=bills_str, 
-                              motions=motions_str)
+    return POLTICIAN_TEMPLATE.format(
+        name=mpp.name,
+        roles=mpp.role,
+        location=mpp.location,
+        party=mpp.party,
+        bills=bills_str,
+        motions=motions_str,
+    )
 
 
 @sleep_and_retry
@@ -105,20 +121,20 @@ async def generate_llama_response(
     prompt: str,
     model: str = "llama3.1:70b",
     stream: bool = False,
-    base_url: str = "http://127.0.0.1:11435"
+    base_url: str = "http://127.0.0.1:11435",
 ) -> Dict[str, Any]:
     """
     Make a rate-limited async request to the Llama API.
-    
+
     Args:
         prompt (str): The input prompt for the model
         model (str): Model identifier
         stream (bool): Whether to stream the response
         base_url (str): Base URL for the API
-        
+
     Returns:
         Dict[str, Any]: API response as a dictionary
-        
+
     Raises:
         aiohttp.ClientError: For HTTP-related errors
         asyncio.TimeoutError: If the request times out
@@ -126,23 +142,16 @@ async def generate_llama_response(
     """
     url = f"{base_url}/api/generate"
     headers = {"Content-Type": "application/json"}
-    data = {
-        "model": model,
-        "prompt": prompt,
-        "stream": stream
-    }
-    
+    data = {"model": model, "prompt": prompt, "stream": stream}
+
     try:
         async with aiohttp.ClientSession() as session:
             async with session.post(
-                url,
-                headers=headers,
-                json=data,
-                timeout=30
+                url, headers=headers, json=data, timeout=30
             ) as response:
                 response.raise_for_status()
                 return await response.json()
-                
+
     except aiohttp.ClientError as e:
         print(f"HTTP error occurred: {e}")
         raise
@@ -158,20 +167,20 @@ def generate_llama_response(
     prompt: str,
     model: str = "llama3.1:70b",
     stream: bool = False,
-    base_url: str = "http://127.0.0.1:11435"
+    base_url: str = "http://127.0.0.1:11435",
 ) -> Dict[str, Any]:
     """
     Make a request to the Llama API.
-    
+
     Args:
         prompt (str): The input prompt for the model
         model (str): Model identifier
         stream (bool): Whether to stream the response
         base_url (str): Base URL for the API
-        
+
     Returns:
         Dict[str, Any]: API response as a dictionary
-        
+
     Raises:
         requests.RequestException: For HTTP-related errors
         requests.Timeout: If the request times out
@@ -179,22 +188,13 @@ def generate_llama_response(
     """
     url = f"{base_url}/api/generate"
     headers = {"Content-Type": "application/json"}
-    data = {
-        "model": model,
-        "prompt": prompt,
-        "stream": stream
-    }
-    
+    data = {"model": model, "prompt": prompt, "stream": stream}
+
     try:
-        response = requests.post(
-            url,
-            headers=headers,
-            json=data,
-            timeout=30
-        )
+        response = requests.post(url, headers=headers, json=data, timeout=30)
         response.raise_for_status()
         return response.json()
-        
+
     except requests.Timeout:
         print("Request timed out")
         raise
@@ -274,13 +274,13 @@ async def main():
     results = [generate_llama_response(p) for p in lf_prompts]
     personas_lf = []
     for result in results:
-        personas_lf.append(result['response'])
+        personas_lf.append(result["response"])
     # try:
     #     results = await asyncio.gather(
     #         *[generate_llama_response(p) for p in lf_prompts],
     #         return_exceptions=True
     #     )
-        
+
     #     # Process results
     #     for i, result in enumerate(results):
     #         if isinstance(result, Exception):
@@ -300,7 +300,7 @@ async def main():
 
     # save as json
     with open("personas_lf.json", "w") as f:
-        f.write(json.dumps({'mpp_id': mpp_ids, 'persona': personas_lf}))
+        f.write(json.dumps({"mpp_id": mpp_ids, "persona": personas_lf}))
     # personas_df = pd.DataFrame({"mpp_id": mpp_ids, "persona": results})
     # personas_df = personas_df[personas_df["persona"] != ""].reset_index(drop=True)
 

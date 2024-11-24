@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import SendButton from "./components/send_button";
 import TextBox from "./components/text_box";
 import ChatBubble from "./components/chat_bubble";
@@ -8,28 +8,79 @@ import ChatHeader from "./components/chat_header";
 import { FaHandPaper } from "react-icons/fa";
 import { useGlobalContext } from "@/context/GlobalContext";
 
+const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 export default function ChatPage() {
-  const { chats, setChats } = useGlobalContext();
+  const { chats, setChats, debaterLeft, debaterRight, billSummary } = useGlobalContext();
   const [currText, setCurrText] = useState("");
+  const [isGenerating, setIsGenerating] = useState(false);
 
-  const messages = [
-    { id: 1, text: "Hi there!", sender: "user" },
-    { id: 2, text: "Hello! How can I help you?", sender: "bot" },
-    { id: 3, text: "What is Next.js?", sender: "user" },
-    { id: 4, text: "Next.js is a React framework.", sender: "bot" },
-    { id: 5, text: "Can you elaborate?", sender: "user" },
-    { id: 6, text: "Sure! It allows server-side rendering and static site generation.", sender: "bot" },
-    { id: 7, text: "Cool! Does it work with Tailwind CSS?", sender: "user" },
-    { id: 8, text: "Yes, it integrates seamlessly with Tailwind CSS.", sender: "bot" },
-    { id: 9, text: "Thanks for explaining!", sender: "user" },
-    { id: 10, text: "You're welcome! Anything else?", sender: "bot" },
-    { id: 11, text: "No, that's all for now.", sender: "user" },
-    { id: 12, text: "Alright, have a great day!", sender: "bot" },
-  ];
+  useEffect(() => {
+    const sendChatRequest = async (data = {}) => {
+      try {
+        // Replace with your API endpoint
+        const response = await fetch('http://localhost:8000/generate', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data),
+        });
 
+        if (!response.ok) {
+          throw new Error('Failed to fetch');
+        }
+
+        const result = await response.json();
+        setResponses((prev) => [...prev, result]);
+
+        // Send the next request with the previous response
+        if (result.next) {
+          await sendChatRequest({ previousData: result });
+        }
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    };
+
+    // Initial request when page loads
+    sendChatRequest();
+  }, []);
+
+  // useEffect(() => {
+  //   const getChatResponse = async () => {
+  //       try {
+  //         const curr_input = {
+  //           persona_name: chats && chats.length && chats[0].name === debaterRight ? debaterLeft : debaterRight, 
+  //           chat_history: chats ? chats : [],
+  //           topic: billSummary
+  //         }
+  //         console.log("curr_input", curr_input);
+
+  //         const response = await fetch("http://localhost:8000/generate", {
+  //           method: "POST",
+  //           headers: {
+  //             "Content-Type": "application/json",
+  //           },
+  //           body: JSON.stringify(curr_input),
+  //         });
+
+  //         const data = await response.json();
+  //         setChats(data.message);
+
+  //         if (data.message !== "END") {
+  //           setTimeout(() => getChatResponse(), 1000);
+  //         }
+  //       } catch (error) {
+  //         console.error("API call failed:", error);
+  //       }
+  //     };
+  //     getChatResponse();
+  //   }, [])
+
+  
   const handleButtonClick = () => {
-    setChats((prevChats) => [...prevChats, {sender: "user", id: prevChats.length + 1, text: currText}]);
+    setChats((prevChats) => [...prevChats, {name: "user", id: prevChats.length + 1, text: currText}]);
     setCurrText("");
   }
 
@@ -38,9 +89,9 @@ export default function ChatPage() {
         <div className="w-1/2 flex flex-col h-screen bg-gray-100">
             <ChatHeader />
             <div className="flex-1 overflow-y-auto p-4 space-y-4 flex flex-col">
-                {chats.map((message) => (
-                    <ChatBubble image={"/miis/image1.png"} message={message} key={message.id}/>
-                ))}
+                {chats && chats.length > 1 ? chats.slice(1).map((message, i) => (
+                    <ChatBubble key={`${i}`} image={"/miis/image1.png"} message={message} key={message.id}/>
+                )) : null}
             </div>
             <footer className="p-4 bg-white flex items-center border-t bg-gradient-to-t from-neutral-200 to-neutral-300">
                 <button>
@@ -51,9 +102,8 @@ export default function ChatPage() {
             </footer>
         </div>
         <div className="w-1/2 flex flex-col h-screen bg-blue-200">
-            <div className="">
+            <div className="">Relevant Bills</div>
 
-            </div>
         </div>
     </div>
   );
