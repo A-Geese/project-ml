@@ -1,0 +1,9 @@
+argparse
+beautifulsoup4
+cssselect
+lxml
+pandas
+selenium
+wsgiref
+xlrd
+
