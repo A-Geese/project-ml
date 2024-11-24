@@ -18,8 +18,15 @@ PERSONA_CHARACTERISTICS = [
     "Visionary"
 ]
 # expects that the MPP has at least one bill or motion
-NO_SHOT_DEFAULT_PROMPT_LONG_FORM = """Bills: {bills}
-Motions: {motions}
+NO_SHOT_DEFAULT_PROMPT_LONG_FORM = """
+## Politician Background:
+{politician}
+
+## Bills: 
+{bills}
+
+## Motions
+{motions}
 
 Based on the above bills and motions brought forth by a politician, write a couple sentences maximum \
 to describe the personality and backstory of the politician. Only return the persona of the politician."""
