@@ -83,7 +83,8 @@ Present the information as a cohesive and unified analysis of the discussion.
 # Conversation:
 {chat_history}
 
-Do not be verbose. Keep your conversations concise and short. Focus on the highlights and most important ideas. Make a succinct argument as to why you believe what you do. 
+Do not be verbose. Keep your conversations concise and short. Focus on the highlights and most important ideas. Make a succinct argument as to why you believe what you do.
+Do not include names of the individuals in the chat history. Focus only on the topic at hand. DO NOT render in markdown at all. RENEDER ONLY AS A HTML element.
 """
 
 

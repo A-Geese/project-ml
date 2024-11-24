@@ -223,7 +223,7 @@ def summarize_policy(request: SummarizePolicyRequest):
     try:
         app = FirecrawlApp(api_key="fc-d4f52d5c0584446aae60779f80a8a2d0")
         scrape_result = app.scrape_url(url, params={"formats": ["markdown"]})
-        webpage_content = scrape_result["markdown"][:3000]
+        webpage_content = scrape_result["markdown"][:5000]
         # summarize here
         document = Document(text=webpage_content)
 
