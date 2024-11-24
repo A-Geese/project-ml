@@ -1,198 +1,282 @@
-mpp_id,motion_name,motion_href
-2,Motion 149,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1235E151-C3A6-EF11-B8E9-000D3A0C23B9
-2,Motion 146,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B91C905E-E6A5-EF11-B8E8-000D3AE860D8
-2,Motion 138,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FC522856-B79B-EF11-8A6A-000D3A0C23B9
-2,Motion 143,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F91A0BFF-B79B-EF11-8A6A-000D3A0C23B9
-2,Motion 140,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F5412AAC-B79B-EF11-8A6A-000D3A0C23B9
-2,Motion 139,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E2E0EE80-B79B-EF11-8A6A-000D3A0C23B9
-2,Motion 141,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_711F37CB-B79B-EF11-8A6A-000D3A0C23B9
-2,Motion 142,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_2A883CE5-B79B-EF11-8A6A-000D3A0C23B9
-2,Motion 133,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_364C78A6-B090-EF11-8A6A-000D3A0C23B9
-2,Motion 53,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_3D56F190-A0EE-ED11-8848-000D3AF4F44A
-2,Motion 12,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E9A92766-FB29-ED11-9DB2-002248D51D1B
-2,Motion 10,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_D1913B87-F929-ED11-9DB2-002248D51D1B
-2,Motion 11,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_89FD4738-FB29-ED11-9DB2-002248D51D1B
-2,Motion 13,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_68CF727C-FB29-ED11-9DB2-002248D51D1B
-2,Motion 9,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0AAF6F51-F929-ED11-9DB2-002248D51D1B
-3,Motion 34,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_8AB416F7-CAB6-ED11-B596-002248D5A587
-6,Motion 48,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C24192E3-1ED3-ED11-A7C6-000D3AF4F44A
-7,Motion 113,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_2997F37B-FD1C-EF11-840A-002248B1AE9E
-7,Motion 6,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F857BBB6-9A28-ED11-9DB2-002248D51D1B
-9,Motion 93,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_71268EB6-65FB-EE11-9F89-6045BD61612F
-9,Motion 78,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CCC8FADE-4F94-EE11-BE37-6045BD5DE15D
-9,Motion 61,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_8CFFF3E7-B25B-EE11-8DF0-000D3AF4FB27
-9,Motion 60,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B2B7F5C4-A104-EE11-8F6E-000D3AF4FB27
-9,Motion 35,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B98B6DE9-D2B6-ED11-B596-002248D5A587
-9,Motion 30,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_8FB4B154-5D76-ED11-81AC-000D3AF41FC2
-9,Motion 29,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_04C4BE30-5D76-ED11-81AC-000D3AF41FC2
-9,Motion 27,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_16C01D33-A575-ED11-81AC-000D3AF41FC2
-9,Motion 25,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_9B94566D-B374-ED11-81AC-000D3AF41FC2
-9,Motion 26,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_4237C7AA-B374-ED11-81AC-000D3AF41FC2
-9,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_F8A722D4-FA65-ED11-9562-002248D51D1B
-9,Motion 7,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_010E2ECB-9A28-ED11-9DB2-002248D51D1B
-10,Motion 22,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_80407A70-CDDC-EE11-904D-6045BD5D65A7
-10,Motion 11,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_12B742A3-F7BC-ED11-83FE-000D3AF40FC6
-11,Motion 148,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C6A2A042-B5A6-EF11-B8E8-6045BD5D8FEB
-11,Motion 91,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AC6F09A8-4CF7-EE11-A1FE-6045BD61612F
-12,Motion 5,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_06320B8E-8424-ED11-9DB2-002248D51D1B
-15,Motion 137,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F0A774E6-E896-EF11-8A69-000D3A0C23B9
-15,Motion 116,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F7451730-8A22-EF11-840A-6045BD5D4A28
-18,Motion 62,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_D7BCD72E-BD5B-EE11-8DF0-000D3AF4FB27
-19,Motion 23,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_5602B34D-ECEA-EE11-A1FE-6045BD5F5163
-19,Motion 24,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_21CC4BC1-ECEA-EE11-A1FE-6045BD5F5163
-19,Motion 21,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_9E3ED2AF-C3D1-EE11-904D-002248AEE710
-19,Motion 20,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_A6728AE0-B58F-EE11-8179-0022483C5061
-19,Motion 19,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_BDE0D5B1-3C6C-EE11-8179-000D3AF4F44A
-19,Motion 18,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_B49F015C-3B6C-EE11-8179-000D3AF4FD82
-19,Motion 16,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_FB1863EC-C85B-EE11-8DF0-000D3AF4FD82
-19,Motion 17,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_630B043E-CE5B-EE11-8DF0-000D3AF4FB27
-19,Motion 15,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_EB533E65-5FFE-ED11-8F6C-000D3AF4FB27
-19,Motion 14,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_690F3851-5FFE-ED11-8F6C-000D3AF4FB27
-19,Motion 12,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_4C6BC40B-46C7-ED11-B596-0022486DC01C
-19,Motion 10,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_D0692160-CA74-ED11-81AC-002248D51D1B
-19,Motion 7,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_D2957BFC-275A-ED11-9562-002248D51D1B
-19,Motion 9,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_67E5DC64-285A-ED11-9562-002248D51D1B
-19,Motion 8,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_11540E2D-285A-ED11-9562-002248D51D1B
-19,Motion 6,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_8D652E87-7A2F-ED11-9DB0-000D3AF41FC2
-19,Motion 5,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_F4E1A74B-D727-ED11-9DB2-002248D51D1B
-19,Motion 4,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_DCA08541-EC23-ED11-9DB2-002248D51D1B
-19,Motion 3,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_5E0E43C9-EE18-ED11-B83E-000D3AF41FC2
-19,Motion 2,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_63F5C811-3018-ED11-B83F-002248D51D1B
-19,Motion 1,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_29B5C6C3-2F18-ED11-B83F-002248D51D1B
-22,Motion 124,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_15A5B351-2A24-EF11-840A-002248B1AE9E
-22,Motion 104,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_11336D36-2A03-EF11-9F89-6045BD5D95B0
-22,Motion 103,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_9B327AA7-7602-EF11-9F89-000D3A84170A
-22,Motion 98,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_D1E8C2A6-BE00-EF11-9F89-000D3AF307CC
-23,Motion 26,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_6EA1E58E-F79A-EF11-8A6A-002248B2E8A8
-23,Motion 25,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_FCC6D08D-5092-EF11-8A6A-002248AFD5B2
-23,Motion 82,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_373F941A-4AD6-EE11-904D-6045BD60D367
-26,Motion 51,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_9FDE9BAA-A9DF-ED11-8846-000D3AF4F44A
-27,Motion 81,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_388439E1-30D0-EE11-904D-6045BD60D227
-28,Motion 145,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_75C6E730-C3A5-EF11-B8E8-000D3AE860D8
-28,Motion 85,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_ED3D4F11-C0E6-EE11-A203-0022483CC08F
-29,Motion 15,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AAEE1008-7D2F-ED11-9DB0-000D3AF41FC2
-33,Motion 110,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AC7FFFD2-3512-EF11-9F89-002248B1AE9E
-33,Motion 101,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CEE1A9B8-A901-EF11-9F89-0022483C53EC
-34,Motion 46,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6BD49C88-67CE-ED11-A7C5-002248D511E3
-34,Motion 43,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1A148F97-9ECD-ED11-A7C5-002248D511E3
-37,Motion 59,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_A36827C0-E9FF-ED11-8F6C-000D3AF4F44A
-37,Motion 14,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_EAC4B030-F52D-ED11-9DB1-002248D51D1B
-38,Motion 109,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FB5F1482-5E11-EF11-9F89-002248B1AE9E
-39,Motion 92,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F514C5CF-60F7-EE11-A1FE-6045BD61612F
-40,Motion 94,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_472915C9-C9FC-EE11-9F89-002248AFCBA1
-40,Motion 22,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0256A830-A36A-ED11-81AC-000D3AF41FC2
-41,Motion 114,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0E74B1EC-D11D-EF11-840A-002248B1AE9E
-41,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_1513824D-EF5A-ED11-9562-000D3AF41FC2
-43,Motion 129,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6E4FA40B-3324-EF11-840A-002248B1AE9E
-43,Motion 130,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_62A25E61-3324-EF11-840A-002248B1AE9E
-43,Motion 111,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_15DBDA99-AE13-EF11-9F89-002248B1AE9E
-43,Motion 31,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_55893025-2C77-ED11-81AC-002248D51D1B
-43,Motion 20,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_357CE8F3-D365-ED11-9562-002248D51D1B
-44,Motion 84,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C5527280-A5DC-EE11-904D-6045BD60D227
-44,Motion 1,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_D97C35E0-4E1E-ED11-B83D-000D3AF41FC2
-45,Motion 49,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_34FEBB4C-20D3-ED11-A7C6-000D3AF4F44A
-47,Motion 117,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_858998DD-B022-EF11-840A-002248AEA5FD
-51,Motion 132,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_7F2ECD5A-BF8F-EF11-8A69-6045BD612BD1
-51,Motion 50,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_489FFBDB-2DD3-ED11-A7C6-000D3AF4F44A
-52,Motion 16,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AEBB2F5E-A354-ED11-9561-000D3AF41FC2
-53,Motion 99,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1BA37B60-D000-EF11-9F89-000D3AF307CC
-53,Motion 95,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_47A5C81C-90FD-EE11-9F89-0022483C53EC
-53,Motion 76,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6B8BC99C-C98E-EE11-8179-000D3AF4F44A
-53,Motion 57,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_5020965F-2CF3-ED11-8848-000D3AF4FB27
-53,Motion 37,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6FD64B8B-E8BD-ED11-83FE-000D3AF40FC6
-54,Motion 128,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_325C7D79-3124-EF11-840A-6045BD5D4A28
-54,Motion 107,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B9BDDFEC-3511-EF11-9F89-6045BD61E8DA
-54,Motion 108,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_A4C80A05-3611-EF11-9F89-6045BD61E8DA
-54,Motion 106,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_97B303DA-3511-EF11-9F89-6045BD61E8DA
-54,Motion 79,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E84026A3-30D0-EE11-904D-6045BD60D227
-54,Motion 80,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_19F68BBC-30D0-EE11-904D-6045BD60D227
-54,Motion 67,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_15B641B8-C762-EE11-8DF0-000D3AF4FD82
-56,Motion 118,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F0C16362-4D23-EF11-840A-6045BD5D4A28
-56,Motion 69,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_64130DE8-C36D-EE11-8179-000D3AF4FB27
-56,Motion 64,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_82B13C55-A35C-EE11-8DF0-000D3AF4F44A
-57,Motion 70,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C6DB8B87-AF72-EE11-8179-000D3AF4FB27
-59,Motion 23,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_DED67BD2-656F-ED11-81AC-000D3AF41FC2
-61,Motion 65,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_5678A754-755D-EE11-8DF0-000D3AF4FB27
-62,Motion 13,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_82ACE54E-25CF-ED11-A7C5-002248D511E3
-63,Motion 44,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B9BEBABF-9ECD-ED11-A7C5-002248D511E3
-63,Motion 8,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FA7D0F44-6929-ED11-9DB2-002248D51D1B
-64,Motion 77,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F4AD500E-EC8E-EE11-8179-000D3AF4FD82
-65,Motion 72,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_00D3F80F-2578-EE11-8179-000D3AF4F44A
-65,Motion 54,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E51306B8-A3EE-ED11-8848-000D3AF4F44A
-69,Motion 66,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B616852E-2362-EE11-8DF0-000D3AF4F44A
-71,Motion 45,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_223CA3A7-A5CD-ED11-A7C5-002248D51AA6
-73,Motion 144,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_11EDEA45-7F9C-EF11-8A69-6045BD5BE34F
-74,Motion 2,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AD6683FD-F81E-ED11-B83E-002248D51D1B
-75,Motion 24,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_64A96464-FB6F-ED11-81AC-002248D51D1B
-77,Motion 55,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C6CE4634-6BEF-ED11-8847-000D3AF4FB27
-78,Motion 136,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CD5F530D-3596-EF11-8A69-002248B2E8A8
-78,Motion 56,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_2CD084C8-21F0-ED11-8847-000D3AF4FB27
-80,Motion 134,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_3D9EB1A5-5491-EF11-8A6A-000D3A0C23B9
-80,Motion 96,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E7155AE1-91FD-EE11-9F89-0022483C53EC
-80,Motion 58,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_63E94909-45FE-ED11-8F6C-000D3AF4FB27
-80,Motion 32,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1186F566-2BB2-ED11-83FD-000D3A0A206A
-80,Motion 17,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_8CC04DC0-4359-ED11-9562-002248D51D1B
-82,Motion 135,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0F6EC3DA-4295-EF11-8A69-000D3A0C23B9
-82,Motion 68,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_791D4B93-BE6D-EE11-8179-000D3AF4FB27
-82,Motion 28,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_929CC65D-3976-ED11-81AC-000D3AF41FC2
-86,Motion 71,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FEE7AE7E-2178-EE11-8179-000D3AF4F44A
-86,Motion 63,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_DD6FD3F6-DF5B-EE11-8DF0-000D3AF4FB27
-87,Motion 105,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_55AEB54E-4003-EF11-9F89-002248B0C507
-90,Motion 38,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_DB4518AB-4DC7-ED11-B596-0022486DC01C
-93,Motion 131,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1E992609-BF8F-EF11-8A69-6045BD612BD1
-97,Motion 75,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_17C46E39-448D-EE11-8179-000D3AF4FB27
-98,Motion 115,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0B713526-DE1D-EF11-840A-002248B1AE9E
-98,Motion 102,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1E427635-B201-EF11-9F89-0022483C53EC
-98,Motion 97,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_95012785-C2FD-EE11-9F89-002248AFCBA1
-98,Motion 83,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_764D5D30-23D7-EE11-904D-6045BD5D65A7
-98,Motion 74,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FC3B70BE-C487-EE11-8179-000D3AF4FB27
-98,Motion 21,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E38DF36D-D469-ED11-81AC-002248D51D1B
-98,Motion 3,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CDF81E3B-5122-ED11-9DB2-002248D51D1B
-101,Motion 125,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_75ECBFEB-2D24-EF11-840A-002248B1AE9E
-101,Motion 121,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_82E9AA51-6523-EF11-840A-002248B1AE9E
-101,Motion 120,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_56AB5A00-6523-EF11-840A-002248B1AE9E
-101,Motion 89,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B7AB1564-7BEC-EE11-A1FD-0022483CC08F
-101,Motion 88,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_7C5BD20E-B1E7-EE11-A203-6045BD5BD5F0
-101,Motion 86,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6DE0AFCF-B0E7-EE11-A203-6045BD5BD5F0
-101,Motion 87,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_5DC45DFB-B0E7-EE11-A203-6045BD5BD5F0
-101,Motion 39,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B25D4B94-EDC8-ED11-B595-000D3A0A01D2
-101,Motion 40,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_A0467DC5-EDC8-ED11-B595-000D3A0A01D2
-101,Motion 42,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_640E7C07-EEC8-ED11-B595-000D3A0A0B92
-101,Motion 41,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_3E0510C2-EDC8-ED11-B595-000D3A0A0B92
-101,Motion 4,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_753775E2-E323-ED11-9DB2-002248D51D1B
-106,Motion 90,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_51A03E92-2BED-EE11-A1FD-0022483CC08F
-107,Motion 147,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_04E8FC4A-8BA6-EF11-B8E9-6045BD5CBA5B
-107,Motion 73,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_73EC0B86-A679-EE11-8179-000D3AF4FD82
-107,Motion 36,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_029B1C4E-C7BD-ED11-83FE-000D3AF40FC6
-108,Motion 4,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_B80F8816-8DA7-EF11-B8E8-0022483E7007
-108,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_49FE861C-8E9C-EF11-8A69-6045BD5BE34F
-108,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_B69C14F0-EE96-EF11-8A69-002248B2E8A8
-108,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_580BB480-7991-EF11-8A6A-002248AFD5B2
-108,Motion 5,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_AAAA0743-7C0D-EF11-9F89-0022483D483F
-108,Motion 4,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_220B0A20-FFFC-EE11-9F89-000D3AF307CC
-108,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_E9DB8BD0-F7E6-EE11-A203-6045BD61612F
-108,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_2B03D08A-01DC-EE11-904D-6045BD5D65A7
-108,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_C1DED5B8-49D6-EE11-904D-6045BD60D367
-108,Motion 5,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_D53174F2-F983-EE11-8179-000D3AF4FD82
-108,Motion 4,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_DD4978AC-F878-EE11-8179-000D3AF4F44A
-108,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_AF2862A1-EE6D-EE11-8179-000D3AF4FB27
-108,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_FEF921A3-E962-EE11-8DF0-000D3AF4FB27
-108,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_C8FBC185-6E5D-EE11-8DF0-000D3AF4FD82
-108,Motion 52,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B0BB0BAD-D7ED-ED11-8848-000D3AF4FB27
-108,Motion 4,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_594E2531-E7DE-ED11-8846-000D3AF4F44A
-108,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_9D76F851-DFC8-ED11-B595-000D3A0A0B92
-108,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_44EFD93E-78B8-ED11-B596-002248D5A587
-108,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_76CDB6C3-F3B2-ED11-83FD-000D3A0A2BD9
-110,Motion 112,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0D04F038-351C-EF11-840A-002248B1AE9E
-110,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_B008B8AB-6C55-ED11-9561-000D3AF41FC2
-112,Motion 47,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_9594E74E-6FCE-ED11-A7C5-002248D511E3
-116,Motion 19,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_68A1534A-5864-ED11-9562-000D3AF41FC2
-118,Motion 119,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_BDBE4ACC-4D23-EF11-840A-6045BD5D4A28
-120,Motion 18,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_293536CB-165A-ED11-9562-002248D51D1B
-122,Motion 150,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_704685B2-44A8-EF11-B8E8-000D3AE860D8
-122,Motion 151,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6C094B25-5CA8-EF11-B8E9-000D3A0C23B9
-122,Motion 126,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CDCBF915-2E24-EF11-840A-002248B1AE9E
-122,Motion 127,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_336ECD4C-2E24-EF11-840A-002248B1AE9E
-122,Motion 122,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_BA3100DB-6823-EF11-840A-002248B1AE9E
-122,Motion 123,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_92869D0B-6923-EF11-840A-002248B1AE9E
-122,Motion 100,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1C95F9FD-E400-EF11-9F89-000D3AF307CC
+mpp_id,motion_name,motion_href,motion_details
+2,Motion 149,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1235E151-C3A6-EF11-B8E9-000D3A0C23B9,
+2,Motion 146,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B91C905E-E6A5-EF11-B8E8-000D3AE860D8,
+2,Motion 138,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FC522856-B79B-EF11-8A6A-000D3A0C23B9,
+2,Motion 143,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F91A0BFF-B79B-EF11-8A6A-000D3A0C23B9,
+2,Motion 140,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F5412AAC-B79B-EF11-8A6A-000D3A0C23B9,
+2,Motion 139,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E2E0EE80-B79B-EF11-8A6A-000D3A0C23B9,
+2,Motion 141,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_711F37CB-B79B-EF11-8A6A-000D3A0C23B9,
+2,Motion 142,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_2A883CE5-B79B-EF11-8A6A-000D3A0C23B9,
+2,Motion 133,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_364C78A6-B090-EF11-8A6A-000D3A0C23B9,
+2,Motion 53,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_3D56F190-A0EE-ED11-8848-000D3AF4F44A,"That, in the opinion of this House, the Ford government should implement an immediate ban on above guideline rent increases (AGIs) for landlords or real estate investment trusts (REITs) operating five or more rental units as part of an affordable housing strategy providing relief from predatory gouging and high rent inflation."
+2,Motion 12,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E9A92766-FB29-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should amend the Hairstyling Program Standard to mandate culturally-responsive training specific to Black and textured hair, and embed this within the Guidelines for the Film and Television Industry with specific timelines for its full implementation, to promote health and safety in Ontario's film, television and theatre sectors for all performers, create Ontario jobs and build capacity in the province."
+2,Motion 10,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_D1913B87-F929-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should apply an intersectional gender-plus equity lens within the Ministry of Labour, Immigration, Training, and Skills Development and to any legislation brought forward by this Ministry as part of efforts to aid in the economic ""she-covery"" and recognize the disproportionate economic impact the COVID-19 pandemic has had on women and non-binary-­identifying people of Ontario, particularly those of racialized, Indigenous, 2SLGBTQIA+, disability and other marginalized communities."
+2,Motion 11,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_89FD4738-FB29-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should immediately implement a ""Little Jamaica"" Small Business and Community Economic Health and Wellness Strategy which would include needs-based financial compensation for Eglinton West and Midtown businesses impacted by COVID-19, flooding and LRT construction; mandated transparent and timely communications between Metrolinx, the Ministry of Transportation, Ministry of Economic Development, Job Creation and Trade, Ministry of Red Tape Reduction and ""Little Jamaica"" small business and local community members; commercial and residential rent relief with a moratorium on evictions for the duration of the pandemic; heritage designation of Little Jamaica accompanied by an arts and culture plan; and the construction of real affordable housing in the community, prioritizing inclusionary zoning in all new builds."
+2,Motion 13,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_68CF727C-FB29-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should amend the Residential Tenancies Act, 2006 (RTA) to offer better support to tenants who are being temporarily evicted due to renovations (""renovictions"") and redevelopments (""demovictions"") by requiring developers to: assist with moving logistics and costs; and either pay the difference in rent for a similar unit in the same neighbourhood or provide a housing option deemed acceptable by the tenant."
+2,Motion 9,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0AAF6F51-F929-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should address the significant labour shortages in hospitals and other critical public infrastructure via a strategy that includes the immediate repeal of the Protecting a Sustainable Public Sector for Future Generations Act, 2019 (formerly known as Bill 124); increases frontline worker salaries in keeping with the rising cost of living; provides 10 employer-paid sick days and 14 paid sick days during a declared health emergency; and reflects the realities faced by all workers, including women-identifying workers and other historically marginalized workers."
+3,Motion 34,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_8AB416F7-CAB6-ED11-B596-002248D5A587,"That, in the opinion of this House, the Government of Ontario should transform the social assistance rate structure so that all adults have access to a consistent and equitable level of support regardless of their living situation."
+6,Motion 48,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C24192E3-1ED3-ED11-A7C6-000D3AF4F44A,"That, in the opinion of this House, the Government of Ontario should continue supporting police services in locating vulnerable missing persons and assess innovative solutions that can bring more loved ones home. "
+7,Motion 113,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_2997F37B-FD1C-EF11-840A-002248B1AE9E,
+7,Motion 6,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F857BBB6-9A28-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should continue to build on the progress that they've made working with the College of Nurses of Ontario and Ontario Health to expand the supervised practice experience partnership program, and to reduce the financial barriers that may be stopping some internationally educated nurses from receiving accreditation, and the number of Internationally Educated Nurses accredited annually should be posted."
+9,Motion 93,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_71268EB6-65FB-EE11-9F89-6045BD61612F,
+9,Motion 78,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CCC8FADE-4F94-EE11-BE37-6045BD5DE15D,
+9,Motion 61,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_8CFFF3E7-B25B-EE11-8DF0-000D3AF4FB27,
+9,Motion 60,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B2B7F5C4-A104-EE11-8F6E-000D3AF4FB27,
+9,Motion 35,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B98B6DE9-D2B6-ED11-B596-002248D5A587,"That, in the opinion of this House, the Government of Ontario should direct municipalities in the Greater Golden Horseshoe Area to update their official plans to meet current and future housing, job and growth needs by keeping their January 2022 urban boundaries intact."
+9,Motion 30,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_8FB4B154-5D76-ED11-81AC-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should make the necessary legislative changes to end exclusionary zoning and permit the as-of-right construction of townhomes, duplexes, triplexes and fourplexes in municipalities, and higher density along public transit routes."
+9,Motion 29,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_04C4BE30-5D76-ED11-81AC-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should direct municipalities in the Greater Golden Horseshoe Area to update their official plans to meet current and future housing, job, and growth needs by keeping their current urban boundaries intact."
+9,Motion 27,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_16C01D33-A575-ED11-81AC-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should expand the jurisdiction and enforcement power of the Condo Authority Tribunal so the tribunal can hear, rule and resolve the issues that most impact condo residents, including condo board governance and elections, condo rules, property management performance, condo fees, maintenance and repairs, reserve funds, and short-term rentals."
+9,Motion 25,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_9B94566D-B374-ED11-81AC-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should require comprehensive reviews of all Ontario zoos, zoo-type exhibits and private wild animal menageries to identify and address violations of the Provincial Animal Welfare Services Act, and to make the results of the comprehensive reviews publicly available."
+9,Motion 26,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_4237C7AA-B374-ED11-81AC-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should develop and implement a mandatory licensing program for all facilities, businesses, organizations and private citizens that house native or exotic wild animals with the aim of phasing out situations that do not meet acceptable animal welfare and public health and safety standards."
+9,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_F8A722D4-FA65-ED11-9562-002248D51D1B,
+9,Motion 7,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_010E2ECB-9A28-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Legislative Assembly of Ontario should work with public health units to establish a provincial maximum temperature for rental units to ensure rental units are safe and a tenants' right to a reasonable enjoyment of their unit is maintained."
+10,Motion 22,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_80407A70-CDDC-EE11-904D-6045BD5D65A7,
+10,Motion 11,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_12B742A3-F7BC-ED11-83FE-000D3AF40FC6,That this House approves in general the Budgetary Policy of the Government.
+11,Motion 148,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C6A2A042-B5A6-EF11-B8E8-6045BD5D8FEB,
+11,Motion 91,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AC6F09A8-4CF7-EE11-A1FE-6045BD61612F,
+12,Motion 5,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_06320B8E-8424-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Ministry of Agriculture, Food and Rural Affairs should continue to develop agricultural policy with an emphasis on food security and consideration of the entire agri­-food supply chain and advocate to the federal government to adopt similar policies related to agriculture and food processing, in the spirit of ensuring Ontario farmers remain productive and competitive."
+15,Motion 137,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F0A774E6-E896-EF11-8A69-000D3A0C23B9,
+15,Motion 116,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F7451730-8A22-EF11-840A-6045BD5D4A28,
+18,Motion 62,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_D7BCD72E-BD5B-EE11-8DF0-000D3AF4FB27,
+19,Motion 23,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_5602B34D-ECEA-EE11-A1FE-6045BD5F5163,
+19,Motion 24,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_21CC4BC1-ECEA-EE11-A1FE-6045BD5F5163,
+19,Motion 21,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_9E3ED2AF-C3D1-EE11-904D-002248AEE710,
+19,Motion 20,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_A6728AE0-B58F-EE11-8179-0022483C5061,"That, pursuant to Standing Order 50 and notwithstanding any other Standing Order or special Order of the House relating to Bill 136, An Act to amend the Greenbelt Act, 2005 and certain other Acts, to enact the Duffins Rouge Agricultural Preserve Act, 2023, to repeal an Act and to revoke various regulations, Bill 150, An Act to enact the Official Plan Adjustments Act, 2023 and to amend the Planning Act with respect to remedies, and Bill 154, An Act to enact the Recovery Through Growth Act (City of Toronto), 2023 and the Rebuilding Ontario Place Act, 2023;
+
+That when Bill 136 and Bill 150 are called for Third Reading, one hour of debate shall be allotted to the Third Reading stages of each Bill, with 30 minutes apportioned to the members of His Majesty's Government and 30 minutes to the members of His Majesty's Loyal Opposition; and at the end of this time, the Speaker shall interrupt the proceedings and shall put every question necessary to dispose of this stage of each Bill, without further debate or amendment; and
+
+That when Bill 154 is next called as a Government Order, the Speaker shall immediately put every question necessary to dispose of the Second Reading stage of the Bill without further debate or amendment; and
+
+That Bill 154 shall be Ordered for Third Reading, which Order shall be immediately called; and
+
+That when the Order for Third Reading is called the Speaker shall put every question necessary to dispose of the Third Reading stage of Bill 154 without further debate or amendment; and
+
+That no deferral be permitted on any votes on Bill 136, Bill 150, or Bill 154; and
+
+That, in the case of any division relating to any proceedings on the Bills, the division bells shall be limited to five minutes."
+19,Motion 19,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_BDE0D5B1-3C6C-EE11-8179-000D3AF4F44A,
+19,Motion 18,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_B49F015C-3B6C-EE11-8179-000D3AF4FD82,
+19,Motion 16,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_FB1863EC-C85B-EE11-8DF0-000D3AF4FD82,
+19,Motion 17,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_630B043E-CE5B-EE11-8DF0-000D3AF4FB27,
+19,Motion 15,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_EB533E65-5FFE-ED11-8F6C-000D3AF4FB27,
+19,Motion 14,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_690F3851-5FFE-ED11-8F6C-000D3AF4FB27,
+19,Motion 12,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_4C6BC40B-46C7-ED11-B596-0022486DC01C,"That, pursuant to Standing Order 7(c), the House shall continue to meet past the ordinary hour of adjournment until midnight on the following dates: Wednesday, April 26; Thursday, April 27; Monday, May 8; Tuesday, May 9; Wednesday, May 10; Thursday, May 11; Monday, May 15; Tuesday, May 16; Wednesday, May 17; Thursday, May 18; Monday, May 29; Tuesday, May 30; Wednesday, May 31; Thursday, June 1; Monday, June 5; Tuesday, June 6; Wednesday, June 7; and Thursday, June 8, 2023."
+19,Motion 10,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_D0692160-CA74-ED11-81AC-002248D51D1B,"That, pursuant to Standing Order 50 and notwithstanding any other Standing Order or special Order of the House relating to Bill 51, An Act to amend the Legislative Assembly Act; "
+19,Motion 7,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_D2957BFC-275A-ED11-9562-002248D51D1B,"That, pursuant to Standing Order 50 and notwithstanding any other Standing Order or special Order of the House relating to Bill 28, An Act to resolve labour disputes involving school board employees represented by the Canadian Union of Public Employees;"
+19,Motion 9,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_67E5DC64-285A-ED11-9562-002248D51D1B,"That, pursuant to Standing Order 7(c), the House shall continue to meet past the ordinary hour of adjournment until midnight on the following dates: Wednesday, November 2; Thursday, November 3; Monday, November 14; Tuesday, November 15; Wednesday, November 16; Thursday, November 17; Monday, November 21; Tuesday, November 22; Wednesday, November 23; Thursday, November 24; Monday, November 28; Tuesday, November 29; Wednesday, November 30; Thursday, December 1; Monday, December 5; Tuesday, December 6; Wednesday, December 7; and Thursday, December 8, 2022 for the purpose of considering government business."
+19,Motion 8,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_11540E2D-285A-ED11-9562-002248D51D1B,"That, pursuant to Standing Order 50 and notwithstanding any other Standing Order or special Order of the House relating to Bill 28, An Act to resolve labour disputes involving school board employees represented by the Canadian Union of Public Employees;"
+19,Motion 6,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_8D652E87-7A2F-ED11-9DB0-000D3AF41FC2,"That an humble Address be presented to Her Majesty the Queen in the following words:
+ 
+""To the Queen's most Excellent Majesty: 
+
+Most Gracious Sovereign: 
+
+We, Your Majesty's most dutiful and loyal subjects, the Legislative Assembly of Ontario, in Parliament assembled, approach Your Majesty with our incomparable gratitude, respect, and admiration in this, the seventieth year of Your Majesty's long and glorious reign. 
+
+Your Majesty's resolute dedication to public service and Your loyal Canadian subjects has been vital to the growth of our young nation. It is Your Majesty's lifelong example of strength, compassion, and dignity which has shaped generations of Canadians from all walks of life. 
+
+We as a country, and we as a people, stand today, undoubtedly bettered by Your Majesty's indelible influence upon us. For the prodigious sacrifice of Your whole life to the service of Your peoples, our debt to Your Majesty cannot ever be repaid by our thanks, however we offer it nonetheless. 
+
+With the warmest affection held by all of us, and Your subjects whom we represent, we wish Your Majesty our sincere congratulations in Your Platinum Jubilee year. 
+
+May almighty God bless Your gracious Majesty with health, happiness, and the comfort of loving family for years ahead. Long may You reign."" 
+ 
+And that the said Address be engrossed. "
+19,Motion 5,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_F4E1A74B-D727-ED11-9DB2-002248D51D1B,That the House recognize newly elected Members of Provincial Parliament for their contributions to public service and their communities.
+19,Motion 4,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_DCA08541-EC23-ED11-9DB2-002248D51D1B,"That, pursuant to Standing Order 50 and notwithstanding any other Standing Order or Special Order of the House relating to Bill 2, An Act to implement Budget measures and to enact and amend various statutes and Bill 7, An Act to amend the Fixing Long-Term Care Act, 2021 with respect to patients requiring an alternate level of care and other matters and to make a consequential amendment to the Health Care Consent Act, 1996, when Bill 2 and Bill 7 are next called as Government Orders, the Speaker shall put every question necessary to dispose of the Second Reading stage of the Bills, without further debate or amendment, and at such time the Bills shall be ordered for Third Reading, which Orders may be called that same day; and
+
+That, when the Orders for Third Reading of the Bills are called, two hours of debate shall be allotted to the Third Reading stage of the Bills, with 50 minutes apportioned to the members of Her Majesty's Government, 50 minutes to the members of Her Majesty's Loyal Opposition, and 20 minutes to the Independent Members as a group. At the end of this time, the Speaker shall interrupt the proceedings and shall put every question necessary to dispose of this stage of each Bill, without further debate or amendment."
+19,Motion 3,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_5E0E43C9-EE18-ED11-B83E-000D3AF41FC2,"That Donna Skelly, Member for the Electoral District of Flamborough—Glanbrook, be appointed Deputy Speaker and Chair of the Committee of the Whole House;
+
+That Bhutila Karpoche, Member for the Electoral District of Parkdale—High Park, be appointed First Deputy Chair of the Committee of the Whole House;
+
+That Patrice Barnes, Member for the Electoral District of Ajax, be appointed Second Deputy Chair of the Committee of the Whole House; and
+
+That Lucille Collard, Member for the Electoral District of Ottawa—Vanier, be appointed Third Deputy Chair of the Committee of the Whole House; and
+
+That, notwithstanding Standing Order 115(a), the following changes be made to the membership of the following committees:
+On the Standing Committee on Government Agencies: Guy Bourgouin be added;
+On the Standing Committee on Heritage, Infrastructure and Cultural Policy: Jill Andrew be added;
+On the Standing Committee on Justice Policy: Jennifer (Jennie) Stevens be added;
+On the Standing Committee on Procedure and House Affairs: Jessica Bell be added;
+On the Standing Committee on Public Accounts: Lise Vaugeois be added; and
+On the Standing Committee on Social Policy: Wayne Gates be added."
+19,Motion 2,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_63F5C811-3018-ED11-B83F-002248D51D1B,"That Donna Skelly, member for the electoral district of Flamborough—Glanbrook, be appointed Deputy Speaker and Chair of the Committee of the Whole House;
+That Bhutila Karpoche, member for the electoral district of Parkdale—High Park, be appointed First Deputy Chair of the Committee of the Whole House;
+That Patrice Barnes, member for the electoral district of Ajax, be appointed Second Deputy Chair of the Committee of the Whole House; and
+That Lucille Collard, member for the electoral district of Ottawa—Vanier, be appointed Third Deputy Chair of the Committee of the Whole House; and
+That, notwithstanding Standing Order 115(a), the following changes be made to the membership of the following committees:
+On the Standing Committee on Government Agencies: Guy Bourgouin be added;
+On the Standing Committee on Heritage, Infrastructure and Cultural Policy: Jill Andrew be added;
+On the Standing Committee on the Interior: Marit Stiles be added;
+On the Standing Committee on Justice Policy: Jennifer (Jennie) Stevens be added;
+On the Standing Committee on Procedure and House Affairs: Jessica Bell be added;
+On the Standing Committee on Public Accounts: Lise Vaugeois be added; and
+On the Standing Committee on Social Policy: Wayne Gates be added."
+19,Motion 1,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_29B5C6C3-2F18-ED11-B83F-002248D51D1B,"That, pursuant to Standing Order 110, the membership of the following Standing Committees be appointed for the duration of the 43rd Parliament:
+
+The Standing Committee on Finance and Economic Affairs: Ernie Hardeman, Stephen Crawford, Rick Byers, Andrew Dowie, Effie J. Triantafilopoulos, Deepak Anand, David Smith (Scarborough Centre), Rudy Cuzzetto, Terence Kernaghan, Catherine Fife, Stephanie Bowman, Bobbi Ann Brady.
+The Standing Committee on Government Agencies: Will Bouma, Lorne Coe, Trevor Jones, Billy Pang, Sheref Sabawy, Amarjot Sandhu, Mike Harris, Dawn Gallagher Murphy, Doly Begum, Chandra Pasma, John Fraser.
+The Standing Committee on Heritage, Infrastructure and Cultural Policy: Laurie Scott, Vijay Thanigasalam, Laura Smith, Graham McGregor, Hardeep Singh Grewal, Kevin Holland, Sheref Sabawy, Billy Pang, Laura Mae Lindo, Joel Harden, Mary-Margaret McMahon.
+The Standing Committee on the Interior: Aris Babikian, John Yakabuski, Rob Flack, Dave Smith (Peterborough—Kawartha), Ric Bresee, Anthony Leardi, Jess Dixon, Stéphane Sarrazin, Sandy Shaw, Marit Stiles, Mike Schreiner, Mitzie Hunter.
+The Standing Committee on Justice Policy: Lorne Coe, Christine Hogarth, Brian Saunderson, Robert Bailey, Natalia Kusendova, Brian Riddell, Vincent Ke, Trevor Jones, Sol Mamakwa, Kristyn Wong-Tam, Stephen Blais.
+The Standing Committee on Procedure and House Affairs: Matthew Rae, Mike Harris, Amajot Sandhu, Dawn Gallagher Murphy, Stéphane Sarrazin, Graham McGregor, Christine Hogarth, Sam Oosterhoff, Jamie West, Jennifer K. French, Ted Hsu.
+The Standing Committee on Public Accounts: Donna Skelly, Todd J. McCarthy, Rudy Cuzzetto, Rick Byers, Logan Kanapathi, Stephen Crawford, Laura Smith, Will Bouma, Tom Rakocevic, France Gélinas, Lucille Collard.
+The Standing Committee on Social Policy: Goldie Ghamari, Robin Martin, Nolan Quinn, Natalie Pierre, Patrice Barnes, John Jordan, Daisy Wai, Matthew Rae, France Gélinas, Lisa Gretzky, Adil Shamji; and
+
+That, these Committees be authorized to meet on the following days when the House is scheduled to meet:
+Standing Committee on Finance and Economic Affairs may meet on Tuesdays and Wednesdays;
+Standing Committee on Government Agencies may meet on Thursdays from 9:00 a.m. until 10:15 a.m.;
+Standing Committee on Heritage, Infrastructure and Cultural Policy may meet on Wednesdays and Thursdays;
+Standing Committee on the Interior may meet on Mondays; and on Tuesdays from 1:00 p.m.;
+Standing Committee on Justice Policy may meet on Wednesdays and Thursdays;
+Standing Committee on Procedure and House Affairs may meet on Tuesdays from 9:00 a.m. to 10:15 a.m. and on Thursdays from 1:00 p.m.;
+Standing Committee on Public Accounts may meet on Mondays;
+Standing Committee on Social Policy may meet on Mondays and Tuesdays; and
+ 
+That, on the Committee’s motion, the following Committees are authorized to meet from Monday to Friday when the House is scheduled to meet and during adjournments of the House specified in Standing Order 7(b) or other adjournments of the House which do not exceed one week:
+Standing Committee on Finance and Economic Affairs;
+Standing Committee on Heritage, Infrastructure and Cultural Policy;
+Standing Committee on the Interior;
+Standing Committee on Justice Policy;
+Standing Committee on Procedure and House Affairs; and
+Standing Committee on Social Policy."
+22,Motion 124,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_15A5B351-2A24-EF11-840A-002248B1AE9E,
+22,Motion 104,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_11336D36-2A03-EF11-9F89-6045BD5D95B0,
+22,Motion 103,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_9B327AA7-7602-EF11-9F89-000D3A84170A,
+22,Motion 98,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_D1E8C2A6-BE00-EF11-9F89-000D3AF307CC,
+23,Motion 26,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_6EA1E58E-F79A-EF11-8A6A-002248B2E8A8,
+23,Motion 25,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_FCC6D08D-5092-EF11-8A6A-002248AFD5B2,
+23,Motion 82,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_373F941A-4AD6-EE11-904D-6045BD60D367,
+26,Motion 51,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_9FDE9BAA-A9DF-ED11-8846-000D3AF4F44A,"That, in the opinion of this House, the Minister of Colleges and Universities should work with the Associate Minister of Mental Health and Addictions to take the necessary steps to engage with relevant stakeholders to consider the development of a process for the certification of addiction peer-support specialists."
+27,Motion 81,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_388439E1-30D0-EE11-904D-6045BD60D227,
+28,Motion 145,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_75C6E730-C3A5-EF11-B8E8-000D3AE860D8,
+28,Motion 85,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_ED3D4F11-C0E6-EE11-A203-0022483CC08F,
+29,Motion 15,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AAEE1008-7D2F-ED11-9DB0-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should consider integrating the Ojibway Prairie Provincial Nature Reserve with adjacent lands under the management of Parks Canada to facilitate the creation of Ojibway National Urban Park as part of an overall strategy to protect local endangered species and natural heritage areas, aid flood mitigation efforts, create publicly accessible greenspace and further encourage ecotourism in Windsor-Essex."
+33,Motion 110,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AC7FFFD2-3512-EF11-9F89-002248B1AE9E,
+33,Motion 101,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CEE1A9B8-A901-EF11-9F89-0022483C53EC,
+34,Motion 46,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6BD49C88-67CE-ED11-A7C5-002248D511E3,"That, in the opinion of this House, the federal government should halt the alcohol escalator tax hike on Ontarians set for April 1, 2023 which will increase the price of wine, beer, and spirits."
+34,Motion 43,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1A148F97-9ECD-ED11-A7C5-002248D511E3,"That, in the opinion of this House, the federal government should halt the alcohol escalator tax hike on Ontarians set for April 1, 2023, which will increase the price of wine, beer, and spirits by 6.3%."
+37,Motion 59,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_A36827C0-E9FF-ED11-8F6C-000D3AF4F44A,
+37,Motion 14,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_EAC4B030-F52D-ED11-9DB1-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should amend the Public Hospitals Act to limit the maximum amount any Alternative Level of Care patient awaiting placement in a long-term care home can be charged to be equal to the co-pay in Ontario's long-term care homes. "
+38,Motion 109,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FB5F1482-5E11-EF11-9F89-002248B1AE9E,
+39,Motion 92,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F514C5CF-60F7-EE11-A1FE-6045BD61612F,
+40,Motion 94,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_472915C9-C9FC-EE11-9F89-002248AFCBA1,
+40,Motion 22,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0256A830-A36A-ED11-81AC-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should follow the lead of eight other Canadian provinces and ensure PSA testing is an eligible procedure under OHIP for individuals referred by their healthcare provider."
+41,Motion 114,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0E74B1EC-D11D-EF11-840A-002248B1AE9E,
+41,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_1513824D-EF5A-ED11-9562-000D3AF41FC2,
+43,Motion 129,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6E4FA40B-3324-EF11-840A-002248B1AE9E,
+43,Motion 130,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_62A25E61-3324-EF11-840A-002248B1AE9E,
+43,Motion 111,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_15DBDA99-AE13-EF11-9F89-002248B1AE9E,
+43,Motion 31,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_55893025-2C77-ED11-81AC-002248D51D1B,"That, in the opinion of this House, the Legislative Assembly should begin a consultation process to develop an Ontario Charter of Democratic Rights and that this consultation start with the following principles for discussion: that Ontarians have the right to democratic municipal elections and governance; that the Notwithstanding Clause will not be used to suspend the Charter of Rights and Freedoms of the people of Ontario; that the Legislature will not override the Ontario Human Rights Code; that the scope of the Ombudsman's office should be expanded to include protecting our democratic rights; and that the Oath of Office for all newly elected MPPs will include a commitment to uphold an Ontario Charter of Democratic Rights."
+43,Motion 20,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_357CE8F3-D365-ED11-9562-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should protect migratory birds and Ontario's biodiversity by incorporating the 2019 Canadian Standards Association Bird-Friendly Design standard into the Ontario Building Code for all new construction and major retrofits in the province. "
+44,Motion 84,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C5527280-A5DC-EE11-904D-6045BD60D227,
+44,Motion 1,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_D97C35E0-4E1E-ED11-B83D-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should transfer ownership of the Ojibway Prairie Provincial Nature Reserve to Parks Canada to facilitate creation of Ojibway National Urban Park as part of an overall strategy to protect local endangered species and natural heritage areas, aid flood mitigation efforts, create publicly accessible greenspace and further encourage ecotourism in Windsor-Essex."
+45,Motion 49,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_34FEBB4C-20D3-ED11-A7C6-000D3AF4F44A,"That, in the opinion of this House, the Ministry of Education should continue its advocacy to education stakeholders in the province of Ontario, such as school boards, faculties of education and the Ontario College of Teachers to strengthen professional learning on mental health for educators and school staff, keeping in mind strategies to support mental health and well-being with a focus on social-emotional learning skills, mindfulness, outdoor learning and physical activity initiatives with advice from local health units, and approaches that foster a welcoming, safe and inclusive environment."
+47,Motion 117,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_858998DD-B022-EF11-840A-002248AEA5FD,
+51,Motion 132,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_7F2ECD5A-BF8F-EF11-8A69-6045BD612BD1,
+51,Motion 50,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_489FFBDB-2DD3-ED11-A7C6-000D3AF4F44A,"That, in the opinion of this House, the Government of Ontario should adopt mechanisms for disclosure outlined in Clare's Law to make information relating to intimate partner violence convictions accessible to at-risk individuals who are seeking this information on a confidential basis in order to make informed decisions for themselves and their families."
+52,Motion 16,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AEBB2F5E-A354-ED11-9561-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should implement a 12-hour bare pavement standard during the Winter season on Highways 11 and 17, the new Ontario TransCanada Highway designation."
+53,Motion 99,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1BA37B60-D000-EF11-9F89-000D3AF307CC,
+53,Motion 95,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_47A5C81C-90FD-EE11-9F89-0022483C53EC,
+53,Motion 76,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6B8BC99C-C98E-EE11-8179-000D3AF4F44A,
+53,Motion 57,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_5020965F-2CF3-ED11-8848-000D3AF4FB27,"That, in the opinion of this House, the Government of Ontario should aggressively pursue energy infrastructure modernization and collaborate with Local Distribution Companies so that Ontario can be ready for mass electric vehicle use, electrification of other energy systems and Distributed Energy Systems. "
+53,Motion 37,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6FD64B8B-E8BD-ED11-83FE-000D3AF40FC6,"That, in the opinion of this House, the Government of Ontario should provide additional funding to address the backlog in Ontario's tribunal system and work towards creating a non-partisan oversight body to help preserve the independence of Ontario's adjudicative tribunals."
+54,Motion 128,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_325C7D79-3124-EF11-840A-6045BD5D4A28,
+54,Motion 107,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B9BDDFEC-3511-EF11-9F89-6045BD61E8DA,
+54,Motion 108,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_A4C80A05-3611-EF11-9F89-6045BD61E8DA,
+54,Motion 106,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_97B303DA-3511-EF11-9F89-6045BD61E8DA,
+54,Motion 79,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E84026A3-30D0-EE11-904D-6045BD60D227,
+54,Motion 80,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_19F68BBC-30D0-EE11-904D-6045BD60D227,
+54,Motion 67,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_15B641B8-C762-EE11-8DF0-000D3AF4FD82,
+56,Motion 118,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F0C16362-4D23-EF11-840A-6045BD5D4A28,
+56,Motion 69,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_64130DE8-C36D-EE11-8179-000D3AF4FB27,
+56,Motion 64,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_82B13C55-A35C-EE11-8DF0-000D3AF4F44A,
+57,Motion 70,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C6DB8B87-AF72-EE11-8179-000D3AF4FB27,
+59,Motion 23,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_DED67BD2-656F-ED11-81AC-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should conduct a comprehensive review of maternal mental health in Ontario and prepare a Provincial Framework and Action Plan on the issue."
+61,Motion 65,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_5678A754-755D-EE11-8DF0-000D3AF4FB27,
+62,Motion 13,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_82ACE54E-25CF-ED11-A7C5-002248D511E3,"That an Address be presented to the Speakers of the Federal Parliament in the following words:
+
+""This House calls on the federal government to immediately reform the Criminal Code of Canada to address the dangers facing our communities and implement meaningful bail reform to prevent violent and repeat offenders from being released back into our communities.''"
+63,Motion 44,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B9BEBABF-9ECD-ED11-A7C5-002248D511E3,"That, in the opinion of this House, the federal government should halt the carbon tax hike set for April 1, 2023, which will add 14.31 cents to the cost of a litre of gas, and will therefore increase the cost of everything for Ontarians."
+63,Motion 8,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FA7D0F44-6929-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should continue to build and expand hospitals across the province increasing health care services, providing essential care and creating more jobs in the health care sector as part of its plan to build a stronger, more resilient health care system."
+64,Motion 77,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F4AD500E-EC8E-EE11-8179-000D3AF4FD82,
+65,Motion 72,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_00D3F80F-2578-EE11-8179-000D3AF4F44A,
+65,Motion 54,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E51306B8-A3EE-ED11-8848-000D3AF4F44A,"That, in the opinion of this House, the government should reject the ""defund the police"" position and continue funding police, seizing illegal guns, suppressing gangs and supporting victims of violence through the Guns, Gangs and Violence Reduction Strategy."
+69,Motion 66,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B616852E-2362-EE11-8DF0-000D3AF4F44A,
+71,Motion 45,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_223CA3A7-A5CD-ED11-A7C5-002248D51AA6,"That, in the opinion of this House, the Minister of Health and Ontario Health should develop a provincial framework that ensures that every Ontarian has access to quality care for chronic diseases and that is designed to improve chronic disease care, addressing prevention, management and treatment with an initial focus on diabetes and aligned with the existing Indigenous diabetes strategy, and that Ontario Health table its progress through public reporting within one year and provide annual updates on the state of care for persons with chronic diseases in Ontario."
+73,Motion 144,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_11EDEA45-7F9C-EF11-8A69-6045BD5BE34F,"That, in the opinion of this House, Metrolinx must ensure that active members of the Canadian Armed Forces Reserve are not excluded from the program for veterans and active Canadian Armed Forces to receive free fares on GO Transit and the UP Express."
+74,Motion 2,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AD6683FD-F81E-ED11-B83E-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should continue its work to build Highway 413, as it is a critical piece of key public infrastructure that will save drivers up to five hours a week by alleviating traffic in the most heavily-congested corridor in North America, and will support up to 3,500 jobs and generate up to $350 million annually in gross domestic product."
+75,Motion 24,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_64A96464-FB6F-ED11-81AC-002248D51D1B,"That, in the opinion of this House, a Select Committee should be struck to address the climate crisis affecting Ontario and that the membership should be comprised of four Members of the Progressive Conservative party, one to act as Chair, one Member of the New Democratic party, one Member from the Liberal party, and one Member from the Green party, and that the Committee be authorized to meet at the call of the Chair to hold public hearings and report write, and that the Committee shall table a report within six months of it being struck."
+77,Motion 55,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C6CE4634-6BEF-ED11-8847-000D3AF4FB27,"That, in the opinion of this House, the value of Ontario's prison chaplains in providing spiritual care and preventing crime and recidivism should be recognized, and Community Reintegration Tables should include the involvement of Chaplains and Indigenous spiritual leaders, Elders or healers in their governance structure with spiritual group representation added to their membership in order to provide connections to religious and spiritual services for those offenders who express interest."
+78,Motion 136,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CD5F530D-3596-EF11-8A69-002248B2E8A8,
+78,Motion 56,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_2CD084C8-21F0-ED11-8847-000D3AF4FB27,"That, in the opinion of this House, the Ministry of Public and Business Service Delivery should investigate the issue of Notice of Security Interests with respect to direct agreements for goods prescribed for the purposes of subsection 43.1(1) of the Consumer Protection Act, including the feasibility of requiring suppliers of goods to disclose to consumers prominently in the direct agreements the amount of security interests and imposing a penalty to suppliers who fail to do so; and report back to the House by the end of 2023. "
+80,Motion 134,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_3D9EB1A5-5491-EF11-8A6A-000D3A0C23B9,
+80,Motion 96,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E7155AE1-91FD-EE11-9F89-0022483C53EC,
+80,Motion 58,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_63E94909-45FE-ED11-8F6C-000D3AF4FB27,"That, in the opinion of this House, the Ministry of Education should develop a system to track the number of exclusions, modified days, requests for pickup and informal “soft-suspensions” that cause the exclusion of students with disabilities."
+80,Motion 32,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1186F566-2BB2-ED11-83FD-000D3A0A206A,
+80,Motion 17,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_8CC04DC0-4359-ED11-9562-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should create a Long COVID Strategy that includes: creation of a Task Force; financial support for therapies and treatments; development of clinics that provide a single treatment window for patients; expansion of Ontario Disability Support Program and Workplace Safety and Insurance Board protocols; an awareness campaign for employers; and collection of data."
+82,Motion 135,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0F6EC3DA-4295-EF11-8A69-000D3A0C23B9,
+82,Motion 68,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_791D4B93-BE6D-EE11-8179-000D3AF4FB27,
+82,Motion 28,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_929CC65D-3976-ED11-81AC-000D3AF41FC2,"That, in the opinion of this House, the Ministry of Education should further expand mental health literacy in schools with the aim of educating and strengthening resiliency, developing practical tools, skills, and preventative knowledge to protect students and save lives, delivered directly and intentionally to all Ontario students as a mandatory learning requirement prior to graduation."
+86,Motion 71,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FEE7AE7E-2178-EE11-8179-000D3AF4F44A,
+86,Motion 63,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_DD6FD3F6-DF5B-EE11-8DF0-000D3AF4FB27,
+87,Motion 105,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_55AEB54E-4003-EF11-9F89-002248B0C507,
+90,Motion 38,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_DB4518AB-4DC7-ED11-B596-0022486DC01C,"That, in the opinion of this House, daycares and childcare facilities should be required to report absent children to parents, guardians and caregivers, similar to the safe arrival programs in place in public schools."
+93,Motion 131,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1E992609-BF8F-EF11-8A69-6045BD612BD1,
+97,Motion 75,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_17C46E39-448D-EE11-8179-000D3AF4FB27,
+98,Motion 115,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0B713526-DE1D-EF11-840A-002248B1AE9E,
+98,Motion 102,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1E427635-B201-EF11-9F89-0022483C53EC,
+98,Motion 97,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_95012785-C2FD-EE11-9F89-002248AFCBA1,
+98,Motion 83,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_764D5D30-23D7-EE11-904D-6045BD5D65A7,
+98,Motion 74,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FC3B70BE-C487-EE11-8179-000D3AF4FB27,
+98,Motion 21,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E38DF36D-D469-ED11-81AC-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should immediately halt plans to open up the Greenbelt for development, permanently protect prime farmland, and commit to building at least 1.5 million homes within existing urban boundaries."
+98,Motion 3,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CDF81E3B-5122-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should immediately address the climate and housing crises by freezing urban boundaries, updating provincial planning laws to increase density along transit corridors and the building of missing middle housing and allowing fourplexes in neighbourhoods as of right."
+101,Motion 125,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_75ECBFEB-2D24-EF11-840A-002248B1AE9E,
+101,Motion 121,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_82E9AA51-6523-EF11-840A-002248B1AE9E,
+101,Motion 120,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_56AB5A00-6523-EF11-840A-002248B1AE9E,
+101,Motion 89,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B7AB1564-7BEC-EE11-A1FD-0022483CC08F,
+101,Motion 88,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_7C5BD20E-B1E7-EE11-A203-6045BD5BD5F0,
+101,Motion 86,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6DE0AFCF-B0E7-EE11-A203-6045BD5BD5F0,
+101,Motion 87,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_5DC45DFB-B0E7-EE11-A203-6045BD5BD5F0,
+101,Motion 39,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B25D4B94-EDC8-ED11-B595-000D3A0A01D2,"That, in the opinion of this House, the Government of Ontario should work with Indigenous peoples, First Nations, and the federal government, along with community, business, and rural and environmental stakeholders, to develop a strategy to protect 30% of Ontario's lands and waters by 2030."
+101,Motion 40,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_A0467DC5-EDC8-ED11-B595-000D3A0A01D2,"That, in the opinion of this House, the Government of Ontario should launch a transparent and public review of the Permit to Take Water process, particularly for bottled water operations, to ensure permitting provides for long-term stability, public use, and good watershed management."
+101,Motion 42,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_640E7C07-EEC8-ED11-B595-000D3A0A0B92,"That, in the opinion of this House, the Government of Ontario should expand the Greenbelt and work with farmers and municipal leaders to protect Ontario's farmland from encroachment by land speculators."
+101,Motion 41,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_3E0510C2-EDC8-ED11-B595-000D3A0A0B92,"That, in the opinion of this House, the Government of Ontario should base all its decisions about water on our treaty obligation, public interest and guaranteed access to sustainable water resources for future generations and should collaborate with Indigenous people, farmers, rural Ontarians and conservation authorities in developing a provincial water strategy to protect our water, create jobs and take essential action on the climate crisis. "
+101,Motion 4,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_753775E2-E323-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, every Ontarian should have access to ambulance and paramedic emergency services, and the Government of Ontario should ensure the necessary funding to end the periods of time when ambulances are unavailable to respond to an emergency call, known as ""code red"" or ""code black"". "
+106,Motion 90,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_51A03E92-2BED-EE11-A1FD-0022483CC08F,
+107,Motion 147,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_04E8FC4A-8BA6-EF11-B8E9-6045BD5CBA5B,
+107,Motion 73,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_73EC0B86-A679-EE11-8179-000D3AF4FD82,
+107,Motion 36,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_029B1C4E-C7BD-ED11-83FE-000D3AF40FC6,"That, in the opinion of this House, the Ministry of Health should expand the Ontario Health Insurance Plan to cover universal access to all prescription contraception."
+108,Motion 4,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_B80F8816-8DA7-EF11-B8E8-0022483E7007,
+108,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_49FE861C-8E9C-EF11-8A69-6045BD5BE34F,
+108,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_B69C14F0-EE96-EF11-8A69-002248B2E8A8,
+108,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_580BB480-7991-EF11-8A6A-002248AFD5B2,
+108,Motion 5,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_AAAA0743-7C0D-EF11-9F89-0022483D483F,
+108,Motion 4,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_220B0A20-FFFC-EE11-9F89-000D3AF307CC,
+108,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_E9DB8BD0-F7E6-EE11-A203-6045BD61612F,
+108,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_2B03D08A-01DC-EE11-904D-6045BD5D65A7,
+108,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_C1DED5B8-49D6-EE11-904D-6045BD60D367,
+108,Motion 5,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_D53174F2-F983-EE11-8179-000D3AF4FD82,
+108,Motion 4,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_DD4978AC-F878-EE11-8179-000D3AF4F44A,
+108,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_AF2862A1-EE6D-EE11-8179-000D3AF4FB27,
+108,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_FEF921A3-E962-EE11-8DF0-000D3AF4FB27,
+108,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_C8FBC185-6E5D-EE11-8DF0-000D3AF4FD82,
+108,Motion 52,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B0BB0BAD-D7ED-ED11-8848-000D3AF4FB27,"That, in the opinion of this House, the Government of Ontario should terminate the lease with Therme Canada and stop the transfer of public funds to build a private spa at Ontario Place. "
+108,Motion 4,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_594E2531-E7DE-ED11-8846-000D3AF4F44A,
+108,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_9D76F851-DFC8-ED11-B595-000D3A0A0B92,
+108,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_44EFD93E-78B8-ED11-B596-002248D5A587,
+108,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_76CDB6C3-F3B2-ED11-83FD-000D3A0A2BD9,
+110,Motion 112,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0D04F038-351C-EF11-840A-002248B1AE9E,
+110,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_B008B8AB-6C55-ED11-9561-000D3AF41FC2,
+112,Motion 47,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_9594E74E-6FCE-ED11-A7C5-002248D511E3,"That, in the opinion of this House, the government should make the passage of Bill 74, An Act to amend the Missing Persons Act, 2018, a priority for the 43rd Parliament."
+116,Motion 19,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_68A1534A-5864-ED11-9562-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should consult with the public and its partners in the family court system to promote and ensure the availability of continuing education seminars for professionals in Ontario’s family court system, such as judges, justices of the peace, crown attorneys, custody assessors, and social workers, on matters related to intimate partner violence and coercive control in intimate partner and family relationships."
+118,Motion 119,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_BDBE4ACC-4D23-EF11-840A-6045BD5D4A28,
+120,Motion 18,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_293536CB-165A-ED11-9562-002248D51D1B,"That, in the opinion of this House, the Legislative Assembly of Ontario should provide an official statement of apology to the McIntyre Powder Project miners for their subjugation to the inhalation of finely ground aluminum dust known as ""McIntyre Powder"" and for the immediate and long-term health effects these miners suffered as a result."
+122,Motion 150,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_704685B2-44A8-EF11-B8E8-000D3AE860D8,
+122,Motion 151,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6C094B25-5CA8-EF11-B8E9-000D3A0C23B9,
+122,Motion 126,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CDCBF915-2E24-EF11-840A-002248B1AE9E,
+122,Motion 127,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_336ECD4C-2E24-EF11-840A-002248B1AE9E,
+122,Motion 122,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_BA3100DB-6823-EF11-840A-002248B1AE9E,
+122,Motion 123,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_92869D0B-6923-EF11-840A-002248B1AE9E,
+122,Motion 100,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1C95F9FD-E400-EF11-9F89-000D3AF307CC,
