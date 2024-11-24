@@ -41,12 +41,12 @@ profile = "black"
 [tool.ruff]
 line-length = 88
 include = ["src/*"]
-exclude = [".venv*", "**/__pycache__"]
+exclude = [".venv*", "**/__pycache__", "*.ipynb"]
 
 [tool.ruff.lint.per-file-ignores]
 "**/__init__.py" = ["F401"]
 
 [tool.pyright]
 include = ["src/*"]
-exclude = [".venv*", "**/__pycache__", "**/__init__.py"]
+exclude = [".venv*", "**/__pycache__", "**/__init__.py", "data/*"]
 typeCheckingMode = "standard"
