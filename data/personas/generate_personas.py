@@ -1,11 +1,10 @@
 from dataclasses import dataclass
-
 import asyncio
 import aiohttp
 from ratelimit import limits, sleep_and_retry
 from typing import Dict, Any, Optional
-
 from prompts import NO_SHOT_DEFAULT_PROMPT_LONG_FORM, NO_SHOT_DEFAULT_PROMPT_SHORT_FORM
+import pandas as pd
 
 
 API_CALLS_PER_MINUTE = 100
@@ -14,6 +13,7 @@ API_CALLS_TIME_PERIOD = 60
 
 @dataclass
 class MPP:
+    _id: int
     name: str
     party: str
     role: str
@@ -31,6 +31,7 @@ class Bill:
     def __str__(self) -> str:
         return f"{self.name}: {self.details}"
 
+
 @dataclass
 class Motion:
     name: str
@@ -38,6 +39,34 @@ class Motion:
     
     def __str__(self) -> str:
         return self.motion_details
+        
+
+def load_mpps(mpp_df: pd.DataFrame) -> list[MPP]:
+    mpps = []
+    for i in range(len(mpp_df)):
+        mpp = MPP(_id=i, name=mpp_df["name"][i], party=mpp_df["party"][i], role=mpp_df["role"][i], location=mpp_df["location"][i])
+        mpps.append(mpp)
+    return mpps
+
+
+def get_mpp_bills(_id: int, bills_df: pd.DataFrame) -> list[Bill]:
+    bill_df = bills_df[(bills_df["mpp_id"] == _id) & (bills_df["explanatory_notes"] != "")].reset_index(drop=True)
+    bills = []
+    for i in range(len(bill_df)):
+        bill = Bill(name=bill_df["bill_name"][i], details=bill_df["explanatory_notes"][i])
+        bills.append(bill)
+    return bills
+
+
+def get_mpp_motions(_id: int, motions_df: pd.DataFrame) -> list[Motion]:
+    motion_df = motions_df[(motions_df["mpp_id"] == _id) & (motions_df["motion_details"] != None)].reset_index(drop=True)
+    motions = []
+    for i in range(len(motion_df)):
+        if type(motion_df["motion_details"][i]) != str:
+            continue
+        motion = Motion(name=motion_df["motion_name"][i], motion_details=motion_df["motion_details"][i])
+        motions.append(motion)
+    return motions
 
 
 async def generate_llama_response(
@@ -93,27 +122,72 @@ async def generate_llama_response(
         raise
 
 
-async def generate_persona(mpps: list[MPP],
-                           bills: list[list[Bill]], 
-                           motions: list[list[Motion]]
-                           ) -> str:
-    return ""
-
+def format_prompt(mpp: MPP, bills: list[Bill], motions: list[Motion]) -> str:
+    bills_str = "\n".join([str(bill) for bill in bills])
+    motions_str = "\n".join([str(motion) for motion in motions])
+    return NO_SHOT_DEFAULT_PROMPT_LONG_FORM.format(bills=bills_str, motions=motions_str, politician=mpp.anonymous_repr())
 
 
 async def main():
+    mpp_df = pd.read_csv("data/mpps.csv")
+    bills_df = pd.read_csv("data/bills.csv")
+    motions_df = pd.read_csv("data/motions.csv")
 
-    example_MPP = MPP(name="peter bethlenfalvy", party="Progressive Conservative Party of Ontario", role="Minister of Finance", location="Pickering—Uxbridge")
-    example_bill = Bill(name="Building Ontario For You Act (Budget Measures), 2024", details="Paragraph 4.0.1 of subsection 3 (1) of the Assessment Act sets out the conditions that must be satisfied for land leased and occupied solely by a university to be exempt from taxation under the Act. These include a condition that land must form part of the main campus of the university. This paragraph is amended to allow for land used to provide residential accommodation for students of the university to be exempt from taxation, even if the land does not form part of the main campus of the university.")
-    example_motion = Motion(name="That this House approves in general the Budgetary Policy of the Government.", motion_details="That this House approves in general the Budgetary Policy of the Government.")
-    
-    example_bills = [example_bill]
-    example_motions = [example_motion]
+    mpps = load_mpps(mpp_df)
+    prompts = []
+    mpp_ids = []
+    for mpp in mpps[:20]:
+        mpp_id = mpp._id
+        bills = get_mpp_bills(mpp._id, bills_df)
+        motions = get_mpp_motions(mpp._id, motions_df)
+        if not bills and not motions:
+            continue
+        prompt = format_prompt(mpp, bills, motions)
+        prompts.append(prompt)
+        mpp_ids.append(mpp_id)
 
-    example_bills = "\n".join([str(bill) for bill in example_bills])
-    example_motions = "\n".join([str(motion) for motion in example_motions])
+    # Generate personas
+    try:
+        results = await asyncio.gather(
+            *[generate_llama_response(p) for p in prompts],
+            return_exceptions=True
+        )
+        
+        # Process results
+        for i, result in enumerate(results):
+            if isinstance(result, Exception):
+                print(f"Request {i} failed: {result}")
+            else:
+                print(f"Request {i} succeeded: {result}")
+    except Exception as e:
+        print(f"Failed to process requests: {e}")
+        results = ""
+
+    print(results)
+    personas = []
+    for result in results:
+        if isinstance(result, Exception):
+            personas.append("")
+        else:
+            personas.append(result['response'])
+
+    personas_df = pd.DataFrame({"mpp_id": mpp_ids, "persona": personas})
+    personas_df = personas_df[personas_df["persona"] != ""].reset_index(drop=True)
+    personas_df.to_csv("data/personas.csv", index=False)
+
+
+
+    # example_MPP = MPP(name="peter bethlenfalvy", party="Progressive Conservative Party of Ontario", role="Minister of Finance", location="Pickering—Uxbridge")
+    # example_bill = Bill(name="Building Ontario For You Act (Budget Measures), 2024", details="Paragraph 4.0.1 of subsection 3 (1) of the Assessment Act sets out the conditions that must be satisfied for land leased and occupied solely by a university to be exempt from taxation under the Act. These include a condition that land must form part of the main campus of the university. This paragraph is amended to allow for land used to provide residential accommodation for students of the university to be exempt from taxation, even if the land does not form part of the main campus of the university.")
+    # example_motion = Motion(name="That this House approves in general the Budgetary Policy of the Government.", motion_details="That this House approves in general the Budgetary Policy of the Government.")
     
-    print(NO_SHOT_DEFAULT_PROMPT_LONG_FORM.format(bills=example_bills, motions=example_motions, politician=example_MPP.anonymous_repr()))
+    # example_bills = [example_bill]
+    # example_motions = [example_motion]
+
+    # example_bills = "\n".join([str(bill) for bill in example_bills])
+    # example_motions = "\n".join([str(motion) for motion in example_motions])
+    
+    # print(NO_SHOT_DEFAULT_PROMPT_LONG_FORM.format(bills=example_bills, motions=example_motions, politician=example_MPP.anonymous_repr()))
     
     # requests = ["hello! :)"] * 10
     # try:
