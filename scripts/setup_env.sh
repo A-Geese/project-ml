@@ -10,8 +10,10 @@ fi
 
 source .venv/bin/activate
 
-log "Installing dependencies..."
+log "Installing package tools..."
 pip install --upgrade pip setuptools wheel
+
+log "Installing dependencies..."
 pip install uv
 uv pip install -r pyproject.toml --extra dev
 

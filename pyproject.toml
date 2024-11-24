@@ -11,9 +11,13 @@ requires-python = ">=3.11"
 
 
 dependencies = [
-    "streamlit",
     "openai",
-    "tinydb"
+    "tinydb",
+    "fastapi",
+
+    # ai stuff :)
+    "datasets",
+    "ollama",
 ]
 
 [project.optional-dependencies]
