@@ -78,7 +78,7 @@ export default function ChatPage() {
             <ChatHeader />
             <div className="flex-1 overflow-y-auto p-4 space-y-4 flex flex-col">
                 {chats && chats.length > 1 ? chats.slice(1).map((message, i) => (
-                    <ChatBubble key={`${i}`} image={"/miis/image1.png"} message={message} key={message.id}/>
+                    <ChatBubble key={`${i}-jvgcgfhjk`} image={"/miis/image1.png"} message={message} key={message.id}/>
                 )) : null}
             </div>
             <footer className="p-4 bg-white flex items-center border-t bg-gradient-to-t from-neutral-200 to-neutral-300">
@@ -106,7 +106,7 @@ export default function ChatPage() {
             </div>
             <div className="mx-16 my-4 bg-white rounded-xl p-10 shadow-lg shadow-sky-300 overflow-y-scroll">
               <div className="text-xl flex"><FaBong className="mr-2" size={25}/> Evaluation</div>
-              {`${evalRes}`}
+              <div dangerouslySetInnerHTML={{ __html: evalRes }}/>
             </div>
         </div>
     </div>
