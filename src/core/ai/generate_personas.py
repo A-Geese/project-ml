@@ -3,8 +3,11 @@ import asyncio
 import aiohttp
 from ratelimit import limits, sleep_and_retry
 from typing import Dict, Any, Optional
-from prompts import NO_SHOT_DEFAULT_PROMPT_LONG_FORM, NO_SHOT_DEFAULT_PROMPT_SHORT_FORM
+from constants import NO_SHOT_DEFAULT_PROMPT_LONG_FORM, SYSTEM_PROMPT, USER_PROMPT, POLTICIAN_TEMPLATE
 import pandas as pd
+import instructor
+from openai import OpenAI
+from traits import Characteristics
 
 
 API_CALLS_PER_MINUTE = 100
@@ -53,6 +56,8 @@ def get_mpp_bills(_id: int, bills_df: pd.DataFrame) -> list[Bill]:
     bill_df = bills_df[(bills_df["mpp_id"] == _id) & (bills_df["explanatory_notes"] != "")].reset_index(drop=True)
     bills = []
     for i in range(len(bill_df)):
+        if type(bill_df["explanatory_notes"][i]) != str:
+            continue
         bill = Bill(name=bill_df["bill_name"][i], details=bill_df["explanatory_notes"][i])
         bills.append(bill)
     return bills
@@ -67,6 +72,25 @@ def get_mpp_motions(_id: int, motions_df: pd.DataFrame) -> list[Motion]:
         motion = Motion(name=motion_df["motion_name"][i], motion_details=motion_df["motion_details"][i])
         motions.append(motion)
     return motions
+
+
+def format_prompt_lf(mpp: MPP, bills: list[Bill], motions: list[Motion]) -> str:
+    bills_str = "\n".join([str(bill) for bill in bills])
+    motions_str = "\n".join([str(motion) for motion in motions])
+    return NO_SHOT_DEFAULT_PROMPT_LONG_FORM.format(bills=bills_str, motions=motions_str, politician=mpp.anonymous_repr())
+
+
+def format_prompt_skills(mpp: MPP, bills: list[Bill], motions: list[Motion]) -> str:
+    bills_str = "\n".join([bill.details for bill in bills])
+    motions_str = "\n".join([motion.motion_details for motion in motions])
+    return POLTICIAN_TEMPLATE.format(name=mpp.name, 
+                              roles=mpp.role, 
+                              location=mpp.location, 
+                              party=mpp.party, 
+                              bills=bills_str, 
+                              motions=motions_str)
+    # return POLTICIAN_TEMPLATE
+    # return NO_SHOT_DEFAULT_PROMPT_LONG_FORM.format(bills=bills_str, motions=motions_str, politician=mpp.anonymous_repr())
 
 
 async def generate_llama_response(
@@ -122,10 +146,38 @@ async def generate_llama_response(
         raise
 
 
-def format_prompt(mpp: MPP, bills: list[Bill], motions: list[Motion]) -> str:
-    bills_str = "\n".join([str(bill) for bill in bills])
-    motions_str = "\n".join([str(motion) for motion in motions])
-    return NO_SHOT_DEFAULT_PROMPT_LONG_FORM.format(bills=bills_str, motions=motions_str, politician=mpp.anonymous_repr())
+def get_persona_traits(persona_prompt: str) -> dict:
+    client = instructor.from_openai(
+        OpenAI(
+            base_url="http://localhost:11434/v1",
+            api_key="ollama",
+        ),
+        mode=instructor.Mode.JSON,
+    )
+
+    persona_traits = {}
+    for field_name, field in Characteristics.model_fields.items():
+        while True:
+            try:
+                response = client.chat.completions.create(
+                    model="llama3.2",
+                    messages=[
+                        {"role": "system", "content": SYSTEM_PROMPT},
+                        {
+                            "role": "user",
+                            "content": USER_PROMPT.format(persona=persona_prompt),
+                        },
+                    ],
+                    response_model=field.annotation,
+                )
+            except Exception:
+                print(f"Retrying structured outputs on: {field.annotation}")
+                continue
+
+            persona_traits[field_name] = response.model_dump()
+            break
+
+    return persona_traits
 
 
 async def main():
@@ -134,22 +186,26 @@ async def main():
     motions_df = pd.read_csv("data/motions.csv")
 
     mpps = load_mpps(mpp_df)
-    prompts = []
+    lf_prompts = []
+    skill_prompts = []
     mpp_ids = []
-    for mpp in mpps[:20]:
+    for mpp in mpps:
         mpp_id = mpp._id
         bills = get_mpp_bills(mpp._id, bills_df)
         motions = get_mpp_motions(mpp._id, motions_df)
         if not bills and not motions:
             continue
-        prompt = format_prompt(mpp, bills, motions)
-        prompts.append(prompt)
+        prompt_lf = format_prompt_lf(mpp, bills, motions)
+        prompt_skill = format_prompt_skills(mpp, bills, motions)
+        skill_prompts.append(prompt_skill)
+
+        lf_prompts.append(prompt_lf)
         mpp_ids.append(mpp_id)
 
     # Generate personas
     try:
         results = await asyncio.gather(
-            *[generate_llama_response(p) for p in prompts],
+            *[generate_llama_response(p) for p in lf_prompts],
             return_exceptions=True
         )
         
@@ -164,16 +220,17 @@ async def main():
         results = ""
 
     print(results)
-    personas = []
+    personas_lf = []
     for result in results:
         if isinstance(result, Exception):
-            personas.append("")
+            personas_lf.append("")
         else:
-            personas.append(result['response'])
+            personas_lf.append(result['response'])
 
-    personas_df = pd.DataFrame({"mpp_id": mpp_ids, "persona": personas})
+    skill_results = [get_persona_traits(prompt) for prompt in skill_prompts]
+    personas_df = pd.DataFrame({"mpp_id": mpp_ids, "persona_lf": personas_lf, 'persona_skills': skill_results})
     personas_df = personas_df[personas_df["persona"] != ""].reset_index(drop=True)
-    personas_df.to_csv("data/personas.csv", index=False)
+    personas_df.to_csv("full_personas.csv", index=False)
 
 
 if __name__ == "__main__":
