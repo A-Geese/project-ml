@@ -89,7 +89,6 @@ async def generate_persona(mpps: list[MPP],
                            bills: list[list[Bill]], 
                            motions: list[list[Motion]]
                            ) -> str:
-    return "" 
 
 
 async def main():
