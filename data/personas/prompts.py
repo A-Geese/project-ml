@@ -19,7 +19,7 @@ PERSONA_CHARACTERISTICS = [
 ]
 # expects that the MPP has at least one bill or motion
 NO_SHOT_DEFAULT_PROMPT_LONG_FORM = """
-## Politician Background:
+## Politician:
 {politician}
 
 ## Bills: 

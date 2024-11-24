@@ -1,3 +1,4 @@
+## Generic
 POLTICIAN_TEMPLATE = """Name: {name}
 Roles: {roles}
 Location: {location}
@@ -5,8 +6,26 @@ Political Party: {party}
 
 Supports the following bills:
 {bills}
+
+Brought forth the following motions:
+{motions}
 """
 
+## Long Form Personas
+NO_SHOT_DEFAULT_PROMPT_LONG_FORM = """
+## Politician:
+{politician}
+
+## Bills: 
+{bills}
+
+## Motions
+{motions}
+
+Based on the above bills and motions brought forth by a politician, write a couple sentences maximum \
+to describe the personality and backstory of the politician. Only return the persona of the politician and do not mention any names -- that is, keep the persona generic."""
+
+## Skill-assessment personas
 SYSTEM_PROMPT = """You are an evaluator designed to assess how well a person aligns with predefined characteristics. For each characteristic, assign a score from 0 to 10, based on the description of the person's behavior, actions, or traits provided in the input.
 
 Scoring Criteria:

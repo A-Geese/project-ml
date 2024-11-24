@@ -176,36 +176,5 @@ async def main():
     personas_df.to_csv("data/personas.csv", index=False)
 
 
-
-    # example_MPP = MPP(name="peter bethlenfalvy", party="Progressive Conservative Party of Ontario", role="Minister of Finance", location="Pickering—Uxbridge")
-    # example_bill = Bill(name="Building Ontario For You Act (Budget Measures), 2024", details="Paragraph 4.0.1 of subsection 3 (1) of the Assessment Act sets out the conditions that must be satisfied for land leased and occupied solely by a university to be exempt from taxation under the Act. These include a condition that land must form part of the main campus of the university. This paragraph is amended to allow for land used to provide residential accommodation for students of the university to be exempt from taxation, even if the land does not form part of the main campus of the university.")
-    # example_motion = Motion(name="That this House approves in general the Budgetary Policy of the Government.", motion_details="That this House approves in general the Budgetary Policy of the Government.")
-    
-    # example_bills = [example_bill]
-    # example_motions = [example_motion]
-
-    # example_bills = "\n".join([str(bill) for bill in example_bills])
-    # example_motions = "\n".join([str(motion) for motion in example_motions])
-    
-    # print(NO_SHOT_DEFAULT_PROMPT_LONG_FORM.format(bills=example_bills, motions=example_motions, politician=example_MPP.anonymous_repr()))
-    
-    # requests = ["hello! :)"] * 10
-    # try:
-    #     results = await asyncio.gather(
-    #         *[generate_llama_response(r) for r in requests],
-    #         return_exceptions=True
-    #     )
-        
-    #     # Process results
-    #     for i, result in enumerate(results):
-    #         if isinstance(result, Exception):
-    #             print(f"Request {i} failed: {result}")
-    #         else:
-    #             print(f"Request {i} succeeded: {result}")
-                
-    # except Exception as e:
-    #     print(f"Failed to process requests: {e}")
-
-
 if __name__ == "__main__":
     asyncio.run(main())
