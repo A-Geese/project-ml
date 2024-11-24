@@ -1,10 +1,15 @@
 from dataclasses import dataclass
-from ../../constants import API_CALLS_PER_MINUTE, API_CALLS_TIME_PERIOD
 
 import asyncio
 import aiohttp
 from ratelimit import limits, sleep_and_retry
 from typing import Dict, Any, Optional
+
+from prompts import NO_SHOT_DEFAULT_PROMPT_LONG_FORM, NO_SHOT_DEFAULT_PROMPT_SHORT_FORM
+
+
+API_CALLS_PER_MINUTE = 100
+API_CALLS_TIME_PERIOD = 60
 
 
 @dataclass
@@ -79,8 +84,32 @@ async def generate_llama_response(
         print(f"An unexpected error occurred: {e}")
         raise
 
-async def generate_persona(mpp: MPP, bills: list[Bill], motions: list[Motion]):
-    pass
 
-def main():
-    asyncio.run(generate_persona(None,None,None))
+async def generate_persona(mpps: list[MPP],
+                           bills: list[list[Bill]], 
+                           motions: list[list[Motion]]
+                           ) -> str:
+    return "" 
+
+
+async def main():
+    requests = ["hello! :)"] * 10
+    try:
+        results = await asyncio.gather(
+            *[generate_llama_response(r) for r in requests],
+            return_exceptions=True
+        )
+        
+        # Process results
+        for i, result in enumerate(results):
+            if isinstance(result, Exception):
+                print(f"Request {i} failed: {result}")
+            else:
+                print(f"Request {i} succeeded: {result}")
+                
+    except Exception as e:
+        print(f"Failed to process requests: {e}")
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
