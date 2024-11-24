@@ -19,6 +19,7 @@ dependencies = [
     "firecrawl-py",
 
     # ai stuff :)
+    "scikit-learn",
     "datasets",
     "ollama",
     "instructor",

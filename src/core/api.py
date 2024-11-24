@@ -1,6 +1,7 @@
 from dataclasses import dataclass
-
+from typing import List, Tuple
 import db.db as db
+import numpy as np
 import pandas as pd
 import requests
 from ai.model import ModelHandler
@@ -10,6 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from firecrawl import FirecrawlApp
 from llama_index.core import Document
 from llama_index.core.node_parser import SentenceSplitter
+from sklearn.metrics.pairwise import cosine_similarity
 
 from typing import Tuple
 from pydantic import BaseModel, Field
@@ -115,9 +117,14 @@ class SummarizePolicyRequest(BaseModel):
 
 
 class ModelRequest(BaseModel):
-    persona_name: str = Field(default="")  #
-    chat_history: list[dict[str, str]] | None
+    persona_name_left: str
+    persona_name_right: str
     topic: str  # immigration
+
+
+class ModelResponse(BaseModel):
+    chat_history: list
+    evaluation: str
 
 
 app = FastAPI()
@@ -173,42 +180,38 @@ def load_mpps() -> list[Mpp]:
 @app.post("/generate")
 def generate(
     request: ModelRequest,
-) -> dict[str, str]:
-    """
-    Persona_name is the current person queued to speak.
-
-    Expected return structure:
-        {
-            "name": "spongebob",
-            "content": ">:("
-        }
-    """
+) -> ModelResponse:
     try:
         print(request)
-        persona_name: str = request.persona_name
-        chat_history: list[dict] | None = request.chat_history
-        topic: str = request.topic
-        persona_dict = db.get_agent_with_name(persona_db, persona_name)
-        if not chat_history:
-            chat_history = []
-        response_content = model_handler.generate(persona_dict, chat_history, topic)
 
-        return response_content
+        chat_history = []
+        for round in range(5):
+            persona_name_left: str = request.persona_name_left
+            persona_name_right: str = request.persona_name_right
+            topic: str = request.topic
 
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+            persona_left = db.get_agent_with_name(persona_db, persona_name_left)
+            persona_right = db.get_agent_with_name(persona_db, persona_name_right)
 
+            response1 = model_handler.generate(persona_left, chat_history, topic)
 
-@app.post("/evaluate")
-def evaluate(request: ModelRequest) -> str:
-    try:
-        chat_history: list[dict] | None = request.chat_history
-        topic: str = request.topic
-        if not chat_history:
-            chat_history = []
-        response_content = model_handler.evaluate(chat_history, topic)
+            if isinstance(response1, list):
+                for r in response1:
+                    chat_history.append(r)
+            else:
+                chat_history.append(response1)
 
-        return response_content
+            response2 = model_handler.generate(persona_right, chat_history, topic)
+
+            if isinstance(response2, list):
+                for r in response2:
+                    chat_history.append(r)
+            else:
+                chat_history.append(response2)
+
+        response_eval = model_handler.evaluate(chat_history, request.topic)
+
+        return ModelResponse(chat_history=chat_history, evaluation=response_eval)
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
@@ -216,70 +219,83 @@ def evaluate(request: ModelRequest) -> str:
 
 @app.post("/summarize_policy")
 def summarize_policy(request: SummarizePolicyRequest):
-    # url = request.url
-    # try:
-    #     app = FirecrawlApp(api_key="fc-d4f52d5c0584446aae60779f80a8a2d0")
-    #     scrape_result = app.scrape_url(url, params={"formats": ["markdown"]})
-    #     webpage_content = scrape_result["markdown"]
-    #     # summarize here
-    #     document = Document(text=webpage_content)
-
-    #     node_parser = SentenceSplitter(chunk_size=1000, chunk_overlap=150)
-
-    #     nodes = node_parser.get_nodes_from_documents([document], show_progress=False)
-    #     chunks = [node.text for node in nodes]
-    #     # llama_endpoint = "http://127.0.0.1:11435/api/generate"
-
-    #     # headers = {"Content-Type": "application/json"}
-    #     # Summarize each chunk
-    #     summaries = []
-    #     for chunk in chunks:
-    #         prompt = f"{chunk}\n\nSummarize the above webpage content into a concise bullet point list."
-    #         # response = requests.post(llama_endpoint, headers=headers, json=data)
-    #         # try:
-    #         #     summary = response.json()["choices"][0]["text"]
-    #         # except Exception as e:
-    #         #     print(e)
-    #         summary = model_handler.llama_predict(prompt)
-
-    #         summaries.append(summary)
-
-    #     # Summarize the entire webpage
-    #     # data = {
-    #     #     "model": "llama3.1:70b",
-    #     #     "prompt": ,
-    #     #     "stream": False,
-    #     # }
-
-    #     prompt = f"{chr(10).join(summaries)}\n\nSummarize the above webpage content into a concise bullet point list."
-
-    #     # response = requests.post(llama_endpoint, headers=headers, json=data)
-
-    #     response = model_handler.llama_predict(prompt)
-    #     return {"status": "success", "content": response}
-    # except requests.exceptions.RequestException as e:
-    #     return {"status": "error", "message": str(e)}
-
-    return "economy"
-
-
-@app.post("/get_similar_bills")
-def get_similar_bills(summary: str) -> list[Tuple[str, str]]:
-    df = pd.read_csv("data/bills.csv")
-    texts = df["bill_name"] + "\n" + df["explanatory_notes"]
-    texts = list(texts.values)
+    url = request.url
     try:
-        import ollama
+        app = FirecrawlApp(api_key="fc-d4f52d5c0584446aae60779f80a8a2d0")
+        scrape_result = app.scrape_url(url, params={"formats": ["markdown"]})
+        webpage_content = scrape_result["markdown"]
+        # summarize here
+        document = Document(text=webpage_content)
 
-        for text in texts:
-            emb = ollama.embeddings(model="nomic-embed-text", prompt=text)["embedding"]
+        node_parser = SentenceSplitter(chunk_size=5000, chunk_overlap=150)
 
-        # data = {"model": "nomic-embed-text", "prompt": texts, "stream": False}
+        nodes = node_parser.get_nodes_from_documents([document], show_progress=False)
+        chunks = [node.text for node in nodes]
         # llama_endpoint = "http://127.0.0.1:11435/api/generate"
-        # headers = {"Content-Type": "application/json"}
-        # response = requests.post(llama_endpoint, headers=headers, json=data)
-        # return {"status": "success", "content": response}
-    except:
-        return {"status": "error", "message": str(e)}
 
-    return None
+        # headers = {"Content-Type": "application/json"}
+        # Summarize each chunk
+        summaries = []
+        for chunk in chunks:
+            prompt = f"{chunk}\n\nSummarize the above webpage content into a concise bullet point list."
+            # response = requests.post(llama_endpoint, headers=headers, json=data)
+            # try:
+            #     summary = response.json()["choices"][0]["text"]
+            # except Exception as e:
+            #     print(e)
+            summary = model_handler.llama_predict(prompt)
+
+            summaries.append(summary)
+
+        # Summarize the entire webpage
+        # data = {
+        #     "model": "llama3.1:70b",
+        #     "prompt": ,
+        #     "stream": False,
+        # }
+
+        prompt = f"{chr(10).join(summaries)}\n\nSummarize the above webpage content into a concise bullet point list."
+
+        # response = requests.post(llama_endpoint, headers=headers, json=data)
+
+        response = model_handler.llama_predict(prompt)
+        return response
+    except requests.exceptions.RequestException as e:
+        return e
+
+
+# @app.post("/get_similar_bills")
+# def get_similar_bills(summary: str) -> List[Tuple[str, str]]:
+#     try:
+#         # Load the dataset
+#         df = pd.read_csv("data/bills.csv")
+#         texts = (df["bill_name"] + "\n" + df["explanatory_notes"]).tolist()
+
+#         # Import ollama and compute embeddings
+#         import ollama
+
+#         # Get embeddings for the bills
+#         bill_embeddings = []
+#         for text in texts:
+#             emb = ollama.embeddings(model="nomic-embed-text", prompt=text)["embedding"]
+#             bill_embeddings.append(emb)
+
+#         # Get the embedding for the input summary
+#         summary_embedding = ollama.embeddings(model="nomic-embed-text", prompt=summary)[
+#             "embedding"
+#         ]
+
+#         # Compute cosine similarities
+#         similarities = cosine_similarity([summary_embedding], bill_embeddings)[0]
+
+#         # Find the 3 most similar bills
+#         top_indices = np.argsort(similarities)[-3:][::-1]
+#         closest_bills = [
+#             (df.iloc[i]["bill_name"], df.iloc[i]["explanatory_notes"])
+#             for i in top_indices
+#         ]
+
+#         return closest_bills
+
+#     except Exception as e:
+#         return str(e)

@@ -6,6 +6,10 @@ import TextBox from "./components/text_box";
 import ChatBubble from "./components/chat_bubble";
 import ChatHeader from "./components/chat_header";
 import { FaHandPaper } from "react-icons/fa";
+import { FaComputer } from "react-icons/fa6";
+import { FaBong } from "react-icons/fa6";
+import { PiEyesFill } from "react-icons/pi";
+
 import { useGlobalContext } from "@/context/GlobalContext";
 
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -13,70 +17,54 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 export default function ChatPage() {
   const { chats, setChats, debaterLeft, debaterRight, billSummary } = useGlobalContext();
   const [currText, setCurrText] = useState("");
-  const [isGenerating, setIsGenerating] = useState(false);
+  const [evalRes, setEvalRes] = useState("");
+  const [closestBills, setClosestBills] = useState([]);
+
 
   useEffect(() => {
     const sendChatRequest = async (data = {}) => {
       try {
+        const curr_data = {
+          persona_name_left: debaterLeft,
+          persona_name_right: debaterRight,
+          topic: billSummary
+        }
+        console.log("currdata", curr_data);
+        console.log("left person", debaterLeft);
         // Replace with your API endpoint
         const response = await fetch('http://localhost:8000/generate', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
           },
-          body: JSON.stringify(data),
+          body: JSON.stringify(curr_data),
         });
+
+        // const bill_res = await fetch('http://localhost:8000/get_similar_bills', {
+        //   method: 'POST',
+        //   headers: {
+        //     'Content-Type': 'application/json',
+        //   },
+        //   body: billSummary,
+        // });
+
 
         if (!response.ok) {
           throw new Error('Failed to fetch');
         }
 
         const result = await response.json();
-        setResponses((prev) => [...prev, result]);
-
-        // Send the next request with the previous response
-        if (result.next) {
-          await sendChatRequest({ previousData: result });
-        }
+        // const result_bill = await bill_res.json();
+        // console.log("billl", result_bill);
+        // setClosestBills(result_bill);
+        setChats(result.chat_history);
+        setEvalRes(result.evaluation);
       } catch (error) {
         console.error('Error:', error);
       }
     };
-
-    // Initial request when page loads
     sendChatRequest();
   }, []);
-
-  // useEffect(() => {
-  //   const getChatResponse = async () => {
-  //       try {
-  //         const curr_input = {
-  //           persona_name: chats && chats.length && chats[0].name === debaterRight ? debaterLeft : debaterRight, 
-  //           chat_history: chats ? chats : [],
-  //           topic: billSummary
-  //         }
-  //         console.log("curr_input", curr_input);
-
-  //         const response = await fetch("http://localhost:8000/generate", {
-  //           method: "POST",
-  //           headers: {
-  //             "Content-Type": "application/json",
-  //           },
-  //           body: JSON.stringify(curr_input),
-  //         });
-
-  //         const data = await response.json();
-  //         setChats(data.message);
-
-  //         if (data.message !== "END") {
-  //           setTimeout(() => getChatResponse(), 1000);
-  //         }
-  //       } catch (error) {
-  //         console.error("API call failed:", error);
-  //       }
-  //     };
-  //     getChatResponse();
-  //   }, [])
 
   
   const handleButtonClick = () => {
@@ -102,8 +90,24 @@ export default function ChatPage() {
             </footer>
         </div>
         <div className="w-1/2 flex flex-col h-screen bg-blue-200">
-            <div className="">Relevant Bills</div>
-
+            <div className="mx-16 my-4 bg-white rounded-xl p-10 shadow-lg shadow-sky-300">
+              <div className="text-xl flex"><FaComputer className="mr-2" size={25}/> Summary</div>
+              {`${billSummary}`}
+            </div>
+            <div className="mx-16 my-4 bg-white rounded-xl p-10 shadow-lg">
+              <div className="text-xl flex"><PiEyesFill className="mr-2" size={25}/>Similar Bills</div>
+              <li>Bill 203</li>
+              <li>Bill 340</li>
+              {/* {
+                closestBills.map((bill) => (
+                  <div>{bill[0]}</div>
+                ))
+              } */}
+            </div>
+            <div className="mx-16 my-4 bg-white rounded-xl p-10 shadow-lg shadow-sky-300 overflow-y-scroll">
+              <div className="text-xl flex"><FaBong className="mr-2" size={25}/> Evaluation</div>
+              {`${evalRes}`}
+            </div>
         </div>
     </div>
   );

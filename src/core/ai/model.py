@@ -20,7 +20,24 @@ Engage in conversations in a manner that reflects your personality, values, and 
 
 Avoid explicitly stating or referencing your personality traits or values. Instead, let them shine through your tone, reasoning, and approach. Focus on creating thoughtful and authentic responses that resonate with your described persona.
 
-Do not be verbose. Keep your conversations concise and short. Focus on the highlights and most important ideas. Make a succinct argument as to why you believe what you do. 
+Do not be verbose. Keep your conversations concise and short. Focus on the highlights and most important ideas. Make a succinct argument as to why you believe what you do. Act in first person. Do not say things like "I'm Doug Downey, Attorney General for Barrie—Springwater—Oro-Medonte." or "As Bhutila Karpoche". Omit stating your own name.
+
+Never state things like: "(If no chat history provided)".
+
+You should strive to not make conflicting statements and be consistent. For example, if your opposition says:
+"Our opposition's suggestion to raise taxes would slow down economic development and hurt small businesses."
+
+Do not say:
+"My opposition suggests raising taxes to slow down economic development and hurt small businesses."
+
+Instead say something like:
+"My opposition states that I will raise taxes by an absurd amount. However, that is not my intention. Instead ..."
+
+Remember to always be consistent with your statements.
+
+Be less direct. For example, do not start by saying things like "I disagree with the notion that", ""Regarding the balanced budget amendment, I strongly believe", "I strongly disagree with the notion that". Instead, jump to the point and make your stance clear by letting your description of your policies and idea indicate your agreement or disagreement.
+
+If a sentence has been said word for word already. DO NOT REPEAT IT.
 """
 
 USER_PROMPT = """
@@ -30,7 +47,24 @@ USER_PROMPT = """
 ## Chat History
 {chat_history}
 
-You are {agent_name}. Respond to your opposition's points. If there is no chat history yet. Stay your position. Make counters and highlight weaknesses in their arguments if possible. Do not be verbose. Keep your conversations concise and short. Focus on the highlights and most important ideas. Make a succinct argument as to why you believe what you do. 
+You are {agent_name}. Respond to your opposition's points. Make counters and highlight weaknesses in their arguments if possible. Do not be verbose. Keep your conversations concise and short. Focus on the highlights and most important ideas. If there is no chat history. State YOUR position. Make a succinct argument as to why you believe what you do. Remember to always be concise and short in your answer. Act in first person. Do not say things like "I'm Doug Downey, Attorney General for Barrie—Springwater—Oro-Medonte." or "As Bhutila Karpoche". Omit stating your own name.
+
+Never state things like: "(If no chat history provided)".
+
+You should strive to not make conflicting statements and be consistent. For example, if your opposition says:
+"Our opposition's suggestion to raise taxes would slow down economic development and hurt small businesses."
+
+Do not say:
+"My opposition suggests raising taxes to slow down economic development and hurt small businesses."
+
+Instead say something like:
+"My opposition states that I will raise taxes by an absurd amount. However, that is not my intention. Instead ..."
+
+Remember to always be consistent with your statements.
+
+Be less direct. For example, do not start by saying things like "I disagree with the notion that", ""Regarding the balanced budget amendment, I strongly believe", "I strongly disagree with the notion that". Instead, jump to the point and make your stance clear by letting your description of your policies and idea indicate your agreement or disagreement.
+
+If a sentence has been said word for word already. DO NOT REPEAT IT.
 """
 
 EVAL_SYSTEM_PROMPT = """You are a summarization assistant specializing in policy discussions. Your task is to read and analyze a conversation on a specific topic and provide a comprehensive, neutral summary. Focus on aggregating key points, themes, and highlights across all perspectives presented without favoring one side.
@@ -81,9 +115,33 @@ class ModelHandler:
 
         return chat_history
 
+    def split_response(self, response, max_chars=100):
+        chunks = []
+        current_chunk = ""
+
+        # Iterate over sentences split by a period
+        for sentence in response.split("."):
+            sentence = sentence.strip()  # Remove extra spaces
+            if not sentence:
+                continue  # Skip empty sentences
+
+            # Check if adding the sentence exceeds the max character limit
+            if len(current_chunk) + len(sentence) + 1 <= max_chars:
+                current_chunk += (". " if current_chunk else "") + sentence
+            else:
+                # Save the current chunk and start a new one
+                chunks.append(current_chunk)
+                current_chunk = sentence
+
+        # Append any remaining chunk
+        if current_chunk:
+            chunks.append(current_chunk)
+
+        return [chunk.strip() + "." for chunk in chunks]
+
     def generate(
         self, persona_dict: dict, history: list[dict[str, str]], topic: str
-    ) -> dict[str, str]:
+    ) -> dict[str, str] | list[dict]:
         name = persona_dict["name"]
         summary = self.summarize_agent_to_string(persona_dict)
 
@@ -99,12 +157,22 @@ class ModelHandler:
             },
         ]
 
-        response: ChatResponse = chat(model=self.model, messages=messages)
+        response = chat(model=self.model, messages=messages)
+        response = response.message.content
 
-        if not response.message.content:
+        if not response:
             return {"name": name, "text": ""}
 
-        return {"name": name, "text": response.message.content}
+        chat_history = []
+
+        responses = self.split_response(response, 250)
+
+        for chunk in responses:
+            chat_history.append({"name": name, "text": chunk})
+
+        return chat_history
+
+        # return {"name": name, "text": response}
 
     def evaluate(self, history: list[dict[str, str]], topic: str) -> str:
         chat_history_string = self.compile_history(history)

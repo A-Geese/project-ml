@@ -102,12 +102,12 @@ export default function Home() {
           />
           <div
             className={`absolute top-1/2 transform -translate-y-20 w-96 bg-white h-1 transition-transform duration-1000 ease-linear ${
-              animate ? "-translate-x-2" : "-translate-x-96"
+              animate ? "-translate-x-[96em]" : "-translate-x-96"
             }`}
           />
           <div
             className={`absolute top-1/2 transform -translate-y-32 w-96 bg-white h-1 transition-transform duration-1000 ease-linear ${
-              animate ? "-translate-x-[20em]" : "translate-x-[90em]"
+              animate ? "-translate-x-[80em]" : "translate-x-[90em]"
             }`}
           />
           <div className="absolute top-1/2 transform -translate-y-1/2 w-full bg-white h-24 flex items-center justify-center">

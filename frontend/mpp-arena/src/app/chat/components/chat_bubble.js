@@ -9,7 +9,7 @@ export default function ChatBubble({ message, alt }) {
         <div className={`w-[520px] flex ${message.name===debaterRight ? "self-end flex-row-reverse" : "self-start"}`}>
             <ChatAvatar image={name2PartyImage[message.name] || defaultImage} alt={alt} />
             <div
-                className={`px-8 py-4 w-[520px] border-4 border-gray-200 rounded-full ${
+                className={`px-8 py-4 w-[520px] border-4 border-gray-200 rounded-xl ${
                 message.name === debaterRight
                     ? "bg-gradient-to-b from-sky-400 to-sky-500 border-4 text-white self-end"
                     : "bg-gradient-to-b from-white to-[#EBEFED] border-4 text-black self-start"
