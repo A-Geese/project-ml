@@ -1,198 +1,846 @@
-mpp_id,motion_name,motion_href
-2,Motion 149,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1235E151-C3A6-EF11-B8E9-000D3A0C23B9
-2,Motion 146,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B91C905E-E6A5-EF11-B8E8-000D3AE860D8
-2,Motion 138,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FC522856-B79B-EF11-8A6A-000D3A0C23B9
-2,Motion 143,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F91A0BFF-B79B-EF11-8A6A-000D3A0C23B9
-2,Motion 140,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F5412AAC-B79B-EF11-8A6A-000D3A0C23B9
-2,Motion 139,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E2E0EE80-B79B-EF11-8A6A-000D3A0C23B9
-2,Motion 141,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_711F37CB-B79B-EF11-8A6A-000D3A0C23B9
-2,Motion 142,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_2A883CE5-B79B-EF11-8A6A-000D3A0C23B9
-2,Motion 133,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_364C78A6-B090-EF11-8A6A-000D3A0C23B9
-2,Motion 53,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_3D56F190-A0EE-ED11-8848-000D3AF4F44A
-2,Motion 12,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E9A92766-FB29-ED11-9DB2-002248D51D1B
-2,Motion 10,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_D1913B87-F929-ED11-9DB2-002248D51D1B
-2,Motion 11,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_89FD4738-FB29-ED11-9DB2-002248D51D1B
-2,Motion 13,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_68CF727C-FB29-ED11-9DB2-002248D51D1B
-2,Motion 9,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0AAF6F51-F929-ED11-9DB2-002248D51D1B
-3,Motion 34,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_8AB416F7-CAB6-ED11-B596-002248D5A587
-6,Motion 48,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C24192E3-1ED3-ED11-A7C6-000D3AF4F44A
-7,Motion 113,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_2997F37B-FD1C-EF11-840A-002248B1AE9E
-7,Motion 6,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F857BBB6-9A28-ED11-9DB2-002248D51D1B
-9,Motion 93,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_71268EB6-65FB-EE11-9F89-6045BD61612F
-9,Motion 78,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CCC8FADE-4F94-EE11-BE37-6045BD5DE15D
-9,Motion 61,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_8CFFF3E7-B25B-EE11-8DF0-000D3AF4FB27
-9,Motion 60,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B2B7F5C4-A104-EE11-8F6E-000D3AF4FB27
-9,Motion 35,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B98B6DE9-D2B6-ED11-B596-002248D5A587
-9,Motion 30,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_8FB4B154-5D76-ED11-81AC-000D3AF41FC2
-9,Motion 29,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_04C4BE30-5D76-ED11-81AC-000D3AF41FC2
-9,Motion 27,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_16C01D33-A575-ED11-81AC-000D3AF41FC2
-9,Motion 25,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_9B94566D-B374-ED11-81AC-000D3AF41FC2
-9,Motion 26,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_4237C7AA-B374-ED11-81AC-000D3AF41FC2
-9,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_F8A722D4-FA65-ED11-9562-002248D51D1B
-9,Motion 7,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_010E2ECB-9A28-ED11-9DB2-002248D51D1B
-10,Motion 22,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_80407A70-CDDC-EE11-904D-6045BD5D65A7
-10,Motion 11,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_12B742A3-F7BC-ED11-83FE-000D3AF40FC6
-11,Motion 148,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C6A2A042-B5A6-EF11-B8E8-6045BD5D8FEB
-11,Motion 91,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AC6F09A8-4CF7-EE11-A1FE-6045BD61612F
-12,Motion 5,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_06320B8E-8424-ED11-9DB2-002248D51D1B
-15,Motion 137,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F0A774E6-E896-EF11-8A69-000D3A0C23B9
-15,Motion 116,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F7451730-8A22-EF11-840A-6045BD5D4A28
-18,Motion 62,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_D7BCD72E-BD5B-EE11-8DF0-000D3AF4FB27
-19,Motion 23,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_5602B34D-ECEA-EE11-A1FE-6045BD5F5163
-19,Motion 24,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_21CC4BC1-ECEA-EE11-A1FE-6045BD5F5163
-19,Motion 21,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_9E3ED2AF-C3D1-EE11-904D-002248AEE710
-19,Motion 20,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_A6728AE0-B58F-EE11-8179-0022483C5061
-19,Motion 19,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_BDE0D5B1-3C6C-EE11-8179-000D3AF4F44A
-19,Motion 18,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_B49F015C-3B6C-EE11-8179-000D3AF4FD82
-19,Motion 16,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_FB1863EC-C85B-EE11-8DF0-000D3AF4FD82
-19,Motion 17,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_630B043E-CE5B-EE11-8DF0-000D3AF4FB27
-19,Motion 15,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_EB533E65-5FFE-ED11-8F6C-000D3AF4FB27
-19,Motion 14,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_690F3851-5FFE-ED11-8F6C-000D3AF4FB27
-19,Motion 12,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_4C6BC40B-46C7-ED11-B596-0022486DC01C
-19,Motion 10,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_D0692160-CA74-ED11-81AC-002248D51D1B
-19,Motion 7,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_D2957BFC-275A-ED11-9562-002248D51D1B
-19,Motion 9,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_67E5DC64-285A-ED11-9562-002248D51D1B
-19,Motion 8,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_11540E2D-285A-ED11-9562-002248D51D1B
-19,Motion 6,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_8D652E87-7A2F-ED11-9DB0-000D3AF41FC2
-19,Motion 5,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_F4E1A74B-D727-ED11-9DB2-002248D51D1B
-19,Motion 4,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_DCA08541-EC23-ED11-9DB2-002248D51D1B
-19,Motion 3,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_5E0E43C9-EE18-ED11-B83E-000D3AF41FC2
-19,Motion 2,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_63F5C811-3018-ED11-B83F-002248D51D1B
-19,Motion 1,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_29B5C6C3-2F18-ED11-B83F-002248D51D1B
-22,Motion 124,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_15A5B351-2A24-EF11-840A-002248B1AE9E
-22,Motion 104,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_11336D36-2A03-EF11-9F89-6045BD5D95B0
-22,Motion 103,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_9B327AA7-7602-EF11-9F89-000D3A84170A
-22,Motion 98,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_D1E8C2A6-BE00-EF11-9F89-000D3AF307CC
-23,Motion 26,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_6EA1E58E-F79A-EF11-8A6A-002248B2E8A8
-23,Motion 25,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_FCC6D08D-5092-EF11-8A6A-002248AFD5B2
-23,Motion 82,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_373F941A-4AD6-EE11-904D-6045BD60D367
-26,Motion 51,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_9FDE9BAA-A9DF-ED11-8846-000D3AF4F44A
-27,Motion 81,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_388439E1-30D0-EE11-904D-6045BD60D227
-28,Motion 145,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_75C6E730-C3A5-EF11-B8E8-000D3AE860D8
-28,Motion 85,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_ED3D4F11-C0E6-EE11-A203-0022483CC08F
-29,Motion 15,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AAEE1008-7D2F-ED11-9DB0-000D3AF41FC2
-33,Motion 110,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AC7FFFD2-3512-EF11-9F89-002248B1AE9E
-33,Motion 101,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CEE1A9B8-A901-EF11-9F89-0022483C53EC
-34,Motion 46,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6BD49C88-67CE-ED11-A7C5-002248D511E3
-34,Motion 43,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1A148F97-9ECD-ED11-A7C5-002248D511E3
-37,Motion 59,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_A36827C0-E9FF-ED11-8F6C-000D3AF4F44A
-37,Motion 14,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_EAC4B030-F52D-ED11-9DB1-002248D51D1B
-38,Motion 109,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FB5F1482-5E11-EF11-9F89-002248B1AE9E
-39,Motion 92,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F514C5CF-60F7-EE11-A1FE-6045BD61612F
-40,Motion 94,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_472915C9-C9FC-EE11-9F89-002248AFCBA1
-40,Motion 22,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0256A830-A36A-ED11-81AC-000D3AF41FC2
-41,Motion 114,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0E74B1EC-D11D-EF11-840A-002248B1AE9E
-41,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_1513824D-EF5A-ED11-9562-000D3AF41FC2
-43,Motion 129,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6E4FA40B-3324-EF11-840A-002248B1AE9E
-43,Motion 130,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_62A25E61-3324-EF11-840A-002248B1AE9E
-43,Motion 111,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_15DBDA99-AE13-EF11-9F89-002248B1AE9E
-43,Motion 31,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_55893025-2C77-ED11-81AC-002248D51D1B
-43,Motion 20,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_357CE8F3-D365-ED11-9562-002248D51D1B
-44,Motion 84,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C5527280-A5DC-EE11-904D-6045BD60D227
-44,Motion 1,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_D97C35E0-4E1E-ED11-B83D-000D3AF41FC2
-45,Motion 49,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_34FEBB4C-20D3-ED11-A7C6-000D3AF4F44A
-47,Motion 117,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_858998DD-B022-EF11-840A-002248AEA5FD
-51,Motion 132,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_7F2ECD5A-BF8F-EF11-8A69-6045BD612BD1
-51,Motion 50,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_489FFBDB-2DD3-ED11-A7C6-000D3AF4F44A
-52,Motion 16,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AEBB2F5E-A354-ED11-9561-000D3AF41FC2
-53,Motion 99,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1BA37B60-D000-EF11-9F89-000D3AF307CC
-53,Motion 95,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_47A5C81C-90FD-EE11-9F89-0022483C53EC
-53,Motion 76,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6B8BC99C-C98E-EE11-8179-000D3AF4F44A
-53,Motion 57,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_5020965F-2CF3-ED11-8848-000D3AF4FB27
-53,Motion 37,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6FD64B8B-E8BD-ED11-83FE-000D3AF40FC6
-54,Motion 128,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_325C7D79-3124-EF11-840A-6045BD5D4A28
-54,Motion 107,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B9BDDFEC-3511-EF11-9F89-6045BD61E8DA
-54,Motion 108,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_A4C80A05-3611-EF11-9F89-6045BD61E8DA
-54,Motion 106,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_97B303DA-3511-EF11-9F89-6045BD61E8DA
-54,Motion 79,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E84026A3-30D0-EE11-904D-6045BD60D227
-54,Motion 80,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_19F68BBC-30D0-EE11-904D-6045BD60D227
-54,Motion 67,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_15B641B8-C762-EE11-8DF0-000D3AF4FD82
-56,Motion 118,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F0C16362-4D23-EF11-840A-6045BD5D4A28
-56,Motion 69,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_64130DE8-C36D-EE11-8179-000D3AF4FB27
-56,Motion 64,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_82B13C55-A35C-EE11-8DF0-000D3AF4F44A
-57,Motion 70,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C6DB8B87-AF72-EE11-8179-000D3AF4FB27
-59,Motion 23,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_DED67BD2-656F-ED11-81AC-000D3AF41FC2
-61,Motion 65,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_5678A754-755D-EE11-8DF0-000D3AF4FB27
-62,Motion 13,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_82ACE54E-25CF-ED11-A7C5-002248D511E3
-63,Motion 44,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B9BEBABF-9ECD-ED11-A7C5-002248D511E3
-63,Motion 8,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FA7D0F44-6929-ED11-9DB2-002248D51D1B
-64,Motion 77,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F4AD500E-EC8E-EE11-8179-000D3AF4FD82
-65,Motion 72,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_00D3F80F-2578-EE11-8179-000D3AF4F44A
-65,Motion 54,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E51306B8-A3EE-ED11-8848-000D3AF4F44A
-69,Motion 66,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B616852E-2362-EE11-8DF0-000D3AF4F44A
-71,Motion 45,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_223CA3A7-A5CD-ED11-A7C5-002248D51AA6
-73,Motion 144,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_11EDEA45-7F9C-EF11-8A69-6045BD5BE34F
-74,Motion 2,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AD6683FD-F81E-ED11-B83E-002248D51D1B
-75,Motion 24,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_64A96464-FB6F-ED11-81AC-002248D51D1B
-77,Motion 55,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C6CE4634-6BEF-ED11-8847-000D3AF4FB27
-78,Motion 136,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CD5F530D-3596-EF11-8A69-002248B2E8A8
-78,Motion 56,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_2CD084C8-21F0-ED11-8847-000D3AF4FB27
-80,Motion 134,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_3D9EB1A5-5491-EF11-8A6A-000D3A0C23B9
-80,Motion 96,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E7155AE1-91FD-EE11-9F89-0022483C53EC
-80,Motion 58,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_63E94909-45FE-ED11-8F6C-000D3AF4FB27
-80,Motion 32,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1186F566-2BB2-ED11-83FD-000D3A0A206A
-80,Motion 17,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_8CC04DC0-4359-ED11-9562-002248D51D1B
-82,Motion 135,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0F6EC3DA-4295-EF11-8A69-000D3A0C23B9
-82,Motion 68,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_791D4B93-BE6D-EE11-8179-000D3AF4FB27
-82,Motion 28,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_929CC65D-3976-ED11-81AC-000D3AF41FC2
-86,Motion 71,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FEE7AE7E-2178-EE11-8179-000D3AF4F44A
-86,Motion 63,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_DD6FD3F6-DF5B-EE11-8DF0-000D3AF4FB27
-87,Motion 105,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_55AEB54E-4003-EF11-9F89-002248B0C507
-90,Motion 38,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_DB4518AB-4DC7-ED11-B596-0022486DC01C
-93,Motion 131,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1E992609-BF8F-EF11-8A69-6045BD612BD1
-97,Motion 75,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_17C46E39-448D-EE11-8179-000D3AF4FB27
-98,Motion 115,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0B713526-DE1D-EF11-840A-002248B1AE9E
-98,Motion 102,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1E427635-B201-EF11-9F89-0022483C53EC
-98,Motion 97,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_95012785-C2FD-EE11-9F89-002248AFCBA1
-98,Motion 83,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_764D5D30-23D7-EE11-904D-6045BD5D65A7
-98,Motion 74,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FC3B70BE-C487-EE11-8179-000D3AF4FB27
-98,Motion 21,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E38DF36D-D469-ED11-81AC-002248D51D1B
-98,Motion 3,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CDF81E3B-5122-ED11-9DB2-002248D51D1B
-101,Motion 125,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_75ECBFEB-2D24-EF11-840A-002248B1AE9E
-101,Motion 121,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_82E9AA51-6523-EF11-840A-002248B1AE9E
-101,Motion 120,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_56AB5A00-6523-EF11-840A-002248B1AE9E
-101,Motion 89,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B7AB1564-7BEC-EE11-A1FD-0022483CC08F
-101,Motion 88,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_7C5BD20E-B1E7-EE11-A203-6045BD5BD5F0
-101,Motion 86,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6DE0AFCF-B0E7-EE11-A203-6045BD5BD5F0
-101,Motion 87,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_5DC45DFB-B0E7-EE11-A203-6045BD5BD5F0
-101,Motion 39,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B25D4B94-EDC8-ED11-B595-000D3A0A01D2
-101,Motion 40,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_A0467DC5-EDC8-ED11-B595-000D3A0A01D2
-101,Motion 42,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_640E7C07-EEC8-ED11-B595-000D3A0A0B92
-101,Motion 41,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_3E0510C2-EDC8-ED11-B595-000D3A0A0B92
-101,Motion 4,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_753775E2-E323-ED11-9DB2-002248D51D1B
-106,Motion 90,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_51A03E92-2BED-EE11-A1FD-0022483CC08F
-107,Motion 147,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_04E8FC4A-8BA6-EF11-B8E9-6045BD5CBA5B
-107,Motion 73,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_73EC0B86-A679-EE11-8179-000D3AF4FD82
-107,Motion 36,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_029B1C4E-C7BD-ED11-83FE-000D3AF40FC6
-108,Motion 4,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_B80F8816-8DA7-EF11-B8E8-0022483E7007
-108,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_49FE861C-8E9C-EF11-8A69-6045BD5BE34F
-108,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_B69C14F0-EE96-EF11-8A69-002248B2E8A8
-108,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_580BB480-7991-EF11-8A6A-002248AFD5B2
-108,Motion 5,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_AAAA0743-7C0D-EF11-9F89-0022483D483F
-108,Motion 4,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_220B0A20-FFFC-EE11-9F89-000D3AF307CC
-108,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_E9DB8BD0-F7E6-EE11-A203-6045BD61612F
-108,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_2B03D08A-01DC-EE11-904D-6045BD5D65A7
-108,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_C1DED5B8-49D6-EE11-904D-6045BD60D367
-108,Motion 5,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_D53174F2-F983-EE11-8179-000D3AF4FD82
-108,Motion 4,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_DD4978AC-F878-EE11-8179-000D3AF4F44A
-108,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_AF2862A1-EE6D-EE11-8179-000D3AF4FB27
-108,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_FEF921A3-E962-EE11-8DF0-000D3AF4FB27
-108,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_C8FBC185-6E5D-EE11-8DF0-000D3AF4FD82
-108,Motion 52,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B0BB0BAD-D7ED-ED11-8848-000D3AF4FB27
-108,Motion 4,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_594E2531-E7DE-ED11-8846-000D3AF4F44A
-108,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_9D76F851-DFC8-ED11-B595-000D3A0A0B92
-108,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_44EFD93E-78B8-ED11-B596-002248D5A587
-108,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_76CDB6C3-F3B2-ED11-83FD-000D3A0A2BD9
-110,Motion 112,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0D04F038-351C-EF11-840A-002248B1AE9E
-110,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_B008B8AB-6C55-ED11-9561-000D3AF41FC2
-112,Motion 47,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_9594E74E-6FCE-ED11-A7C5-002248D511E3
-116,Motion 19,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_68A1534A-5864-ED11-9562-000D3AF41FC2
-118,Motion 119,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_BDBE4ACC-4D23-EF11-840A-6045BD5D4A28
-120,Motion 18,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_293536CB-165A-ED11-9562-002248D51D1B
-122,Motion 150,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_704685B2-44A8-EF11-B8E8-000D3AE860D8
-122,Motion 151,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6C094B25-5CA8-EF11-B8E9-000D3A0C23B9
-122,Motion 126,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CDCBF915-2E24-EF11-840A-002248B1AE9E
-122,Motion 127,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_336ECD4C-2E24-EF11-840A-002248B1AE9E
-122,Motion 122,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_BA3100DB-6823-EF11-840A-002248B1AE9E
-122,Motion 123,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_92869D0B-6923-EF11-840A-002248B1AE9E
-122,Motion 100,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1C95F9FD-E400-EF11-9F89-000D3AF307CC
+mpp_id,motion_name,motion_href,motion_details
+2,Motion 149,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1235E151-C3A6-EF11-B8E9-000D3A0C23B9,"That, in the opinion of this House, the Government of Ontario should immediately adopt the recommendations of the arts, culture, and heritage sector by permanently increasing, indexed to inflation, the annual operating budgets of the Ontario Arts Council, Experience Ontario, Community Museum Operating Grant, Ontario Creates, Ontario's public library funding, reviewing the Status of Ontario's Artists Act, 2007 and ensuring real affordable housing and workspaces."
+2,Motion 146,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B91C905E-E6A5-EF11-B8E8-000D3AE860D8,"That, in the opinion of this House, the Government of Ontario should immediately adopt the recommendations of the arts, culture, and heritage sector by permanently increasing, aligned with inflation, the annual operating budgets of the Ontario Arts Council, Community Museum Operating Grant, Ontario Creates, Ontario's public library funding, reviewing the Status of Ontario's Artists Act, 2007 and ensuring real affordable housing and workspaces.
+Type	Date	Member	Event	Outcome
+motion	November 19, 2024	-	Withdrawn	-"
+2,Motion 138,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FC522856-B79B-EF11-8A6A-000D3A0C23B9,"That, in the opinion of this House, the Government of Ontario should immediately create a Provincial Arts, Culture and Heritage Strategy including the formation of a Minister's Advisory Council for Arts and Culture with routine public reporting of the council's findings and recommendations."
+2,Motion 143,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F91A0BFF-B79B-EF11-8A6A-000D3A0C23B9,"That, in the opinion of this House, the Government of Ontario should provide clarity to Ontarians on which Minister is responsible for heritage by immediately appointing a Minister responsible for Heritage."
+2,Motion 140,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F5412AAC-B79B-EF11-8A6A-000D3A0C23B9,"That, in the opinion of this House, the Government of Ontario should increase base provincial funding for Ontario's public libraries to reflect the growing needs of our public libraries, library workers, and diverse communities."
+2,Motion 139,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E2E0EE80-B79B-EF11-8A6A-000D3A0C23B9,"That, in the opinion of this House, the Government of Ontario should immediately adopt the recommendations of the arts, culture, and heritage sector by permanently increasing the annual operating budget of the Ontario Arts Council, Community Museum Operating Grant, review the Status of Ontario's Artists Act, 2007 and ensure real affordable housing and workspaces."
+2,Motion 141,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_711F37CB-B79B-EF11-8A6A-000D3A0C23B9,"That, in the opinion of this House, the Government of Ontario should immediately include fashion as part of Ontario's arts and culture sector by recognizing its economic and job creation benefit by providing the funding necessary to strengthen and promote the fashion industry in Ontario."
+2,Motion 142,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_2A883CE5-B79B-EF11-8A6A-000D3A0C23B9,"That, in the opinion of this house, the Government of Ontario should immediately include the art form of comedy as part of Ontario's culture sector by recognizing its economic and job creation benefit by providing the funding necessary to strengthen and promote comedy in Ontario."
+2,Motion 133,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_364C78A6-B090-EF11-8A6A-000D3A0C23B9,"That, in the opinion of this House, the Government of Ontario should adopt the recommendations from patients and families, health care professionals, and staff by eliminating hospital parking fees in the province of Ontario and adequately funding public hospitals for patients and families, health care professionals and staff as a concrete and immediate step towards assisting Ontarians."
+2,Motion 53,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_3D56F190-A0EE-ED11-8848-000D3AF4F44A,"That, in the opinion of this House, the Ford government should implement an immediate ban on above guideline rent increases (AGIs) for landlords or real estate investment trusts (REITs) operating five or more rental units as part of an affordable housing strategy providing relief from predatory gouging and high rent inflation."
+2,Motion 12,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E9A92766-FB29-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should amend the Hairstyling Program Standard to mandate culturally-responsive training specific to Black and textured hair, and embed this within the Guidelines for the Film and Television Industry with specific timelines for its full implementation, to promote health and safety in Ontario's film, television and theatre sectors for all performers, create Ontario jobs and build capacity in the province."
+2,Motion 10,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_D1913B87-F929-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should apply an intersectional gender-plus equity lens within the Ministry of Labour, Immigration, Training, and Skills Development and to any legislation brought forward by this Ministry as part of efforts to aid in the economic ""she-covery"" and recognize the disproportionate economic impact the COVID-19 pandemic has had on women and non-binary-­identifying people of Ontario, particularly those of racialized, Indigenous, 2SLGBTQIA+, disability and other marginalized communities."
+2,Motion 11,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_89FD4738-FB29-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should immediately implement a ""Little Jamaica"" Small Business and Community Economic Health and Wellness Strategy which would include needs-based financial compensation for Eglinton West and Midtown businesses impacted by COVID-19, flooding and LRT construction; mandated transparent and timely communications between Metrolinx, the Ministry of Transportation, Ministry of Economic Development, Job Creation and Trade, Ministry of Red Tape Reduction and ""Little Jamaica"" small business and local community members; commercial and residential rent relief with a moratorium on evictions for the duration of the pandemic; heritage designation of Little Jamaica accompanied by an arts and culture plan; and the construction of real affordable housing in the community, prioritizing inclusionary zoning in all new builds."
+2,Motion 13,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_68CF727C-FB29-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should amend the Residential Tenancies Act, 2006 (RTA) to offer better support to tenants who are being temporarily evicted due to renovations (""renovictions"") and redevelopments (""demovictions"") by requiring developers to: assist with moving logistics and costs; and either pay the difference in rent for a similar unit in the same neighbourhood or provide a housing option deemed acceptable by the tenant."
+2,Motion 9,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0AAF6F51-F929-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should address the significant labour shortages in hospitals and other critical public infrastructure via a strategy that includes the immediate repeal of the Protecting a Sustainable Public Sector for Future Generations Act, 2019 (formerly known as Bill 124); increases frontline worker salaries in keeping with the rising cost of living; provides 10 employer-paid sick days and 14 paid sick days during a declared health emergency; and reflects the realities faced by all workers, including women-identifying workers and other historically marginalized workers."
+3,Motion 34,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_8AB416F7-CAB6-ED11-B596-002248D5A587,"That, in the opinion of this House, the Government of Ontario should transform the social assistance rate structure so that all adults have access to a consistent and equitable level of support regardless of their living situation.
+Type	Date	Member	Event	Outcome
+motion	March 22, 2023	Teresa Armstrong	Moved	-
+motion	March 22, 2023	-	Debated	-
+motion	March 22, 2023	-	Question put	Vote deferred
+motion	March 23, 2023	-	Vote	Lost on division"
+6,Motion 48,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C24192E3-1ED3-ED11-A7C6-000D3AF4F44A,"That, in the opinion of this House, the Government of Ontario should continue supporting police services in locating vulnerable missing persons and assess innovative solutions that can bring more loved ones home. 
+Type	Date	Member	Event	Outcome
+motion	April 26, 2023	Robert Bailey	Moved	-
+motion	April 26, 2023	-	Debated	-
+motion	April 26, 2023	-	Vote	Carried"
+7,Motion 113,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_2997F37B-FD1C-EF11-840A-002248B1AE9E,"That, in the opinion of this House, the Government of Ontario should officially recognize the dedication, perseverance and sacrifice of members of emergency services.
+Type	Date	Member	Event	Outcome
+motion	October 23, 2024	Patrice Barnes	Moved	-
+motion	October 23, 2024	-	Debated	-
+motion	October 23, 2024	-	Question put	-
+motion	October 23, 2024	-	Vote	Carried"
+7,Motion 6,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F857BBB6-9A28-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should continue to build on the progress that they've made working with the College of Nurses of Ontario and Ontario Health to expand the supervised practice experience partnership program, and to reduce the financial barriers that may be stopping some internationally educated nurses from receiving accreditation, and the number of Internationally Educated Nurses accredited annually should be posted.
+Type	Date	Member	Event	Outcome
+motion	November 1, 2022	Patrice Barnes	Moved	-
+motion	November 1, 2022	-	Debated	-
+motion	November 1, 2022	-	Vote	Carried"
+9,Motion 93,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_71268EB6-65FB-EE11-9F89-6045BD61612F,"That, in the opinion of this House, the Legislative Assembly of Ontario calls on the Ontario Government to develop a plan to make it quick, easy and affordable to stratify and/or sever a property on a residential lot with the goal of enabling people to buy and live in separate homes on one property, and that this plan should include: the creation of standard purchasing agreements, legal templates, a dispute resolution process, and proposed regulatory and legislative changes to the Municipal Act, 2001; the City of Toronto Act, 2006; the Residential Tenancies Act, 2006; the Condominium Act, 1998; the Ontario Building Code Act, 1998; and the Planning Act."
+9,Motion 78,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CCC8FADE-4F94-EE11-BE37-6045BD5DE15D,"That, in the opinion of this House, the Government of Ontario should immediately instate a moratorium on evictions for the purpose of demolition to keep renters housed and help protect Ontario's supply of affordable rental homes."
+9,Motion 61,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_8CFFF3E7-B25B-EE11-8DF0-000D3AF4FB27,"That, in the opinion of this House, the Government of Ontario must establish a provincial short-term rental registry and restrict short term rentals and mid-term rentals to a person's primary residence in areas with a rental vacancy rate of 5% or less."
+9,Motion 60,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B2B7F5C4-A104-EE11-8F6E-000D3AF4FB27,"That, in the opinion of this House, the Government of Ontario should immediately permit the Toronto District School Board to collect development charges to help fund the construction, repair and maintenance of schools as part of an overall funding plan to build and maintain schools to a state of good repair."
+9,Motion 35,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B98B6DE9-D2B6-ED11-B596-002248D5A587,"That, in the opinion of this House, the Government of Ontario should direct municipalities in the Greater Golden Horseshoe Area to update their official plans to meet current and future housing, job and growth needs by keeping their January 2022 urban boundaries intact."
+9,Motion 30,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_8FB4B154-5D76-ED11-81AC-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should make the necessary legislative changes to end exclusionary zoning and permit the as-of-right construction of townhomes, duplexes, triplexes and fourplexes in municipalities, and higher density along public transit routes."
+9,Motion 29,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_04C4BE30-5D76-ED11-81AC-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should direct municipalities in the Greater Golden Horseshoe Area to update their official plans to meet current and future housing, job, and growth needs by keeping their current urban boundaries intact."
+9,Motion 27,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_16C01D33-A575-ED11-81AC-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should expand the jurisdiction and enforcement power of the Condo Authority Tribunal so the tribunal can hear, rule and resolve the issues that most impact condo residents, including condo board governance and elections, condo rules, property management performance, condo fees, maintenance and repairs, reserve funds, and short-term rentals.
+Type	Date	Member	Event	Outcome
+motion	March 7, 2023	Jessica Bell	Moved	-
+motion	March 7, 2023	-	Debated	-
+motion	March 7, 2023	-	Question put	Vote deferred
+motion	March 8, 2023	-	Vote	Lost on division"
+9,Motion 25,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_9B94566D-B374-ED11-81AC-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should require comprehensive reviews of all Ontario zoos, zoo-type exhibits and private wild animal menageries to identify and address violations of the Provincial Animal Welfare Services Act, and to make the results of the comprehensive reviews publicly available."
+9,Motion 26,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_4237C7AA-B374-ED11-81AC-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should develop and implement a mandatory licensing program for all facilities, businesses, organizations and private citizens that house native or exotic wild animals with the aim of phasing out situations that do not meet acceptable animal welfare and public health and safety standards."
+9,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_F8A722D4-FA65-ED11-9562-002248D51D1B,
+9,Motion 7,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_010E2ECB-9A28-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Legislative Assembly of Ontario should work with public health units to establish a provincial maximum temperature for rental units to ensure rental units are safe and a tenants' right to a reasonable enjoyment of their unit is maintained."
+10,Motion 22,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_80407A70-CDDC-EE11-904D-6045BD5D65A7,"That this House approves in general the Budgetary Policy of the Government.
+Type	Date	Member	Event	Outcome
+motion	March 26, 2024	Peter Bethlenfalvy	Moved	-
+motion	March 26, 2024	Doug Ford	Seconded	-
+motion	March 26, 2024	-	Debated	Debate adjourned
+motion	March 28, 2024	-	Debated	Debate adjourned
+motion	March 28, 2024	-	Debated	Debate adjourned
+motion	April 11, 2024	-	Debated	-
+motion	April 11, 2024	-	Question put	Vote deferred
+motion	April 15, 2024	-	Vote	Carried on division"
+10,Motion 11,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_12B742A3-F7BC-ED11-83FE-000D3AF40FC6,"That this House approves in general the Budgetary Policy of the Government.
+Type	Date	Member	Event	Outcome
+motion	March 23, 2023	Peter Bethlenfalvy	Moved	-
+motion	March 23, 2023	Doug Ford	Seconded	-
+motion	March 23, 2023	-	Debated	Debate adjourned
+motion	March 30, 2023	-	Debated	Debate adjourned
+motion	March 30, 2023	-	Debated	Debate adjourned
+motion	April 4, 2023	-	Debated	Debate adjourned
+motion	April 4, 2023	-	Debated	-
+motion	April 4, 2023	-	Question put	-
+motion	April 4, 2023	-	Vote	Carried on division"
+11,Motion 148,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C6A2A042-B5A6-EF11-B8E8-6045BD5D8FEB,"That, in the opinion of this House, the Government of Ontario should ensure fairness and affordability in families' everyday living expenses by cutting the income tax rate for Ontario families by reducing the tax rate to 7.15% on the portion of income within the $51,446 to $75,000 range and eliminating the provincial portion of the Harmonized Sales Tax (HST) on home energy bills including but not limited to natural gas and hydro bills to reduce the financial burden on Ontario families."
+11,Motion 91,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AC6F09A8-4CF7-EE11-A1FE-6045BD61612F,"That, in the opinion of this House, the Government of Ontario should implement legislation to create a clear and transparent judicial process to remove municipal elected leaders from office for substantiated violations of workplace violence and harassment policies."
+12,Motion 5,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_06320B8E-8424-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Ministry of Agriculture, Food and Rural Affairs should continue to develop agricultural policy with an emphasis on food security and consideration of the entire agri­-food supply chain and advocate to the federal government to adopt similar policies related to agriculture and food processing, in the spirit of ensuring Ontario farmers remain productive and competitive.
+Type	Date	Member	Event	Outcome
+motion	October 26, 2022	Will Bouma	Moved	-
+motion	October 26, 2022	-	Debated	-
+motion	October 26, 2022	-	Vote	Carried"
+15,Motion 137,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F0A774E6-E896-EF11-8A69-000D3A0C23B9,"That, in the opinion of this House, the Government of Ontario should direct municipalities to set aside, and secure in perpetuity, a painted crosswalk in remembrance of Canadian military veterans and soldiers, to honour their service and sacrifice and to show deep appreciation for the priceless gift of freedom."
+15,Motion 116,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F7451730-8A22-EF11-840A-6045BD5D4A28,"That, in the opinion of this House, the Government of Ontario should liberalize public engagement and recognize electronic petitions as a valid, efficient, equitable and accessible form of public engagement when requesting action from the provincial Government. "
+18,Motion 62,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_D7BCD72E-BD5B-EE11-8DF0-000D3AF4FB27,"That, in the opinion of this House, medical isotopes should be formally recognized by the Government of Ontario in its life sciences and commercialization strategy because of their crucial role in medical research, the projected expansion of the global isotopes market and Ontario's potential for international recognition. 
+Type	Date	Member	Event	Outcome
+motion	October 17, 2023	Rick Byers	Moved	-
+motion	October 17, 2023	-	Debated	-
+motion	October 17, 2023	-	Vote	Carried"
+19,Motion 23,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_5602B34D-ECEA-EE11-A1FE-6045BD5F5163,"That the Standing Orders be amended as follows:
+Standing Order 24(a) is deleted and the following is substituted:
+Every Member desiring to speak must rise in his or her place and address the Speaker, in either English, French, or an Indigenous language spoken in Canada. If a Member wishes to address the House in an Indigenous language, they shall, prior to taking their seat for the first time, notify the Clerk of the House of the language in which they intend to speak so the Speaker may arrange appropriate interpretation and translation capabilities.
+For thirty days following the adoption of this motion, Standing Order 24(a) is suspended and the following is substituted:
+Every Member desiring to speak must rise in his or her place and address the Speaker, in either English, French, or an Indigenous language spoken in Canada. If a Member wishes to address the House in an Indigenous language, they shall notify the Clerk of the House of the language in which they intend to speak so the Speaker may arrange appropriate interpretation and translation capabilities.
+Type	Date	Member	Event	Outcome
+motion	March 26, 2024	Paul Calandra	Moved	-
+motion	March 26, 2024	-	Debated	-
+motion	March 26, 2024	-	Question put	-
+motion	March 26, 2024	-	Vote	Carried"
+19,Motion 24,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_21CC4BC1-ECEA-EE11-A1FE-6045BD5F5163,"That the Standing Orders be amended as follows:
+Standing Order 7(f) is deleted and the following substituted:
+As soon as possible after New Year's Day, the Clerk of the House shall publish a calendar which shows the days on which the House shall meet according to the Standing Orders.
+Standing Order 9(f) is deleted and the following substituted:
+No later than 6:00 p.m. on any day that the House meets, the Government House Leader may indicate in the House that no business is to be called during Orders of the Day on the next sitting day's morning meeting, and in such case the House shall meet at 10:15 a.m. on that next sitting day.
+Standing Order 36(b) is amended by deleting the words ""to the Minister or to his or her Parliamentary Assistant"" and substituting the words ""to a Minister or to a Parliamentary Assistant"".
+For the duration of the 43rd Parliament Standing Order 40(e) is suspended and the following provisional Standing Order is substituted:
+40(e) Following ministerial statements a representative or representatives of the Official Opposition and an independent Member or independent Members may comment for up to a total of 8 minutes, commencing with the Official Opposition.
+Standing Order 42(b) is amended by adding the following at the end:
+""but shall not read the text of the petition.""
+Standing Order 46(c) is deleted.
+Standing Order 49(a) is amended by deleting ""on a Tuesday, Wednesday or Thursday"".
+Standing Order 50(b) is amended by deleting ""If a recorded vote is requested by 5 Members, division bells shall be limited to 10 minutes"".
+Standing Order 61(d) is amended by deleting ""If a recorded vote is requested by 5 Members, division bells shall be limited to 10 minutes"".
+Standing Order 62(b) is deleted and the following is substituted:
+Upon tabling or upon the appointment of committees pursuant to Standing Order 110(a) and assignment of Ministries and Offices pursuant to Standing Order 113(b), the Estimates shall be deemed to be referred to the Standing Committees to which the respective Ministries and Offices were assigned.
+Standing Order 63(b) is amended by adding the following sub-clause following subclause (ii):
+The Estimates of the Office of the Premier and the Estimates of the Cabinet Office shall constitute one selection and represent a single turn taken under Standing Order 63(b)(ii).
+Standing Order 63(d) is deleted and the following is substituted:
+63(d) The time for the consideration of the Estimates of each Ministry or Office shall be determined by the respective committee.
+i) The Estimates of the Office of the Lieutenant Governor, if selected by a committee, shall have no time allotted to them, and when these Estimates are considered, the Chair shall put, without further amendment or debate, every question necessary to dispose of these Estimates.
+ii) The Estimates of the Office of the Premier and the Estimates of the Cabinet Office shall be allotted time jointly and shall be considered concurrently.
+Standing Order 65(a) is deleted and the following is substituted:
+Upon tabling or upon the appointment of committees pursuant to Standing Order 110(a) and assignment of Ministries and Offices pursuant to Standing Order 113(b), all Supplementary Estimates shall be deemed referred to the Standing Committee to which their Ministry or Office has been assigned.
+Standing Order 70(b) is amended by deleting ""If a recorded vote is requested by 5 Members, division bells shall be limited to 10 minutes"".
+Standing Order 85(a)(ii) is amended by deleting ""$150"" and substituting the words ""a fee in an amount prescribed by the Standing Committee on Procedure and House Affairs, which may be amended by that committee from time to time.""
+Standing Order 85(c) is deleted and the following is substituted:
+Where, at the request of the applicant, a Standing Order is suspended with reference to a Private Bill, a charge shall be levied in an amount which shall be prescribed by the Standing Committee on Procedure and House Affairs, and which may be amended by that committee from time to time.
+For the duration of this Parliament, the following provisional Standing Order is added:
+85(h) Until the Standing Committee on Procedure and House Affairs has set new fees pursuant to Standing Order 85(a)(ii) and 85(c), the fees shall remain at the amounts indicated in the Standing Orders as they were on the first day of the 43rd Parliament.
+Standing Order 85(g)(ii) is amended by adding the words ""given further consideration by the House or"" after ""not"".
+Standing Order 99 is amended by deleting:
+""The rules of procedure and the fees and costs related to applications for private bills are set out in the Standing Orders of the Legislative Assembly. Copies of the Standing Orders, and the guide ""Procedures for Applying for Private Legislation"", may be obtained from the Legislative Assembly's Internet site at www.ola.org or from:""
+and substituting
+""The procedures related to applications for Private Bills are set out in the Standing Orders of the Legislative Assembly and the costs of applications are set by the Standing Committee on Procedure and House Affairs. Information is available at www.ola.org, or may be requested from:""
+Standing Order 100(c) is amended by deleting ""8"" and replace with ""9"".
+Standing Order 110 is deleted and the following is substituted:
+Within the first 10 sessional days following the commencement of a Parliament, the membership of the Standing Committee on Procedure and House Affairs shall be appointed, on motion with notice, for the duration of the Parliament, which committee is empowered:
+a) at the beginning of a Parliament, and from time to time as may be required, to appoint or revise, for the duration of a Parliament, the membership of the Standing Committees referred to in Standing Order 110.1 and those Select Committees which the House has resolved should have their membership appointed under this standing order and shall make a report thereon to the House, which report shall be deemed to be adopted;
+b) to review on its own initiative or at the request of the Speaker or the direction of the House and to report to the House its observations, opinions and recommendations on the Standing Orders of the House and the procedures in the House and its Committees;
+c) to advise the Speaker and the Board of Internal Economy, and to report to the House its observations, opinions and recommendations on the administration of the House and the provision of services and facilities to Members;
+d) to act as an advisory body to the Speaker and the House on the television broadcast system and to conduct reviews, at least on an annual basis, of the televising of the legislative proceedings and of the guidelines established by the House with respect to the television broadcast system;
+e) to be the Committee which is empowered to review and consider from time to time the Reports of the Ombudsman as they become available; and, as the Committee deems necessary, pursuant to subsection 15(1) of the Ombudsman Act, to formulate general rules for the guidance of the Ombudsman in the exercise of his or her functions under the Act; and to report thereon to the Legislature and to make such recommendations as the Committee deems appropriate;
+f) and to be the Committee provided for by section 33 of Part III (Regulations) of the Legislation Act, 2006, and having the terms of reference as set out in that section, namely: to be the Committee to which all regulations stand permanently referred; and to examine the regulations with particular reference to the scope and method of the exercise of delegated legislative power without reference to the merits of the policy or objectives to be effected by the regulations or enabling statutes, but in so doing regard shall be had to the following guidelines:
+i. Regulations should not contain provisions initiating new policy, but should be confined to details to give effect to the policy established by the statute;
+ii. Regulations should be in strict accord with the statute conferring of power, particularly concerning personal liberties;
+iii. Regulations should be expressed in precise and unambiguous language;
+iv. Regulations should not have retrospective effect unless clearly authorized by statute;
+v. Regulations should not exclude the jurisdiction of the courts;
+vi. Regulations should not impose a fine, imprisonment or other penalty;
+vii. Regulations should not shift the onus of proof of innocence to a person accused of an offence;
+viii. Regulations should not impose anything in the way of a tax (as distinct from fixing the amount of a licence fee, or the like); and
+ix. General powers should not be used to establish a judicial tribunal or an administrative tribunal,
+and the Committee shall from time to time report to the House its observations, opinions and recommendations as required by section 33 of Part III (Regulations) of the Legislation Act, 2006, but before drawing the attention of the House to a regulation or other statutory instrument, the Committee shall afford the ministry or agency concerned an opportunity to furnish orally or in writing to the Committee such explanation as the ministry or agency thinks fit;
+g) to be the committee provided for in subsection 7(1) and section 12 of the Queen's Park Restoration Secretariat Act, 2023 and subsection 108.3(1) and section 108.5 of the Legislative Assembly Act and, without limitation, to have the general mandate to inquire into and make recommendations respecting any project to restore the legislative building at Queen's Park including any relocation of legislative operations to a temporary location throughout the project.
+The following Standing Order is added:
+110.1 The Standing Committees shall be:
+a) Standing Committee on Justice Policy;
+b) Standing Committee on Social Policy;
+c) Standing Committee on Heritage, Infrastructure and Cultural Policy;
+d) Standing Committee on the Interior;
+e) Standing Committee on Finance and Economic Affairs which is empowered to consider and report to the House its observations, opinions and recommendations on the fiscal and economic policies of the Province and to which all related documents shall be deemed to have been referred immediately when the said documents are tabled;
+f) Standing Committee on Government Agencies which is empowered to review and report to the House its observations, opinions and recommendations on the operation of all agencies, boards and commissions to which the Lieutenant Governor in Council makes some or all of the appointments, and all corporations to which the Crown in right of Ontario is a majority shareholder, such reviews to be made with a view to reducing possible redundancy and overlapping, improving the accountability of agencies, rationalizing the functions of the agencies, identifying those agencies or parts of agencies which could be subject to sunset provisions, and revising the mandates and roles of agencies, and to review the intended appointments of persons to agencies, boards and commissions and of directors to corporations in which the Crown in right of Ontario is a majority shareholder, excluding reappointments and appointments for a term of 1 year or less, according to the following procedures:
+1. A Minister of the Crown shall lay on the Table a certificate stating that the Lieutenant Governor in Council intends to appoint a person to an agency, board or commission or to the board of directors of a corporation, together with a copy of the position description and a summary of the person's qualifications, which documents shall be deemed to be referred to the Committee.
+2. Upon receipt of a certificate as referred to in paragraph 1, the Clerk of the Committee shall distribute to each member of the Sub-committee on Committee Business a list of intended appointees in respect of whom a certificate has been received.
+3. The Sub-committee shall meet at its own initiative, at the request of the Committee, or at the request of any member of the Sub-committee, to select from among the intended appointees referred to in paragraph 1 those intended appointees the Committee will review. Each member of the Sub-committee, other than the Chair, may choose one or more of the intended appointees for review from the certificates provided by the Clerk of the Committee.
+4. The Sub-committee shall report to the Committee on the intended appointees for review. Upon receiving the report, the Committee shall determine a date for the review of the intended appointees as selected by the members of the Sub-committee. The report shall specify the amount of time allocated for the consideration of each intended appointee and the date on which each will be reviewed. An equal amount of time shall be allocated for review of each member's selections, and where a member of the Sub-committee has selected more than one intended appointee the time available to review that member's selections shall be allocated among his or her selections.
+5. Upon notice from the Clerk of the Committee that an intended appointee has been selected for review, the Minister shall ensure that the Committee receives a copy of the intended appointee's resume or biographical information and a description of the responsibilities of the position.
+6. A Sub-committee member may choose to defer the consideration of one or more of the intended appointees that the member has chosen until a future meeting of the Committee at which intended appointees are to be reviewed so long as the consideration of the intended appointee has not previously been deferred.
+7. In reviewing an intended appointee, the Committee shall not call as a witness any person other than the intended appointee.
+8. At the conclusion of the meeting held to review an intended appointment, the Committee shall determine whether or not it concurs in the intended appointment. Any member may request that the Committee defer its determination to the next meeting of the Committee, but in any event no later than 7 calendar days. In its report, the Committee shall state whether or not it concurs in the intended appointments and may state its reasons.
+9. Whether or not the House stands adjourned, the Committee shall release its report by depositing it the same day with the Clerk of the House and upon receipt of the report by the Clerk the report shall be deemed to be adopted by the House.
+10. A report that the Committee will not review an intended appointee shall be deemed to have been made by the Committee and adopted by the House in any of the following cases:
+i. a report respecting the intended appointee has not been made by the Committee within 30 calendar days following the day on which the Minister tables the certificate referred to in paragraph 1,
+ii. the Sub-committee does not at its first meeting following the day on which the Minister tables the certificate select the intended appointee for review, or
+iii. the intended appointee has not been selected for review by the Sub-committee within 14 days following the day on which the Minister tabled the certificate.
+11. The Committee by unanimous agreement may extend any of the deadlines in paragraph 10.
+12. The Clerk of the Committee shall give the Minister who tabled the certificate written notification of any decision respecting the appointment made by the Committee or the Sub-committee on Committee Business.
+13. During any adjournment of the House that exceeds 1 week, the Committee shall meet on such day or days as may be determined by the Sub-committee, but in any event not more than 3 times per month.
+g) Standing Committee on Public Accounts which is empowered to review and report to the House its observations, opinions and recommendations on the Report of the Auditor General and the Public Accounts, which documents shall be deemed to have been permanently referred to the Committee as they become available.
+Standing Order 113(a) is amended by deleting the words ""Standing Orders 110(a), (b), (c), (d), (e), and (g)"" and replacing it with the words ""Standing Orders 110(a) and 110.1 (a), (b), (c), (d), and (e)"".
+Standing Order 113(b) is amended by adding the following at the end:
+""The Office of the Premier and the Cabinet Office shall be assigned to the same Standing Committee.""
+The following new Standing Order is added:
+113(c) If the Estimates are tabled in the House prior to the appointment of committee membership pursuant to Standing Order 110(a) or prior to the assignment of Ministries and Offices to committees pursuant to Standing Order 113(b), all Ministries and Offices shall stand assigned to the Standing Committee on Procedure and House Affairs until membership has been appointed and assignment has been completed.
+Standing Order 115(b) is deleted and the following is substituted:
+Notwithstanding clause (a), each independent Member may deposit, with the Clerk of the Standing Committee on Procedure and House Affairs, his or her request to be appointed to at least 1 Standing Committee. An independent Member may state his or her Committee preference but such statement of preference is not binding.
+Standing Order 115(d) is deleted.
+Standing Order 115(e) is deleted and the following is substituted:
+At any time before or during a committee meeting, a temporary substitution in the membership of a Standing or Select Committee may be made provided a notification thereof, signed by the Member acting as the Whip of a recognized party, is filed with the Clerk of the Committee. If notice of a substitution is delivered while a committee meeting is in progress, the notification shall be delivered by hand to the Clerk of the Committee.
+Standing Order 115(f) is deleted.
+Standing Order 119(a) is amended by deleting ""110"" and replacing it with ""110 and 110.1"".
+Standing Order 128(a) is amended by deleting the words ""Standing Orders 110(a), (b), (c), (d), (e) and (g)"" and replacing it with the words ""Standing Orders 110(a) and 110.1 (a), (b), (c), (d) and (e)"".
+Standing Order 143 is deleted; and
+That the Clerk is authorized to re-number the Standing Orders and to make such other consequential, editorial or other minor changes as may be required to ensure a consistent form of expression throughout the Standing Orders.
+Type	Date	Member	Event	Outcome
+motion	March 27, 2024	Trevor Jones	Moved	-
+motion	March 27, 2024	-	Debated	Debate adjourned
+motion	March 27, 2024	-	Debated	-
+amendment	March 27, 2024	John Fraser	Moved	-
+amendment	March 27, 2024	-	Debated	-
+amendment to amendment	March 27, 2024	Ted Hsu	Moved	-
+amendment to amendment	March 27, 2024	-	Debated	Debate adjourned
+amendment to amendment	April 8, 2024	-	Debated	-
+amendment to amendment	April 8, 2024	-	Question put	Vote deferred
+amendment to amendment	April 8, 2024	-	Vote	Lost on division
+amendment	April 8, 2024	-	Question put	-
+amendment	April 8, 2024	-	Vote	Lost
+motion	April 8, 2024	-	Question put	-
+motion	April 8, 2024	-	Vote	Carried"
+19,Motion 21,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_9E3ED2AF-C3D1-EE11-904D-002248AEE710,"That, pursuant to Standing Order 7(c), the House shall continue to meet past the ordinary hour of adjournment until midnight on the following dates: Monday, May 6; Tuesday, May 7; Wednesday, May 8; Thursday, May 9; Monday, May 13; Tuesday, May 14; Wednesday, May 15; Thursday, May 16; Monday, May 27; Tuesday, May 28; Wednesday, May 29; Thursday, May 30; Monday, June 3; Tuesday, June 4; Wednesday, June 5; Thursday, June 6; Monday, June 10; Tuesday, June 11; Wednesday, June 12, and Thursday, June 13, 2024.
+Type	Date	Member	Event	Outcome
+motion	February 26, 2024	Trevor Jones	Moved	-
+motion	February 26, 2024	-	Vote	Carried"
+19,Motion 20,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_A6728AE0-B58F-EE11-8179-0022483C5061,"That, pursuant to Standing Order 50 and notwithstanding any other Standing Order or special Order of the House relating to Bill 136, An Act to amend the Greenbelt Act, 2005 and certain other Acts, to enact the Duffins Rouge Agricultural Preserve Act, 2023, to repeal an Act and to revoke various regulations, Bill 150, An Act to enact the Official Plan Adjustments Act, 2023 and to amend the Planning Act with respect to remedies, and Bill 154, An Act to enact the Recovery Through Growth Act (City of Toronto), 2023 and the Rebuilding Ontario Place Act, 2023;
+That when Bill 136 and Bill 150 are called for Third Reading, one hour of debate shall be allotted to the Third Reading stages of each Bill, with 30 minutes apportioned to the members of His Majesty's Government and 30 minutes to the members of His Majesty's Loyal Opposition; and at the end of this time, the Speaker shall interrupt the proceedings and shall put every question necessary to dispose of this stage of each Bill, without further debate or amendment; and
+That when Bill 154 is next called as a Government Order, the Speaker shall immediately put every question necessary to dispose of the Second Reading stage of the Bill without further debate or amendment; and
+That Bill 154 shall be Ordered for Third Reading, which Order shall be immediately called; and
+That when the Order for Third Reading is called the Speaker shall put every question necessary to dispose of the Third Reading stage of Bill 154 without further debate or amendment; and
+That no deferral be permitted on any votes on Bill 136, Bill 150, or Bill 154; and
+That, in the case of any division relating to any proceedings on the Bills, the division bells shall be limited to five minutes.
+Amendment history
+Type	Date	Member	Event	Outcome
+motion	December 4, 2023	Todd McCarthy	Moved	-
+motion	December 4, 2023	-	Debated	-
+amendment	December 4, 2023	Todd McCarthy	Moved	-
+amendment	December 4, 2023	-	Debated	-
+amendment to amendment	December 4, 2023	John Vanthof	Moved	-
+amendment to amendment	December 4, 2023	-	Debated	-
+amendment to amendment	December 4, 2023	-	Question put	Vote deferred
+amendment to amendment	December 5, 2023	-	Vote	Lost on division
+amendment	December 5, 2023	-	Vote	Carried on division
+motion, as amended	December 5, 2023	-	Vote	Carried on division"
+19,Motion 19,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_BDE0D5B1-3C6C-EE11-8179-000D3AF4F44A,"That this House expresses its disapproval of, and dissociates itself from, continued disreputable conduct by the Member for Hamilton Centre, most specifically her use of social media to make antisemitic and discriminatory statements related to the existence of the State of Israel and its defence against Hamas terrorists; and
+That this House demands the Member desist from further conduct that is inappropriate and unbecoming of a Member of the Legislative Assembly of Ontario; and
+That the Speaker is authorized to not recognize the Member for Hamilton Centre in the House until the Member retracts and deletes her statements on social media and makes an apology in her place in the House.
+Type	Date	Member	Event	Outcome
+motion	October 18, 2023	Paul Calandra	Moved	-
+motion	October 18, 2023	-	Debated	-
+amendment	October 18, 2023	Trevor Jones	Moved	-
+amendment	October 18, 2023	-	Debated	-
+amendment to amendment	October 18, 2023	Todd McCarthy	Moved	-
+amendment to amendment	October 18, 2023	-	Debated	Debate adjourned
+amendment to amendment	October 19, 2023	-	Debated	Debate adjourned
+amendment to amendment	October 19, 2023	-	Debated	Debate adjourned
+amendment to amendment	October 23, 2023	-	Debated	-
+amendment to amendment	October 23, 2023	John Jordan	Moved closure	Vote deferred
+amendment to amendment	October 23, 2023	-	Closure	Carried on division
+motion	October 23, 2023	-	Vote	Carried on division"
+19,Motion 18,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_B49F015C-3B6C-EE11-8179-000D3AF4FD82,"That this House condemn the ongoing and reprehensible attacks being carried out by the terrorist organization Hamas, including the slaughter, rape, and kidnapping of innocent Israeli civilians, including babies, children, and seniors, and recognize the inalienable right of the State of Israel to defend itself and its people against this horrific violence.
+Type	Date	Member	Event	Outcome
+motion	October 17, 2023	Trevor Jones	Moved	-
+motion	October 17, 2023	-	Debated	-
+amendment	October 17, 2023	Michael Kerzner	Moved	-
+amendment	October 17, 2023	-	Debated	-
+amendment to amendment	October 17, 2023	Andrea Khanjin	Moved	-
+amendment to amendment	October 17, 2023	-	Debated	Debate adjourned
+amendment to amendment	October 17, 2023	-	Debated	Debate adjourned
+amendment to amendment	October 18, 2023	-	Debated	-
+amendment to amendment	October 18, 2023	Paul Calandra	Moved closure	Vote deferred
+motion	October 19, 2023	-	Closure	Carried on division
+motion	October 19, 2023	-	Vote	Carried on division"
+19,Motion 16,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_FB1863EC-C85B-EE11-8DF0-000D3AF4FD82,"That, pursuant to Standing Order 7(c), the House shall continue to meet past the ordinary hour of adjournment until midnight on the following dates: Wednesday, November 15; Thursday, November 16; Monday, November 20; Tuesday, November 21; Wednesday, November 22; Thursday, November 23; Monday, November 27; Tuesday, November 28; Wednesday, November 29; Thursday, November 30; Monday, December 4; Tuesday, December 5; Wednesday, December 6; Thursday, December 7; Monday, December 11; Tuesday, December 12; Wednesday, December 13; and Thursday, December 14, 2023. 
+Type	Date	Member	Event	Outcome
+motion	October 5, 2023	Trevor Jones	Moved	-
+motion	October 5, 2023	-	Vote	Carried"
+19,Motion 17,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_630B043E-CE5B-EE11-8DF0-000D3AF4FB27,"That the Legislative Assembly accept the report of the Integrity Commissioner dated August 30, 2023 and approve the recommendation contained therein. "
+19,Motion 15,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_EB533E65-5FFE-ED11-8F6C-000D3AF4FB27,"That, pursuant to Standing Order 50 and notwithstanding any other Standing Order or special Order of the House relating to Bill 112, An Act to provide for the dissolution of The Regional Municipality of Peel;
+That the Order of the House referring the Bill to the Standing Committee on Heritage, Infrastructure and Cultural Policy be discharged and the Bill shall be Ordered for Third Reading.
+Type	Date	Member	Event	Outcome
+motion	May 30, 2023	Charmaine Williams	Moved	-
+motion	May 30, 2023	-	Debated	-
+motion	May 30, 2023	-	Question put	Vote deferred
+motion	May 31, 2023	-	Vote	Carried on division"
+19,Motion 14,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_690F3851-5FFE-ED11-8F6C-000D3AF4FB27,"That, pursuant to Standing Order 50 and notwithstanding any other Standing Order or special Order of the House relating to Bill 112, An Act to provide for the dissolution of The Regional Municipality of Peel;
+That when the Bill is next called as a Government Order, the Speaker shall put every question necessary to dispose of the Second Reading stage of the Bill without further debate or amendment; and
+That no deferral of the Second Reading vote on the Bill shall be permitted; and
+That the Bill shall be Ordered for Third Reading, which Order may be called the same day.
+Type	Date	Member	Event	Outcome
+motion	June 6, 2023	-	Withdrawn	-"
+19,Motion 12,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_4C6BC40B-46C7-ED11-B596-0022486DC01C,"That, pursuant to Standing Order 7(c), the House shall continue to meet past the ordinary hour of adjournment until midnight on the following dates: Wednesday, April 26; Thursday, April 27; Monday, May 8; Tuesday, May 9; Wednesday, May 10; Thursday, May 11; Monday, May 15; Tuesday, May 16; Wednesday, May 17; Thursday, May 18; Monday, May 29; Tuesday, May 30; Wednesday, May 31; Thursday, June 1; Monday, June 5; Tuesday, June 6; Wednesday, June 7; and Thursday, June 8, 2023.
+Type	Date	Member	Event	Outcome
+motion	March 23, 2023	Paul Calandra	Moved	-
+motion	March 23, 2023	-	Vote	Carried on division"
+19,Motion 10,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_D0692160-CA74-ED11-81AC-002248D51D1B,"That, pursuant to Standing Order 50 and notwithstanding any other Standing Order or special Order of the House relating to Bill 51, An Act to amend the Legislative Assembly Act; 
+That the Order of the House referring the Bill to the Standing Committee on Procedure and House Affairs be discharged and the Bill shall be ordered for Third Reading; and 
+That when the Order for Third Reading of the Bill is called, the Speaker shall immediately put every question necessary to dispose of the Third Reading stage of the Bill without further debate or amendment. 
+Type	Date	Member	Event	Outcome
+motion	December 6, 2022	Andrea Khanjin	Moved	-
+motion	December 6, 2022	-	Debated	Debate adjourned
+motion	December 6, 2022	-	Debated	-
+motion	December 6, 2022	-	Question put	Vote deferred
+motion	December 7, 2022	-	Vote	Carried on division"
+19,Motion 7,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_D2957BFC-275A-ED11-9562-002248D51D1B,"That, pursuant to Standing Order 50 and notwithstanding any other Standing Order or special Order of the House relating to Bill 28, An Act to resolve labour disputes involving school board employees represented by the Canadian Union of Public Employees;
+That when the Bill is next called as a Government Order, the Speaker shall put every question necessary to dispose of the Second Reading stage of the Bill without further debate or amendment; and
+That the Bill shall be Ordered for Third Reading, which order may be called the same day; and
+That when the Order for Third Reading of the Bill is called, two hours shall be allotted to debate with 50 minutes for Members of His Majesty's Government, 50 minutes for Members of His Majesty's Loyal Opposition, and 20 minutes for the independent Members as a group; and
+That at the end of this time, the Speaker shall interrupt the proceedings and shall put every question necessary to dispose of this stage of the Bill without further debate or amendment; and
+ 
+That no deferral of the Second or Third Reading votes on the Bill shall be permitted.
+Type	Date	Member	Event	Outcome
+motion	November 2, 2022	Michael Parsa	Moved	-
+motion	November 2, 2022	-	Debated	Debate adjourned
+motion	November 2, 2022	-	Debated	-
+motion	November 2, 2022	-	Question put	Vote deferred
+motion	November 3, 2022	-	Vote	Carried on division"
+19,Motion 9,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_67E5DC64-285A-ED11-9562-002248D51D1B,"That, pursuant to Standing Order 7(c), the House shall continue to meet past the ordinary hour of adjournment until midnight on the following dates: Wednesday, November 2; Thursday, November 3; Monday, November 14; Tuesday, November 15; Wednesday, November 16; Thursday, November 17; Monday, November 21; Tuesday, November 22; Wednesday, November 23; Thursday, November 24; Monday, November 28; Tuesday, November 29; Wednesday, November 30; Thursday, December 1; Monday, December 5; Tuesday, December 6; Wednesday, December 7; and Thursday, December 8, 2022 for the purpose of considering government business.
+Type	Date	Member	Event	Outcome
+motion	November 2, 2022	Paul Calandra	Moved	-
+motion	November 2, 2022	-	Vote	Carried on division"
+19,Motion 8,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_11540E2D-285A-ED11-9562-002248D51D1B,"That, pursuant to Standing Order 50 and notwithstanding any other Standing Order or special Order of the House relating to Bill 28, An Act to resolve labour disputes involving school board employees represented by the Canadian Union of Public Employees;
+That the Order of the House referring the Bill to the Standing Committee on Social Policy be discharged and the Bill shall be Ordered for Third Reading; and
+That when the Order for Third Reading of the Bill is called, two hours shall be allotted to debate with 50 minutes for Members of His Majesty's Government, 50 minutes for Members of His Majesty's Loyal Opposition, and 20 minutes for the independent Members as a group; and
+That at the end of this time, the Speaker shall interrupt the proceedings and shall put every question necessary to dispose of this stage of the Bill without further debate or amendment; and
+That no deferral of the Third Reading vote on the Bill shall be permitted.
+Type	Date	Member	Event	Outcome
+motion	November 3, 2022	-	Withdrawn	-"
+19,Motion 6,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_8D652E87-7A2F-ED11-9DB0-000D3AF41FC2,"That an humble Address be presented to Her Majesty the Queen in the following words:
+ 
+""To the Queen's most Excellent Majesty: 
+Most Gracious Sovereign: 
+We, Your Majesty's most dutiful and loyal subjects, the Legislative Assembly of Ontario, in Parliament assembled, approach Your Majesty with our incomparable gratitude, respect, and admiration in this, the seventieth year of Your Majesty's long and glorious reign. 
+Your Majesty's resolute dedication to public service and Your loyal Canadian subjects has been vital to the growth of our young nation. It is Your Majesty's lifelong example of strength, compassion, and dignity which has shaped generations of Canadians from all walks of life. 
+We as a country, and we as a people, stand today, undoubtedly bettered by Your Majesty's indelible influence upon us. For the prodigious sacrifice of Your whole life to the service of Your peoples, our debt to Your Majesty cannot ever be repaid by our thanks, however we offer it nonetheless. 
+With the warmest affection held by all of us, and Your subjects whom we represent, we wish Your Majesty our sincere congratulations in Your Platinum Jubilee year. 
+May almighty God bless Your gracious Majesty with health, happiness, and the comfort of loving family for years ahead. Long may You reign."" 
+ 
+And that the said Address be engrossed. 
+Type	Date	Member	Event	Outcome
+motion	September 14, 2022	-	Withdrawn	-"
+19,Motion 5,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_F4E1A74B-D727-ED11-9DB2-002248D51D1B,"That the House recognize newly elected Members of Provincial Parliament for their contributions to public service and their communities.
+Type	Date	Member	Event	Outcome
+motion	September 1, 2022	Graydon Smith	Moved	-
+motion	September 1, 2022	-	Debated	Debate adjourned
+motion	June 8, 2023	-	Debated	Debate adjourned
+motion	September 26, 2023	-	Debated	Debate adjourned
+motion	February 22, 2024	-	Debated	Debate adjourned
+motion	May 27, 2024	-	Debated	Debate adjourned"
+19,Motion 4,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_DCA08541-EC23-ED11-9DB2-002248D51D1B,"That, pursuant to Standing Order 50 and notwithstanding any other Standing Order or Special Order of the House relating to Bill 2, An Act to implement Budget measures and to enact and amend various statutes and Bill 7, An Act to amend the Fixing Long-Term Care Act, 2021 with respect to patients requiring an alternate level of care and other matters and to make a consequential amendment to the Health Care Consent Act, 1996, when Bill 2 and Bill 7 are next called as Government Orders, the Speaker shall put every question necessary to dispose of the Second Reading stage of the Bills, without further debate or amendment, and at such time the Bills shall be ordered for Third Reading, which Orders may be called that same day; and
+That, when the Orders for Third Reading of the Bills are called, two hours of debate shall be allotted to the Third Reading stage of the Bills, with 50 minutes apportioned to the members of Her Majesty's Government, 50 minutes to the members of Her Majesty's Loyal Opposition, and 20 minutes to the Independent Members as a group. At the end of this time, the Speaker shall interrupt the proceedings and shall put every question necessary to dispose of this stage of each Bill, without further debate or amendment.
+Type	Date	Member	Event	Outcome
+motion	August 25, 2022	Andrea Khanjin	Moved	-
+motion	August 25, 2022	-	Debated	-
+amendment	August 25, 2022	Michael Mantha	Moved	-
+amendment	August 25, 2022	-	Debated	-
+amendment	August 25, 2022	-	Question put	Vote deferred
+amendment	August 29, 2022	-	Vote	Lost on division
+motion	August 29, 2022	-	Vote	Carried on division"
+19,Motion 3,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_5E0E43C9-EE18-ED11-B83E-000D3AF41FC2,"That Donna Skelly, Member for the Electoral District of Flamborough—Glanbrook, be appointed Deputy Speaker and Chair of the Committee of the Whole House;
+That Bhutila Karpoche, Member for the Electoral District of Parkdale—High Park, be appointed First Deputy Chair of the Committee of the Whole House;
+That Patrice Barnes, Member for the Electoral District of Ajax, be appointed Second Deputy Chair of the Committee of the Whole House; and
+That Lucille Collard, Member for the Electoral District of Ottawa—Vanier, be appointed Third Deputy Chair of the Committee of the Whole House; and
+That, notwithstanding Standing Order 115(a), the following changes be made to the membership of the following committees:
+On the Standing Committee on Government Agencies: Guy Bourgouin be added;
+On the Standing Committee on Heritage, Infrastructure and Cultural Policy: Jill Andrew be added;
+On the Standing Committee on Justice Policy: Jennifer (Jennie) Stevens be added;
+On the Standing Committee on Procedure and House Affairs: Jessica Bell be added;
+On the Standing Committee on Public Accounts: Lise Vaugeois be added; and
+On the Standing Committee on Social Policy: Wayne Gates be added.
+Type	Date	Member	Event	Outcome
+motion	August 18, 2022	Andrea Khanjin	Moved	-
+motion	August 18, 2022	-	Speaker Ruling	-
+motion	August 18, 2022	-	Debated	Debate adjourned
+motion	August 22, 2022	-	Debated	Debate adjourned
+motion	August 22, 2022	-	Debated	-
+motion	August 22, 2022	-	Question put	Vote deferred
+motion	August 23, 2022	-	Vote	Carried on division"
+19,Motion 2,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_63F5C811-3018-ED11-B83F-002248D51D1B,"That Donna Skelly, member for the electoral district of Flamborough—Glanbrook, be appointed Deputy Speaker and Chair of the Committee of the Whole House;
+That Bhutila Karpoche, member for the electoral district of Parkdale—High Park, be appointed First Deputy Chair of the Committee of the Whole House;
+That Patrice Barnes, member for the electoral district of Ajax, be appointed Second Deputy Chair of the Committee of the Whole House; and
+That Lucille Collard, member for the electoral district of Ottawa—Vanier, be appointed Third Deputy Chair of the Committee of the Whole House; and
+That, notwithstanding Standing Order 115(a), the following changes be made to the membership of the following committees:
+On the Standing Committee on Government Agencies: Guy Bourgouin be added;
+On the Standing Committee on Heritage, Infrastructure and Cultural Policy: Jill Andrew be added;
+On the Standing Committee on the Interior: Marit Stiles be added;
+On the Standing Committee on Justice Policy: Jennifer (Jennie) Stevens be added;
+On the Standing Committee on Procedure and House Affairs: Jessica Bell be added;
+On the Standing Committee on Public Accounts: Lise Vaugeois be added; and
+On the Standing Committee on Social Policy: Wayne Gates be added.
+Type	Date	Member	Event	Outcome
+motion	August 10, 2022	-	Withdrawn	-"
+19,Motion 1,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_29B5C6C3-2F18-ED11-B83F-002248D51D1B,"That, pursuant to Standing Order 110, the membership of the following Standing Committees be appointed for the duration of the 43rd Parliament:
+The Standing Committee on Finance and Economic Affairs: Ernie Hardeman, Stephen Crawford, Rick Byers, Andrew Dowie, Effie J. Triantafilopoulos, Deepak Anand, David Smith (Scarborough Centre), Rudy Cuzzetto, Terence Kernaghan, Catherine Fife, Stephanie Bowman, Bobbi Ann Brady.
+The Standing Committee on Government Agencies: Will Bouma, Lorne Coe, Trevor Jones, Billy Pang, Sheref Sabawy, Amarjot Sandhu, Mike Harris, Dawn Gallagher Murphy, Doly Begum, Chandra Pasma, John Fraser.
+The Standing Committee on Heritage, Infrastructure and Cultural Policy: Laurie Scott, Vijay Thanigasalam, Laura Smith, Graham McGregor, Hardeep Singh Grewal, Kevin Holland, Sheref Sabawy, Billy Pang, Laura Mae Lindo, Joel Harden, Mary-Margaret McMahon.
+The Standing Committee on the Interior: Aris Babikian, John Yakabuski, Rob Flack, Dave Smith (Peterborough—Kawartha), Ric Bresee, Anthony Leardi, Jess Dixon, Stéphane Sarrazin, Sandy Shaw, Marit Stiles, Mike Schreiner, Mitzie Hunter.
+The Standing Committee on Justice Policy: Lorne Coe, Christine Hogarth, Brian Saunderson, Robert Bailey, Natalia Kusendova, Brian Riddell, Vincent Ke, Trevor Jones, Sol Mamakwa, Kristyn Wong-Tam, Stephen Blais.
+The Standing Committee on Procedure and House Affairs: Matthew Rae, Mike Harris, Amajot Sandhu, Dawn Gallagher Murphy, Stéphane Sarrazin, Graham McGregor, Christine Hogarth, Sam Oosterhoff, Jamie West, Jennifer K. French, Ted Hsu.
+The Standing Committee on Public Accounts: Donna Skelly, Todd J. McCarthy, Rudy Cuzzetto, Rick Byers, Logan Kanapathi, Stephen Crawford, Laura Smith, Will Bouma, Tom Rakocevic, France Gélinas, Lucille Collard.
+The Standing Committee on Social Policy: Goldie Ghamari, Robin Martin, Nolan Quinn, Natalie Pierre, Patrice Barnes, John Jordan, Daisy Wai, Matthew Rae, France Gélinas, Lisa Gretzky, Adil Shamji; and
+That, these Committees be authorized to meet on the following days when the House is scheduled to meet:
+Standing Committee on Finance and Economic Affairs may meet on Tuesdays and Wednesdays;
+Standing Committee on Government Agencies may meet on Thursdays from 9:00 a.m. until 10:15 a.m.;
+Standing Committee on Heritage, Infrastructure and Cultural Policy may meet on Wednesdays and Thursdays;
+Standing Committee on the Interior may meet on Mondays; and on Tuesdays from 1:00 p.m.;
+Standing Committee on Justice Policy may meet on Wednesdays and Thursdays;
+Standing Committee on Procedure and House Affairs may meet on Tuesdays from 9:00 a.m. to 10:15 a.m. and on Thursdays from 1:00 p.m.;
+Standing Committee on Public Accounts may meet on Mondays;
+Standing Committee on Social Policy may meet on Mondays and Tuesdays; and
+ 
+That, on the Committee’s motion, the following Committees are authorized to meet from Monday to Friday when the House is scheduled to meet and during adjournments of the House specified in Standing Order 7(b) or other adjournments of the House which do not exceed one week:
+Standing Committee on Finance and Economic Affairs;
+Standing Committee on Heritage, Infrastructure and Cultural Policy;
+Standing Committee on the Interior;
+Standing Committee on Justice Policy;
+Standing Committee on Procedure and House Affairs; and
+Standing Committee on Social Policy.
+Type	Date	Member	Event	Outcome
+motion	August 10, 2022	Andrea Khanjin	Moved	-
+motion	August 10, 2022	-	Debated	-
+motion	August 10, 2022	-	Vote	Carried on division"
+22,Motion 124,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_15A5B351-2A24-EF11-840A-002248B1AE9E,"That, in the opinion of this House, the Government must immediately develop a credible forest fire action plan in consultation with first responders and Indigenous communities that includes increased funding for emergency response and preparedness measures, funding for hiring and retention of wildland firefighters, and a dedicated climate adaptation fund to reduce environmental risks for communities."
+22,Motion 104,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_11336D36-2A03-EF11-9F89-6045BD5D95B0,"That, in the opinion of this House, the Government shall utilize all unused or underused provincial and municipal government land to build a minimum of 250,000 affordable non-profit and co-op homes. "
+22,Motion 103,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_9B327AA7-7602-EF11-9F89-000D3A84170A,"That, in the opinion of this House, the Government should allow for six to eleven storey midrise homes along major streets, including transit corridors, within urban boundaries as of right in order to fast-track infill and build the housing supply that we need."
+22,Motion 98,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_D1E8C2A6-BE00-EF11-9F89-000D3AF307CC,"That, in the opinion of this House, the Government should permanently protect prime farmland and critical water recharge areas across the province, including immediately halting plans to expropriate 770 acres of farmland in Wilmot and reversing urban boundary changes in the Waterloo Region that put 7000 acres of land at risk of development. "
+23,Motion 26,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_6EA1E58E-F79A-EF11-8A6A-002248B2E8A8,"That, pursuant to Standing Order 50 and notwithstanding any other Standing Order or special Order of the House relating to Bill 212, An Act to enact two Acts and amend various Acts with respect to highways, broadband-related expropriation and other transportation-related matters, Bill 214, An Act to amend various energy statutes respecting long term energy planning, changes to the Distribution System Code and the Transmission System Code and electric vehicle charging, and Bill 216, An Act to implement Budget measures and to enact and amend various statutes;
+That when Bill 212 is next called as a Government Order, the Speaker shall put every question necessary to dispose of the Second Reading stage of the Bill without further debate or amendment; and
+That, upon receiving Second Reading, Bill 212 shall be referred to the Standing Committee on Heritage, Infrastructure and Cultural Policy; and
+That the Standing Committee on Heritage, Infrastructure and Cultural Policy be authorized to meet on Monday, November 18, 2024, at 9:00 a.m. until 10:00 a.m. to receive a 20-minute opening statement on Bill 212 by the Minister of Transportation or designate, followed by 40 minutes of questions and answers, divided into two rounds of 7.5 minutes for the Government members, two rounds of 7.5 minutes for the Official Opposition members, and two rounds of 5 minutes for the independent member of the Committee; and
+That the Committee be authorized to meet on Monday, November 18, 2024, from 1:00 p.m. until 6:00 p.m., for the purpose of public hearings on Bill 212; and
+That the Clerk of the Standing Committee on Heritage, Infrastructure and Cultural Policy, in consultation with the Committee Chair, be authorized to arrange the following with regard to Bill 212:
+That the deadline for requests to appear be 5:00 p.m. on Friday, November 8, 2024; and
+That the Clerk of the Committee provide a list of all interested presenters to each member of the Sub-committee and their designate following the deadline for requests to appear; and
+That, if not all interested presenters can be scheduled, each member of the Sub-committee or their designate provide the Clerk of the Committee with a prioritized list of presenters to be scheduled, chosen from the list of all interested presenters, by 12:00 p.m. on Tuesday, November 12, 2024; and
+That witnesses shall be scheduled in groups of three for each one-hour time slot, with each presenter allotted 7 minutes to make an opening statement followed by 39 minutes of questioning for all three witnesses, divided into two rounds of 7.5 minutes for the Government members, two rounds of 7.5 minutes for the Official Opposition members, and two rounds of 4.5 minutes for the independent member of the Committee; and
+That the deadline for written submissions be 7:00 p.m. on Monday, November 18, 2024; and
+That the deadline for filing amendments to the Bill with the Clerk of the Committee shall be 5:00 p.m. on Tuesday, November 19, 2024; and
+That the Committee be authorized to meet on Thursday, November 21, 2024, from 9:00 a.m. until 10:15 a.m., from 1:00 p.m. until 6:00 p.m., and from 7:00 p.m. until midnight for the purpose of clause-by-clause consideration of Bill 212; and
+That on Thursday, November 21, 2024, at 7:00 p.m., those amendments to Bill 212 which have not yet been moved shall be deemed to have been moved, and the Chair of the Committee shall interrupt the proceedings and shall, without further debate or amendment, put every question necessary to dispose of all remaining sections of the Bill and any amendments thereto; and at this time, the Chair shall allow one waiting period, if requested by a member of the Committee, pursuant to Standing Order 131(a); and
+That the Committee shall report Bill 212 to the House no later than Monday, November 25, 2024, and if the Committee fails to report the Bill on that day, the Bill shall be deemed passed by the Committee and shall be deemed reported to and received by the House; and
+That upon receiving the report of the Standing Committee on Heritage, Infrastructure and Cultural Policy on Bill 212, the Speaker shall put the question for adoption of the report forthwith; and
+That upon adoption of the report, Bill 212 shall be ordered for Third Reading, which order may be called the same day; and
+That when the order for Third Reading of Bill 212 is called, 55 minutes shall be allotted to debate with 25 minutes for Members of His Majesty's Government, 25 minutes for Members of His Majesty's Loyal Opposition, and 5 minutes for the independent Members as a group; and
+That, at the end of this time, the Speaker shall interrupt the proceedings and shall put every question necessary to dispose of the Third Reading stage of Bill 212 without further debate or amendment; and
+That, except in the case of a recorded division arising from the morning Orders of the Day, no deferral of the Third Reading vote on Bill 212 shall be permitted; and
+That, if a recorded division is requested on the Third Reading vote on Bill 212 the division bells shall be limited to 5 minutes; and
+That when Bill 214 is next called as a Government Order, the Speaker shall put every question necessary to dispose of the Second Reading stage of the Bill without further debate or amendment; and
+That, upon receiving Second Reading, Bill 214 shall be referred to the Standing Committee on the Interior; and
+That the Standing Committee on the Interior be authorized to meet on Monday, November 18, 2024, at 9:00 a.m. until 10:00 a.m. to receive a 20-minute opening statement on Bill 214 by the Minister of Energy and Electrification or designate, followed by 40 minutes of questions and answers, divided into two rounds of 7.5 minutes for the Government members, two rounds of 7.5 minutes for the Official Opposition members, and two rounds of 5 minutes for the independent member of the Committee; and
+That the Committee be authorized to meet on Monday, November 18, 2024, from 1:00 p.m. until 6:00 p.m., for the purpose of public hearings on Bill 214; and
+That the Clerk of the Standing Committee on the Interior, in consultation with the Committee Chair, be authorized to arrange the following with regard to Bill 214:
+That the deadline for requests to appear be 5:00 p.m. on Tuesday, November 12, 2024; and
+That the Clerk of the Committee provide a list of all interested presenters to each member of the Sub-committee and their designate following the deadline for requests to appear; and
+That, if not all interested presenters can be scheduled, each member of the Sub-committee or their designate provide the Clerk of the Committee with a prioritized list of presenters to be scheduled, chosen from the list of all interested presenters, by 2:00 p.m. on Wednesday, November 13, 2024; and
+That witnesses shall be scheduled in groups of three for each one-hour time slot, with each presenter allotted 7 minutes to make an opening statement followed by 39 minutes of questioning for all three witnesses, divided into two rounds of 7.5 minutes for the Government members, two rounds of 7.5 minutes for the Official Opposition members, and two rounds of 4.5 minutes for the independent member of the Committee; and
+That the deadline for written submissions be 6:00 p.m. on Monday, November 18, 2024; and
+That the deadline for filing amendments to the Bill with the Clerk of the Committee shall be 4:00 p.m. on Tuesday, November 19, 2024; and
+That the Committee be authorized to meet on Thursday, November 21, 2024, from 9:00 a.m. until 10:15 a.m., from 1:00 p.m. until 6:00 p.m., and from 7:00 p.m. until midnight for the purpose of clause-by-clause consideration of Bill 214; and
+That on Thursday, November 21, 2024, at 7:00 p.m., those amendments to Bill 214 which have not yet been moved shall be deemed to have been moved, and the Chair of the Committee shall interrupt the proceedings and shall, without further debate or amendment, put every question necessary to dispose of all remaining sections of the Bill and any amendments thereto; and at this time, the Chair shall allow one waiting period, if requested by a member of the Committee, pursuant to Standing Order 131(a); and
+That the Committee shall report Bill 214 to the House no later than Monday, November 25, 2024, and if the Committee fails to report the Bill on that day, the Bill shall be deemed passed by the Committee and shall be deemed reported to and received by the House; and
+That upon receiving the report of the Standing Committee on the Interior on Bill 214, the Speaker shall put the question for adoption of the report forthwith; and
+That upon adoption of the report, Bill 214 shall be ordered for Third Reading, which order may be called the same day; and
+That when the order for Third Reading of Bill 214 is called, 55 minutes shall be allotted to debate with 25 minutes for Members of His Majesty's Government, 25 minutes for Members of His Majesty's Loyal Opposition, and 5 minutes for the independent Members as a group; and
+That, at the end of this time, the Speaker shall interrupt the proceedings and shall put every question necessary to dispose of the Third Reading stage of Bill 214 without further debate or amendment; and
+That when Bill 216 is next called as a Government Order, the Speaker shall put every question necessary to dispose of the Second Reading stage of the Bill without further debate or amendment; and
+That, upon receiving Second Reading the Bill shall be ordered for Third Reading, which order may be called the same day; and
+That when the order for Third Reading of the Bill is called, the Speaker shall put every question necessary to dispose of the Third Reading stage of the Bill without further debate or amendment; and
+That, except in the case of a recorded division arising from the morning Orders of the Day, no deferral of the Second or Third Reading votes on the Bill shall be permitted; and
+That if a recorded division is requested on the Third Reading vote on the Bill the division bells shall be limited to 5 minutes.
+Type	Date	Member	Event	Outcome
+motion	November 5, 2024	Steve Clark	Moved	-
+motion	November 5, 2024	-	Debated	-
+motion	November 5, 2024	-	Question put	Vote deferred
+motion	November 6, 2024	-	Vote	Carried on division"
+23,Motion 25,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_FCC6D08D-5092-EF11-8A6A-002248AFD5B2,"That, pursuant to Standing Order 50 and notwithstanding any other Standing Order or special Order of the House relating to Bill 197, An Act to amend the Highway Traffic Act and Bill 194, An Act to enact the Enhancing Digital Security and Trust Act, 2024 and to make amendments to the Freedom of Information and Protection of Privacy Act respecting privacy protection measures;
+That when Bill 197 is next called as a Government Order, the Speaker shall put every question necessary to dispose of the Second Reading stage of the Bill without further debate or amendment; and
+That, upon receiving Second Reading, Bill 197 shall be referred to the Standing Committee on Heritage, Infrastructure and Cultural Policy; and
+That the Standing Committee on Heritage, Infrastructure and Cultural Policy be authorized to meet on Wednesday, November 13, 2024 at 11:00 a.m. until 12:00 p.m. to receive a 20-minute opening statement on Bill 197 by the Minister of Transportation or designate, followed by 40 minutes of questions and answers, divided into two rounds of 7.5 minutes for the Government members, two rounds of 7.5 minutes for the Official Opposition members, and two rounds of 5 minutes for the independent member of the Committee; and
+That the Committee be authorized to meet on Wednesday, November 13 from 1:00 p.m. until 5:00 p.m., for the purpose of public hearings on Bill 197; and
+That the Clerk of the Standing Committee on Heritage, Infrastructure and Cultural Policy, in consultation with the Committee Chair, be authorized to arrange the following with regard to Bill 197:
+That the deadline for requests to appear be 5:00 p.m. on Tuesday, November 5, 2024; and
+That the Clerk of the Committee provide a list of all interested presenters to each member of the Sub-committee and their designate following the deadline for requests to appear; and
+That, if not all interested presenters can be scheduled, each member of the Sub-committee or their designate provide the Clerk of the Committee with a prioritized list of presenters to be scheduled, chosen from the list of all interested presenters, by 2:00 p.m. on Wednesday, November 6, 2024; and
+That witnesses shall be scheduled in groups of three for each one-hour time slot, with each presenter allotted 7 minutes to make an opening statement followed by 39 minutes of questioning for all three witnesses, divided into two rounds of 7.5 minutes for the Government members, two rounds of 7.5 minutes for the Official Opposition members, and two rounds of 4.5 minutes for the independent member of the Committee; and
+That the deadline for written submissions be 6:00 p.m. on Wednesday, November 13, 2024; and
+That the deadline for filing amendments to the Bill with the Clerk of the Committee shall be 7:00 p.m. on Wednesday, November 13, 2024; and
+That the Committee be authorized to meet on Friday, November 15 from 10:00 a.m. until 12:00 p.m., from 1:00 p.m. until 6:00 p.m., and from 7:00 p.m. until midnight for the purpose of clause-by-clause consideration of Bill 197; and
+That on Friday, November 15, 2024 at 7:00 p.m., those amendments to Bill 197 which have not yet been moved shall be deemed to have been moved, and the Chair of the Committee shall interrupt the proceedings and shall, without further debate or amendment, put every question necessary to dispose of all remaining sections of the Bill and any amendments thereto; and at this time, the Chair shall allow one waiting period, if requested by a member of the Committee, pursuant to Standing Order 131(a); and
+That the Committee shall report Bill 197 to the House no later than Monday, November 18, 2024 and if the Committee fails to report the Bill on that day, the Bill shall be deemed passed by the Committee and shall be deemed reported to and received by the House; and
+That upon receiving the report of the Standing Committee on Heritage, Infrastructure and Cultural Policy on Bill 197, the Speaker shall put the question for adoption of the report forthwith; and
+That upon adoption of the report, Bill 197 shall be ordered for Third Reading, which order may be called the same day; and
+That when the order for Third Reading of Bill 197 is called, 55 minutes shall be allotted to debate with 25 minutes for Members of His Majesty's Government, 25 minutes for Members of His Majesty's Loyal Opposition, and 5 minutes for the independent Members as a group; and
+That, at the end of this time, the Speaker shall interrupt the proceedings and shall put every question necessary to dispose of the Third Reading stage of Bill 197 without further debate or amendment; and
+That when Bill 194 is next called as a Government Order, the Speaker shall put every question necessary to dispose of the Second Reading stage of the Bill without further debate or amendment; and
+That, upon receiving Second Reading, Bill 194 shall be referred to the Standing Committee on Justice Policy; and
+That the Standing Committee on Justice Policy be authorized to meet on Thursday, November 14, 2024 at 10:00 a.m. until 11:00 a.m. to receive a 20-minute opening statement on Bill 194 by the Minister of Public and Business Service Delivery and Procurement or designate, followed by 40 minutes of questions and answers, divided into two rounds of 7.5 minutes for the Government members, two rounds of 7.5 minutes for the Official Opposition members, and two rounds of 5 minutes for the independent member of the Committee; and
+That the Committee be authorized to meet at the following times, for the purpose of public hearings for Bill 194:
+on Thursday, November 14 from 11:00 a.m. until 12:00 noon, and from 1:00 p.m. until 5:00 p.m.; and
+on Friday, November 15 from 10:00 a.m. until 12:00 noon, and from 1:00 p.m. until 5:00 p.m.; and
+That the Clerk of the Standing Committee on Justice Policy, in consultation with the Committee Chair, be authorized to arrange the following with regard to Bill 194:
+That the deadline for requests to appear be 5:00 p.m. on Wednesday, November 6, 2024; and
+That the Clerk of the Committee provide a list of all interested presenters to each member of the Sub-committee and their designate following the deadline for requests to appear; and
+That, if not all interested presenters can be scheduled, each member of the Sub-committee or their designate provide the Clerk of the Committee with a prioritized list of presenters to be scheduled, chosen from the list of all interested presenters, by 2:00 p.m. on Thursday, November 7, 2024; and
+That witnesses shall be scheduled in groups of three for each one-hour time slot, with each presenter allotted 7 minutes to make an opening statement followed by 39 minutes of questioning for all three witnesses, divided into two rounds of 7.5 minutes for the Government members, two rounds of 7.5 minutes for the Official Opposition members, and two rounds of 4.5 minutes for the independent member of the Committee; and
+That the deadline for written submissions be 6:00 p.m. on Friday, November 15, 2024; and
+That the deadline for filing amendments to the Bill with the Clerk of the Committee shall be 5:00 p.m. on Tuesday, November 19, 2024; and
+That the Committee be authorized to meet on Thursday, November 21 from 9:00 a.m. until 10:15 a.m., from 1:00 p.m. until 6:00 p.m., and from 7:00 p.m. until midnight for the purpose of clause-by-clause consideration of Bill 194; and
+That on Thursday, November 21, 2024 at 7:00 p.m., those amendments to Bill 194 which have not yet been moved shall be deemed to have been moved, and the Chair of the Committee shall interrupt the proceedings and shall, without further debate or amendment, put every question necessary to dispose of all remaining sections of the Bill and any amendments thereto; and at this time, the Chair shall allow one waiting period, if requested by a member of the Committee, pursuant to Standing Order 131(a); and
+That the Committee shall report Bill 194 to the House no later than Monday, November 25, 2024, and if the Committee fails to report the Bill on that day, the Bill shall be deemed passed by the Committee and shall be deemed reported to and received by the House; and
+That upon receiving the report of the Standing Committee on Justice Policy on Bill 194, the Speaker shall put the question for adoption of the report forthwith; and
+That upon adoption of the report, Bill 194 shall be ordered for Third Reading, which order may be called the same day; and
+That when the order for Third Reading of Bill 194 is called, 55 minutes shall be allotted to debate with 25 minutes for Members of His Majesty's Government, 25 minutes for Members of His Majesty's Loyal Opposition, and 5 minutes for the independent Members as a group; and
+That, at the end of this time, the Speaker shall interrupt the proceedings and shall put every question necessary to dispose of the Third Reading stage of Bill 194 without further debate or amendment.
+Type	Date	Member	Event	Outcome
+motion	October 28, 2024	Steve Clark	Moved	-
+motion	October 28, 2024	-	Debated	-
+motion	October 28, 2024	-	Question put	Vote deferred
+motion	October 29, 2024	-	Vote	Carried on division"
+23,Motion 82,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_373F941A-4AD6-EE11-904D-6045BD60D367,"That, in the opinion of this House, the federal government should halt the carbon tax hike set for April 1, 2024, which will add 17.61 cents to the cost of a litre of gas and will therefore increase the cost of everything for the people of Ontario.
+Type	Date	Member	Event	Outcome
+motion	March 27, 2024	Steve Clark	Moved	-
+motion	March 27, 2024	-	Debated	-
+motion	March 27, 2024	-	Question put	Vote deferred
+motion	March 28, 2024	-	Vote	Carried on division"
+26,Motion 51,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_9FDE9BAA-A9DF-ED11-8846-000D3AF4F44A,"That, in the opinion of this House, the Minister of Colleges and Universities should work with the Associate Minister of Mental Health and Addictions to take the necessary steps to engage with relevant stakeholders to consider the development of a process for the certification of addiction peer-support specialists.
+Type	Date	Member	Event	Outcome
+motion	May 16, 2023	Stephen Crawford	Moved	-
+motion	May 16, 2023	-	Debated	-
+motion	May 16, 2023	-	Vote	Carried"
+27,Motion 81,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_388439E1-30D0-EE11-904D-6045BD60D227,"That, in the opinion of this House, the federal government should halt the alcohol escalator tax hike on Ontarians set for April 1, 2024 which will increase the price of wine, beer, and spirits.
+Type	Date	Member	Event	Outcome
+motion	March 7, 2024	Rudy Cuzzetto	Moved	-
+motion	March 7, 2024	-	Debated	-
+motion	March 7, 2024	-	Question put	Vote deferred
+motion	March 18, 2024	-	Vote	Carried on division"
+28,Motion 145,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_75C6E730-C3A5-EF11-B8E8-000D3AE860D8,"That, in the opinion of this House, the Ministry of Education should encourage and support all publicly-funded school boards to work in partnership with police services by maintaining Community School Liaison Officer programs to support relevant programming, building positive relationships between students, officers and educators, and ensuring schools remain safe and healthy learning environments."
+28,Motion 85,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_ED3D4F11-C0E6-EE11-A203-0022483CC08F,"That, in the opinion of this House, the Minister of Education should continue to reduce distractions in school by introducing enhanced policy to counter the rise of personal mobile devices; and toughen restrictions on use and possession of tobacco, vape, recreational cannabis, and nicotine products.
+Type	Date	Member	Event	Outcome
+motion	April 16, 2024	Jess Dixon	Moved	-
+motion	April 16, 2024	-	Debated	-
+motion	April 16, 2024	-	Vote	Carried"
+29,Motion 15,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AAEE1008-7D2F-ED11-9DB0-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should consider integrating the Ojibway Prairie Provincial Nature Reserve with adjacent lands under the management of Parks Canada to facilitate the creation of Ojibway National Urban Park as part of an overall strategy to protect local endangered species and natural heritage areas, aid flood mitigation efforts, create publicly accessible greenspace and further encourage ecotourism in Windsor-Essex.
+Type	Date	Member	Event	Outcome
+motion	November 29, 2022	Andrew Dowie	Moved	-
+motion	November 29, 2022	-	Debated	-
+motion	November 29, 2022	-	Vote	Carried"
+33,Motion 110,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AC7FFFD2-3512-EF11-9F89-002248B1AE9E,"That, in the opinion of this House, the Attorney General should prepare and publish a progress report describing the extent to which the Ministry of the Attorney General has implemented Recommendations 1 and 3 set out in the Auditor General’s December 4, 2019 Report respecting correctional services and court operations and lay the progress report before the Assembly, and the Standing Committee on Justice Policy should establish a working group to review the progress report and report on their review to the Assembly."
+33,Motion 101,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CEE1A9B8-A901-EF11-9F89-0022483C53EC,"That, in the opinion of this House, the Government of Ontario should preserve prime farmland and restore respect for farmers by extending Greenbelt protection to the Waterloo Moraine Protected Countryside designation, pausing the Wilmot farmland expropriation, restoring the urban boundaries and the Countryside Line established by Waterloo Region's Official Plan, and re-committing to the preservation of Class 1 Farmland in Ontario."
+34,Motion 46,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6BD49C88-67CE-ED11-A7C5-002248D511E3,"That, in the opinion of this House, the federal government should halt the alcohol escalator tax hike on Ontarians set for April 1, 2023 which will increase the price of wine, beer, and spirits.
+Type	Date	Member	Event	Outcome
+motion	September 5, 2023	-	Withdrawn	-"
+34,Motion 43,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1A148F97-9ECD-ED11-A7C5-002248D511E3,"That, in the opinion of this House, the federal government should halt the alcohol escalator tax hike on Ontarians set for April 1, 2023, which will increase the price of wine, beer, and spirits by 6.3%.
+Type	Date	Member	Event	Outcome
+motion	September 5, 2023	-	Withdrawn	-"
+37,Motion 59,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_A36827C0-E9FF-ED11-8F6C-000D3AF4F44A,"That, in the opinion of this House, the Government of Ontario should, alongside other relevant regulatory bodies, develop a strategic plan to regulate the timing, frequency, location and use of celebrities within gambling advertisements in the province in response to the increase in minors using online gambling services in Ontario."
+37,Motion 14,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_EAC4B030-F52D-ED11-9DB1-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should amend the Public Hospitals Act to limit the maximum amount any Alternative Level of Care patient awaiting placement in a long-term care home can be charged to be equal to the co-pay in Ontario's long-term care homes. "
+38,Motion 109,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FB5F1482-5E11-EF11-9F89-002248B1AE9E,"That, in the opinion of this House, the Ontario Building Code should be amended to restore the requirements for electric vehicle supply equipment that applied to houses served by a garage, carport or driveway, as per subsection 9.34.4 of Division B of O. Reg. 332/12, as it read on January 1, 2018.
+Type	Date	Member	Event	Outcome
+motion	June 5, 2024	Jennifer French	Moved	-
+motion	June 5, 2024	-	Debated	-
+motion	June 5, 2024	-	Question put	Vote deferred
+motion	June 6, 2024	-	Vote	Lost on division"
+39,Motion 92,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F514C5CF-60F7-EE11-A1FE-6045BD61612F,"That, in the opinion of this House, the Government of Ontario should adopt methods to assess potential risks and judge the successful adoption and ethical use of Artificial Intelligence use in government while developing measures to counter emerging cyber security threats.
+Type	Date	Member	Event	Outcome
+motion	May 8, 2024	Dawn Gallagher Murphy	Moved	-
+motion	May 8, 2024	-	Debated	-
+motion	May 8, 2024	-	Question put	-
+motion	May 8, 2024	-	Vote	Carried"
+40,Motion 94,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_472915C9-C9FC-EE11-9F89-002248AFCBA1,"That, in the opinion of this House, the Government of Ontario should implement an Ontario Caregiver Support Benefit (OCSB) to provide direct financial supports to unpaid caregivers who play a vital role in our health care system and enhancing the quality of life for the people they care for.
+Type	Date	Member	Event	Outcome
+motion	May 9, 2024	Wayne Gates	Moved	-
+motion	May 9, 2024	-	Debated	-
+motion	May 9, 2024	-	Question put	Vote deferred
+motion	May 13, 2024	-	Vote	Lost on division"
+40,Motion 22,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0256A830-A36A-ED11-81AC-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should follow the lead of eight other Canadian provinces and ensure PSA testing is an eligible procedure under OHIP for individuals referred by their healthcare provider.
+Type	Date	Member	Event	Outcome
+motion	March 2, 2023	Wayne Gates	Moved	-
+motion	March 2, 2023	-	Debated	-
+motion	March 2, 2023	-	Question put	Vote deferred
+motion	March 6, 2023	-	Vote	Lost on division"
+41,Motion 114,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0E74B1EC-D11D-EF11-840A-002248B1AE9E,"That, in the opinion of this House, the Government of Ontario should ask a select committee to look at creating a smoke-free generation of Ontarians."
+41,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_1513824D-EF5A-ED11-9562-000D3AF41FC2,
+43,Motion 129,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6E4FA40B-3324-EF11-840A-002248B1AE9E,"That, in the opinion of this House, the Government should adopt a public health approach to gun violence in Ontario through addressing its root cause of poverty, by raising Ontario Works (OW) and Ontario Disability Support Program (ODSP) rates; and by addressing systemic racism and sexism."
+43,Motion 130,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_62A25E61-3324-EF11-840A-002248B1AE9E,"That, in the opinion of this House, the Government should adopt a public health approach to gun violence in Ontario by increasing mental health supports through programs such as Operation Prefrontal Cortex, and restoring the repealed Compensation for Victims of Crime Act."
+43,Motion 111,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_15DBDA99-AE13-EF11-9F89-002248B1AE9E,"That, in the opinion of this House, the Government must pass legislation to ensure that all ridesharing companies install anti-dooring devices to rideshare vehicles by January 2027 with the full cost borne by the rideshare company."
+43,Motion 31,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_55893025-2C77-ED11-81AC-002248D51D1B,"That, in the opinion of this House, the Legislative Assembly should begin a consultation process to develop an Ontario Charter of Democratic Rights and that this consultation start with the following principles for discussion: that Ontarians have the right to democratic municipal elections and governance; that the Notwithstanding Clause will not be used to suspend the Charter of Rights and Freedoms of the people of Ontario; that the Legislature will not override the Ontario Human Rights Code; that the scope of the Ombudsman's office should be expanded to include protecting our democratic rights; and that the Oath of Office for all newly elected MPPs will include a commitment to uphold an Ontario Charter of Democratic Rights."
+43,Motion 20,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_357CE8F3-D365-ED11-9562-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should protect migratory birds and Ontario's biodiversity by incorporating the 2019 Canadian Standards Association Bird-Friendly Design standard into the Ontario Building Code for all new construction and major retrofits in the province. "
+44,Motion 84,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C5527280-A5DC-EE11-904D-6045BD60D227,"That, in the opinion of this House, the Government of Ontario should recognize intimate partner violence as an epidemic in Ontario which requires a comprehensive strategy to address the social, economic, and health impacts on victims and survivors while taking urgent measures to implement the recommendations of the Renfrew Inquest to help eradicate gender-based violence and intimate partner violence."
+44,Motion 1,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_D97C35E0-4E1E-ED11-B83D-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should transfer ownership of the Ojibway Prairie Provincial Nature Reserve to Parks Canada to facilitate creation of Ojibway National Urban Park as part of an overall strategy to protect local endangered species and natural heritage areas, aid flood mitigation efforts, create publicly accessible greenspace and further encourage ecotourism in Windsor-Essex.
+Type	Date	Member	Event	Outcome
+motion	October 25, 2022	Lisa Gretzky	Moved	-
+motion	October 25, 2022	-	Debated	-
+motion	October 25, 2022	-	Question put	Vote deferred
+motion	October 26, 2022	-	Vote	Lost on division"
+45,Motion 49,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_34FEBB4C-20D3-ED11-A7C6-000D3AF4F44A,"That, in the opinion of this House, the Ministry of Education should continue its advocacy to education stakeholders in the province of Ontario, such as school boards, faculties of education and the Ontario College of Teachers to strengthen professional learning on mental health for educators and school staff, keeping in mind strategies to support mental health and well-being with a focus on social-emotional learning skills, mindfulness, outdoor learning and physical activity initiatives with advice from local health units, and approaches that foster a welcoming, safe and inclusive environment.
+Type	Date	Member	Event	Outcome
+motion	May 11, 2023	Hardeep Grewal	Moved	-
+motion	May 11, 2023	-	Debated	-
+motion	May 11, 2023	-	Vote	Carried"
+47,Motion 117,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_858998DD-B022-EF11-840A-002248AEA5FD,"That, in the opinion of this House, the Government of Ontario should conduct a comprehensive review of practices in the funeral, burial, and cremation services sector to ensure they prioritize protecting vulnerable families in their time of bereavement, promote freedom of choice in access to third-party sellers, and determine if the current rules and framework under the Funeral, Burial and Cremation Services Act, 2002 are fair and achieve the highest level of consumer protection.
+Type	Date	Member	Event	Outcome
+motion	October 30, 2024	Ernie Hardeman	Moved	-
+motion	October 30, 2024	-	Debated	-
+motion	October 30, 2024	-	Question put	-
+motion	October 30, 2024	-	Vote	Carried"
+51,Motion 132,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_7F2ECD5A-BF8F-EF11-8A69-6045BD612BD1,"That, in the opinion of this House, the Government of Ontario should provide greater resources and options for families that wish to have children and are struggling to conceive."
+51,Motion 50,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_489FFBDB-2DD3-ED11-A7C6-000D3AF4F44A,"That, in the opinion of this House, the Government of Ontario should adopt mechanisms for disclosure outlined in Clare's Law to make information relating to intimate partner violence convictions accessible to at-risk individuals who are seeking this information on a confidential basis in order to make informed decisions for themselves and their families.
+Type	Date	Member	Event	Outcome
+motion	June 6, 2023	Christine Hogarth	Moved	-
+motion	June 6, 2023	-	Debated	-
+motion	June 6, 2023	-	Question put	Vote deferred
+motion	June 7, 2023	-	Vote	Carried on division"
+52,Motion 16,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AEBB2F5E-A354-ED11-9561-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should implement a 12-hour bare pavement standard during the Winter season on Highways 11 and 17, the new Ontario TransCanada Highway designation.
+Type	Date	Member	Event	Outcome
+motion	November 16, 2022	Kevin Holland	Moved	-
+motion	November 16, 2022	-	Debated	-
+motion	November 16, 2022	-	Vote	Carried"
+53,Motion 99,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1BA37B60-D000-EF11-9F89-000D3AF307CC,"That, in the opinion of this House, the Government of Ontario should take appropriate steps to address the severe lack of access to primary care in the Kingston region by designating the City of Kingston as an area of high physician need, reviewing service standards for underserviced communities, actively working with communities to increase access to primary care, and establishing a regulatory framework to prevent municipalities from competing against each other for physicians and primary care providers."
+53,Motion 95,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_47A5C81C-90FD-EE11-9F89-0022483C53EC,"That, in the opinion of this House, the Legislative Assembly of Ontario calls on the Ontario Government to protect Ontario's water supply and not repeat the tragedy that happened in Walkerton 24 years ago by ensuring the current safety regulations, including Ontario's free and public water testing, remain unchanged."
+53,Motion 76,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6B8BC99C-C98E-EE11-8179-000D3AF4F44A,"That, in the opinion of this House, the Government of Ontario should be transparent about its negotiations with the federal government regarding the Canada Disability Benefit (CDB), that it should protect those on the Ontario Disability Support Program (ODSP) by ensuring that any agreement related to the CDB with Ottawa does not result in any new clawbacks, and that the Government of Ontario should immediately increase ODSP rates by at least 20%."
+53,Motion 57,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_5020965F-2CF3-ED11-8848-000D3AF4FB27,"That, in the opinion of this House, the Government of Ontario should aggressively pursue energy infrastructure modernization and collaborate with Local Distribution Companies so that Ontario can be ready for mass electric vehicle use, electrification of other energy systems and Distributed Energy Systems. "
+53,Motion 37,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6FD64B8B-E8BD-ED11-83FE-000D3AF40FC6,"That, in the opinion of this House, the Government of Ontario should provide additional funding to address the backlog in Ontario's tribunal system and work towards creating a non-partisan oversight body to help preserve the independence of Ontario's adjudicative tribunals."
+54,Motion 128,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_325C7D79-3124-EF11-840A-6045BD5D4A28,"That, in the opinion of this House, site specific air standards should be eliminated from the Ontario Environmental Protection Act. "
+54,Motion 107,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B9BDDFEC-3511-EF11-9F89-6045BD61E8DA,"That, in the opinion of this House, this Government should explore amending the Residential Tenancies Act, 2006 to grant collective bargaining rights to tenants."
+54,Motion 108,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_A4C80A05-3611-EF11-9F89-6045BD61E8DA,"That, in the opinion of this House, Above Guideline Rent Increases should be eliminated from the Residential Tenancies Act, 2006."
+54,Motion 106,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_97B303DA-3511-EF11-9F89-6045BD61E8DA,"That, in the opinion of this House, this Government should continue to work in consultation with representatives of the Federal Government and Provincial and Territorial Governments, the Federal Housing Advocate, Indigenous governing bodies, seniors and people with disabilities, to ensure access to adaptable, affordable, Universal Design housing for all individuals with any kind of disability, to benefit all Ontarians."
+54,Motion 79,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E84026A3-30D0-EE11-904D-6045BD60D227,"That, in the opinion of this House, the Shelter Allowance portion of both the Ontario Disability Support Program and the Ontario Works Program should be calculated by and attached to using the annual, average market rent prices of the city in which the individual recipient resides."
+54,Motion 80,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_19F68BBC-30D0-EE11-904D-6045BD60D227,"That, in the opinion of this House, the Ontario Disability Support Program adopt a hybrid definition of the benefit unit that does not reduce benefits as a result of other household member's income while recognizing the needs of dependents under 18 years of age."
+54,Motion 67,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_15B641B8-C762-EE11-8DF0-000D3AF4FD82,"That, in the opinion of this House, the Government of Ontario should immediately double Ontario Works and Ontario Disability Support Program payments to recipients as part of an overall strategy to reduce poverty in Ontario."
+56,Motion 118,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F0C16362-4D23-EF11-840A-6045BD5D4A28,"That, in the opinion of this House, the Ministry of Education should encourage and support all publicly-funded school boards to work in partnership with police services to maintain Community School Liaison Officer programs to support relevant programming, to build positive relationships between students, officers and educators and to ensure schools remain safe and healthy learning environments. 
+Type	Date	Member	Event	Outcome
+motion	June 7, 2024	-	Withdrawn	-"
+56,Motion 69,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_64130DE8-C36D-EE11-8179-000D3AF4FB27,"That, in the opinion of this House, the Government of Canada should take immediate steps to eliminate the carbon tax on grocery items.
+Type	Date	Member	Event	Outcome
+motion	October 25, 2023	Trevor Jones	Moved	-
+motion	October 25, 2023	-	Debated	-
+motion	October 25, 2023	-	Question put	Vote deferred
+motion	October 26, 2023	-	Vote	Carried on division"
+56,Motion 64,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_82B13C55-A35C-EE11-8DF0-000D3AF4F44A,"That, in the opinion of this House, the Ministry of Agriculture, Food and Rural Affairs should continue to support employers of International Agricultural Workers and employees by providing informational resources on benefits available to all workers in Ontario, to demonstrate Ontario's commitment to the growth and sustainability of the food production and processing sectors and to ensure Ontario remains a destination of choice to those workers who enter Canada through any recognized federal or provincial program.
+Type	Date	Member	Event	Outcome
+motion	October 19, 2023	Trevor Jones	Moved	-
+motion	October 19, 2023	-	Debated	-
+motion	October 19, 2023	-	Vote	Carried"
+57,Motion 70,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C6DB8B87-AF72-EE11-8179-000D3AF4FB27,"That, in the opinion of this House, the Government of Canada should take immediate steps to eliminate the carbon tax on fuels and inputs for home heating.
+Type	Date	Member	Event	Outcome
+motion	November 15, 2023	John Jordan	Moved	-
+motion	November 15, 2023	-	Debated	-
+amendment	November 15, 2023	Stephen Blais	Moved	-
+amendment	November 15, 2023	-	Debated	Debate adjourned
+amendment	November 15, 2023	-	Debated	Debate adjourned
+amendment	November 16, 2023	-	Debated	Debate adjourned
+amendment to amendment	November 16, 2023	Paul Calandra	Moved	-
+amendment to amendment	November 16, 2023	-	Debated	Debate adjourned
+motion	November 16, 2023	-	Debated	-
+amendment to amendment	November 16, 2023	John Jordan	Moved closure	Vote deferred
+amendment to amendment	November 20, 2023	-	Closure	Carried on division
+motion	November 20, 2023	-	Vote	Carried on division"
+59,Motion 23,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_DED67BD2-656F-ED11-81AC-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should conduct a comprehensive review of maternal mental health in Ontario and prepare a Provincial Framework and Action Plan on the issue."
+61,Motion 65,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_5678A754-755D-EE11-8DF0-000D3AF4FB27,"That, in the opinion of this House, the Government of Ontario should establish and fund a new public agency called Homes Ontario to finance and build 250,000 new affordable and non-market homes on public land over ten years, to be operated and/or constructed by public, non-profit or co-op housing providers.
+Type	Date	Member	Event	Outcome
+motion	October 24, 2023	Terence Kernaghan	Moved	-
+motion	October 24, 2023	-	Debated	-
+motion	October 24, 2023	-	Question put	Vote deferred
+motion	October 25, 2023	-	Vote	Lost on division"
+62,Motion 13,https://www.ola.org/en/legislative-business/status-business/government-motions/#motion_82ACE54E-25CF-ED11-A7C5-002248D511E3,"That an Address be presented to the Speakers of the Federal Parliament in the following words:
+""This House calls on the federal government to immediately reform the Criminal Code of Canada to address the dangers facing our communities and implement meaningful bail reform to prevent violent and repeat offenders from being released back into our communities.''
+ 
+And that the said Address be engrossed.
+Type	Date	Member	Event	Outcome
+motion	April 3, 2023	Michael Kerzner	Moved	-
+motion	April 3, 2023	-	Debated	-
+amendment	April 3, 2023	Kristyn Wong-Tam	Moved	-
+amendment	April 3, 2023	-	Debated	-
+amendment to amendment	April 3, 2023	Paul Calandra	Moved	-
+amendment to amendment	April 3, 2023	-	Debated	Debate adjourned
+amendment to amendment	April 4, 2023	-	Debated	-
+amendment to amendment	April 4, 2023	Donna Skelly	Moved closure	Vote deferred
+amendment to amendment	April 5, 2023	-	Closure	Carried on division
+motion	April 5, 2023	-	Vote	Carried on division"
+63,Motion 44,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B9BEBABF-9ECD-ED11-A7C5-002248D511E3,"That, in the opinion of this House, the federal government should halt the carbon tax hike set for April 1, 2023, which will add 14.31 cents to the cost of a litre of gas, and will therefore increase the cost of everything for Ontarians.
+Type	Date	Member	Event	Outcome
+motion	September 25, 2023	-	Withdrawn	-"
+63,Motion 8,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FA7D0F44-6929-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should continue to build and expand hospitals across the province increasing health care services, providing essential care and creating more jobs in the health care sector as part of its plan to build a stronger, more resilient health care system.
+Type	Date	Member	Event	Outcome
+motion	November 3, 2022	Andrea Khanjin	Moved	-
+motion	November 3, 2022	-	Question put	Vote deferred
+motion	November 14, 2022	-	Vote	Carried on division"
+64,Motion 77,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_F4AD500E-EC8E-EE11-8179-000D3AF4FD82,"That, in the opinion of this House, the Government of Ontario should assess the Ontario Lung Cancer Screening Program to determine whether expansion is warranted and more sites are necessary to better serve Ontario patients and to look at broadening the eligibility criteria for access to the lung screening program.
+Type	Date	Member	Event	Outcome
+motion	June 6, 2024	Natalia Kusendova-Bashta	Moved	-
+motion	June 6, 2024	-	Debated	-
+motion	June 6, 2024	-	Vote	Carried"
+65,Motion 72,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_00D3F80F-2578-EE11-8179-000D3AF4F44A,"That, in the opinion of this House, the Government of Canada should take immediate steps to eliminate the carbon tax on gasoline. 
+Type	Date	Member	Event	Outcome
+motion	November 16, 2023	Anthony Leardi	Moved	-
+motion	November 16, 2023	-	Debated	Debate adjourned"
+65,Motion 54,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E51306B8-A3EE-ED11-8848-000D3AF4F44A,"That, in the opinion of this House, the government should reject the ""defund the police"" position and continue funding police, seizing illegal guns, suppressing gangs and supporting victims of violence through the Guns, Gangs and Violence Reduction Strategy.
+Type	Date	Member	Event	Outcome
+motion	May 31, 2023	Anthony Leardi	Moved	-
+motion	May 31, 2023	-	Debated	-
+motion	May 31, 2023	-	Vote	Carried"
+69,Motion 66,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B616852E-2362-EE11-8DF0-000D3AF4F44A,"That, in the opinion of this House, the Government of Ontario should adopt the recommendations of the Official Opposition Report on the Indigenous Determinants of Health so that Ontario recognizes ""Indigeneity"" and ""colonialism"" as overarching and intersectional determinants of health across Government ministries. 
+Type	Date	Member	Event	Outcome
+motion	October 26, 2023	Sol Mamakwa	Moved	-
+motion	October 26, 2023	-	Debated	-
+motion	October 26, 2023	-	Question put	Vote deferred
+motion	October 30, 2023	-	Vote	Lost on division"
+71,Motion 45,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_223CA3A7-A5CD-ED11-A7C5-002248D51AA6,"That, in the opinion of this House, the Minister of Health and Ontario Health should develop a provincial framework that ensures that every Ontarian has access to quality care for chronic diseases and that is designed to improve chronic disease care, addressing prevention, management and treatment with an initial focus on diabetes and aligned with the existing Indigenous diabetes strategy, and that Ontario Health table its progress through public reporting within one year and provide annual updates on the state of care for persons with chronic diseases in Ontario.
+Type	Date	Member	Event	Outcome
+motion	April 19, 2023	Robin Martin	Moved	-
+motion	April 19, 2023	-	Debated	-
+motion	April 19, 2023	-	Vote	Carried"
+73,Motion 144,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_11EDEA45-7F9C-EF11-8A69-6045BD5BE34F,"That, in the opinion of this House, Metrolinx must ensure that active members of the Canadian Armed Forces Reserve are not excluded from the program for veterans and active Canadian Armed Forces to receive free fares on GO Transit and the UP Express.
+Type	Date	Member	Event	Outcome
+motion	November 7, 2024	-	Motion to arrange proceedings	-
+motion	November 7, 2024	Karen McCrimmon	Moved	-
+motion	November 7, 2024	-	Question put	-
+motion	November 7, 2024	-	Vote	Carried"
+74,Motion 2,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_AD6683FD-F81E-ED11-B83E-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should continue its work to build Highway 413, as it is a critical piece of key public infrastructure that will save drivers up to five hours a week by alleviating traffic in the most heavily-congested corridor in North America, and will support up to 3,500 jobs and generate up to $350 million annually in gross domestic product.
+Type	Date	Member	Event	Outcome
+motion	September 6, 2022	Graham McGregor	Moved	-
+motion	September 6, 2022	-	Debated	-
+motion	September 6, 2022	-	Question put	Vote deferred
+motion	September 7, 2022	-	Vote	Carried on division"
+75,Motion 24,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_64A96464-FB6F-ED11-81AC-002248D51D1B,"That, in the opinion of this House, a Select Committee should be struck to address the climate crisis affecting Ontario and that the membership should be comprised of four Members of the Progressive Conservative party, one to act as Chair, one Member of the New Democratic party, one Member from the Liberal party, and one Member from the Green party, and that the Committee be authorized to meet at the call of the Chair to hold public hearings and report write, and that the Committee shall table a report within six months of it being struck."
+77,Motion 55,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_C6CE4634-6BEF-ED11-8847-000D3AF4FB27,"That, in the opinion of this House, the value of Ontario's prison chaplains in providing spiritual care and preventing crime and recidivism should be recognized, and Community Reintegration Tables should include the involvement of Chaplains and Indigenous spiritual leaders, Elders or healers in their governance structure with spiritual group representation added to their membership in order to provide connections to religious and spiritual services for those offenders who express interest.
+Type	Date	Member	Event	Outcome
+motion	June 1, 2023	Sam Oosterhoff	Moved	-
+motion	June 1, 2023	-	Debated	-
+motion	June 1, 2023	-	Question put	Vote deferred
+motion	June 5, 2023	-	Vote	Carried on division"
+78,Motion 136,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CD5F530D-3596-EF11-8A69-002248B2E8A8,"That, in the opinion of this House, November should be proclaimed as Community Safety Month in Ontario.
+Type	Date	Member	Event	Outcome
+motion	November 20, 2024	Billy Pang	Moved	-
+motion	November 20, 2024	-	Debated	-
+motion	November 20, 2024	-	Question put	-
+motion	November 20, 2024	-	Vote	Carried"
+78,Motion 56,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_2CD084C8-21F0-ED11-8847-000D3AF4FB27,"That, in the opinion of this House, the Ministry of Public and Business Service Delivery should investigate the issue of Notice of Security Interests with respect to direct agreements for goods prescribed for the purposes of subsection 43.1(1) of the Consumer Protection Act, including the feasibility of requiring suppliers of goods to disclose to consumers prominently in the direct agreements the amount of security interests and imposing a penalty to suppliers who fail to do so; and report back to the House by the end of 2023. 
+Type	Date	Member	Event	Outcome
+motion	June 7, 2023	Billy Pang	Moved	-
+motion	June 7, 2023	-	Debated	-
+motion	June 7, 2023	-	Vote	Carried"
+80,Motion 134,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_3D9EB1A5-5491-EF11-8A6A-000D3A0C23B9,"That, in the opinion of this House, the Government should immediately adopt and fund an emergency plan to end school violence that addresses staffing, training, online reporting, advice to the Ministry, and Occupational Health and Safety regulations, and implementation."
+80,Motion 96,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E7155AE1-91FD-EE11-9F89-0022483C53EC,"That, in the opinion of this House, the Government should fix the funding formula for student transportation by covering the real costs of purchasing and operating school buses, minibuses, and special vehicle transportation, including salaries and operating costs for actual driving time and for replacement drivers."
+80,Motion 58,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_63E94909-45FE-ED11-8F6C-000D3AF4FB27,"That, in the opinion of this House, the Ministry of Education should develop a system to track the number of exclusions, modified days, requests for pickup and informal “soft-suspensions” that cause the exclusion of students with disabilities."
+80,Motion 32,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1186F566-2BB2-ED11-83FD-000D3A0A206A,
+80,Motion 17,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_8CC04DC0-4359-ED11-9562-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should create a Long COVID Strategy that includes: creation of a Task Force; financial support for therapies and treatments; development of clinics that provide a single treatment window for patients; expansion of Ontario Disability Support Program and Workplace Safety and Insurance Board protocols; an awareness campaign for employers; and collection of data."
+82,Motion 135,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0F6EC3DA-4295-EF11-8A69-000D3A0C23B9,"That, in the opinion of this House, the Ministry of Public and Business Service Delivery and Procurement should continue consultations with stakeholders regarding how to address condo owners' and managers' concerns related to safety by investigating issues related to records access in condos that contain personal information, while working to maintain the transparency necessary to support good condominium governance and oversight. 
+Type	Date	Member	Event	Outcome
+motion	November 19, 2024	Natalie Pierre	Moved	-
+motion	November 19, 2024	-	Debated	-
+motion	November 19, 2024	-	Question put	-
+motion	November 19, 2024	-	Vote	Carried"
+82,Motion 68,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_791D4B93-BE6D-EE11-8179-000D3AF4FB27,"That, in the opinion of this House, the Ministry of Education should call upon Ontario school boards to implement a comprehensive epilepsy policy, which includes training to teachers and staff on the administration of emergency epilepsy medication to students having an epileptic seizure promoting a safe and healthy learning environment.
+Type	Date	Member	Event	Outcome
+motion	November 15, 2023	Natalie Pierre	Moved	-
+motion	November 15, 2023	-	Debated	-
+motion	November 15, 2023	-	Question put	-
+motion	November 15, 2023	-	Vote	Carried"
+82,Motion 28,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_929CC65D-3976-ED11-81AC-000D3AF41FC2,"That, in the opinion of this House, the Ministry of Education should further expand mental health literacy in schools with the aim of educating and strengthening resiliency, developing practical tools, skills, and preventative knowledge to protect students and save lives, delivered directly and intentionally to all Ontario students as a mandatory learning requirement prior to graduation."
+86,Motion 71,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FEE7AE7E-2178-EE11-8179-000D3AF4F44A,"That, in the opinion of this House, the Government of Canada should take immediate steps to eliminate the carbon tax on natural gas and propane used for agricultural purposes."
+86,Motion 63,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_DD6FD3F6-DF5B-EE11-8DF0-000D3AF4FB27,"That, in the opinion of this House, the Government of Ontario should further build out its clean, green nuclear fleet, which is already the backbone of Ontario's clean electricity grid, to continue providing families and industries with the reliable, low-cost, and clean power needed to power Ontario's growth. 
+Type	Date	Member	Event	Outcome
+motion	October 18, 2023	Matthew Rae	Moved	-
+motion	October 18, 2023	-	Debated	-
+motion	October 18, 2023	-	Question put	Vote deferred
+motion	October 19, 2023	-	Vote	Carried on division"
+87,Motion 105,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_55AEB54E-4003-EF11-9F89-002248B0C507,"That, in the opinion of this House, the Government of Ontario should ban Notices of Security Interest registrations and notify property owners of existing Notices of Security Interest registrations free of charge. "
+90,Motion 38,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_DB4518AB-4DC7-ED11-B596-0022486DC01C,"That, in the opinion of this House, daycares and childcare facilities should be required to report absent children to parents, guardians and caregivers, similar to the safe arrival programs in place in public schools.
+Type	Date	Member	Event	Outcome
+motion	April 22, 2024	-	Withdrawn	-"
+93,Motion 131,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1E992609-BF8F-EF11-8A69-6045BD612BD1,"That, in the opinion of this House, the Minister of Transportation should explore the establishment or adjustment of a waiting period for drivers holding a Class G license before they can apply for commercial vehicle licenses, such as Class A or Class D, to ensure that commercial drivers are experienced and fully prepared for the responsibilities associated with operating larger vehicles, with an exemption for drivers where appropriate, such as agricultural operations.
+Type	Date	Member	Event	Outcome
+motion	November 5, 2024	Amarjot Sandhu	Moved	-
+motion	November 5, 2024	-	Debated	-
+motion	November 5, 2024	-	Vote	Carried"
+97,Motion 75,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_17C46E39-448D-EE11-8179-000D3AF4FB27,"That, in the opinion of this House, the Government of Canada should take immediate steps to eliminate the carbon tax on fuels used for the transportation of goods.
+Type	Date	Member	Event	Outcome
+motion	February 21, 2024	Brian Saunderson	Moved	-
+motion	February 21, 2024	-	Debated	-
+motion	February 21, 2024	-	Question put	Vote deferred
+motion	February 22, 2024	-	Vote	Carried on division"
+98,Motion 115,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0B713526-DE1D-EF11-840A-002248B1AE9E,"That, in the opinion of this House, the Government of Ontario should immediately implement an extreme heat preparedness plan to protect people from the health impacts of rising summer temperatures as a result of climate change. "
+98,Motion 102,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1E427635-B201-EF11-9F89-0022483C53EC,"That, in the opinion of this House, the Government should develop a framework to allow for single residential homes and multiplexes to be easily stratified into multiple ownership units to create more affordable options for home ownership in existing neighbourhoods."
+98,Motion 97,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_95012785-C2FD-EE11-9F89-002248AFCBA1,"That, in the opinion of the House, the Government shall implement a plan to effectively utilize available land including, but not limited to, vacant commercial properties such as plazas, surface parking lots, and other underused land to build the affordable housing supply we need in existing neighbourhoods."
+98,Motion 83,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_764D5D30-23D7-EE11-904D-6045BD5D65A7,"That, in the opinion of this House, the Government of Ontario should cancel its plan to build Highway 413 – saving billions of dollars, 2,000 acres of farmland and 400 acres of Greenbelt land – and instead reduce congestion on the 401 by subsidizing truck tolls on Highway 407."
+98,Motion 74,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_FC3B70BE-C487-EE11-8179-000D3AF4FB27,"That, in the opinion of the House, the Government of Ontario should address the affordability crisis by implementing a tax on the excess profits of major grocery chains and redistributing the revenue to help Ontarians pay their grocery bills."
+98,Motion 21,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_E38DF36D-D469-ED11-81AC-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should immediately halt plans to open up the Greenbelt for development, permanently protect prime farmland, and commit to building at least 1.5 million homes within existing urban boundaries."
+98,Motion 3,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CDF81E3B-5122-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, the Government of Ontario should immediately address the climate and housing crises by freezing urban boundaries, updating provincial planning laws to increase density along transit corridors and the building of missing middle housing and allowing fourplexes in neighbourhoods as of right."
+101,Motion 125,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_75ECBFEB-2D24-EF11-840A-002248B1AE9E,"That, in the opinion of this House, the Legislative Assembly of Ontario should look into establishing cooling and clean air centers in communities across the province during summer months and gather data on how these centres could be used by vulnerable groups during extreme heat waves, wildfires, or other events."
+101,Motion 121,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_82E9AA51-6523-EF11-840A-002248B1AE9E,"That, in the opinion of this House, the Legislative Assembly of Ontario should clearly communicate clean air guidelines that correspond to activity levels, tailored for various age groups and health conditions, while also educating the public on how to interpret and respond to Air Quality Health Index (AQHI) data to facilitate informed decision-making."
+101,Motion 120,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_56AB5A00-6523-EF11-840A-002248B1AE9E,"That, in the opinion of this House, the Legislative Assembly of Ontario should immediately update our Air Quality Health Index (AQHI) to to incorporate the AQHI-Plus, which has increased sensitivity to PM2.5 to reflect the risks associated with wildfire smoke and match the conditions experienced in our environment."
+101,Motion 89,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B7AB1564-7BEC-EE11-A1FD-0022483CC08F,"That, in the opinion of this House, the Government of Ontario should recognize March as Amyloidosis Awareness Month in order to raise awareness of this disease, to promote early diagnosis, which may enhance quality of life and extend life expectancy."
+101,Motion 88,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_7C5BD20E-B1E7-EE11-A203-6045BD5BD5F0,"That, in the opinion of this House, the Government of Ontario should keep its promise to build a phosphorus reduction facility and to begin the project before the end of 2024 as an urgent timeline for this project is needed."
+101,Motion 86,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6DE0AFCF-B0E7-EE11-A203-6045BD5BD5F0,"That, in the opinion of this House, the Government of Ontario should urgently execute its Lake Simcoe Protection Act, 2008 by targeting to reduce phosphorus loads to 44 tonnes per year by 2030, as per the Lake Simcoe Protection Plan."
+101,Motion 87,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_5DC45DFB-B0E7-EE11-A203-6045BD5BD5F0,"That, in the opinion of this House, the Government of Ontario should immediately evaluate the future environmental impacts of the proposed Bradford Bypass and accompanying sprawl on Lake Simcoe and its tributaries in terms of water quality."
+101,Motion 39,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B25D4B94-EDC8-ED11-B595-000D3A0A01D2,"That, in the opinion of this House, the Government of Ontario should work with Indigenous peoples, First Nations, and the federal government, along with community, business, and rural and environmental stakeholders, to develop a strategy to protect 30% of Ontario's lands and waters by 2030."
+101,Motion 40,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_A0467DC5-EDC8-ED11-B595-000D3A0A01D2,"That, in the opinion of this House, the Government of Ontario should launch a transparent and public review of the Permit to Take Water process, particularly for bottled water operations, to ensure permitting provides for long-term stability, public use, and good watershed management."
+101,Motion 42,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_640E7C07-EEC8-ED11-B595-000D3A0A0B92,"That, in the opinion of this House, the Government of Ontario should expand the Greenbelt and work with farmers and municipal leaders to protect Ontario's farmland from encroachment by land speculators."
+101,Motion 41,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_3E0510C2-EDC8-ED11-B595-000D3A0A0B92,"That, in the opinion of this House, the Government of Ontario should base all its decisions about water on our treaty obligation, public interest and guaranteed access to sustainable water resources for future generations and should collaborate with Indigenous people, farmers, rural Ontarians and conservation authorities in developing a provincial water strategy to protect our water, create jobs and take essential action on the climate crisis. "
+101,Motion 4,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_753775E2-E323-ED11-9DB2-002248D51D1B,"That, in the opinion of this House, every Ontarian should have access to ambulance and paramedic emergency services, and the Government of Ontario should ensure the necessary funding to end the periods of time when ambulances are unavailable to respond to an emergency call, known as ""code red"" or ""code black"". 
+Type	Date	Member	Event	Outcome
+motion	October 27, 2022	Sandy Shaw	Moved	-
+motion	October 27, 2022	-	Debated	-
+motion	October 27, 2022	-	Vote	Carried"
+106,Motion 90,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_51A03E92-2BED-EE11-A1FD-0022483CC08F,"That, in the opinion of this House, the Government of Ontario should develop and implement a post-secondary institution hate-related incident directive that, among other things, requires a response to be made to incidents and complaints within 30 days, includes a requirement for annual reporting by colleges and universities to the Minister of Colleges and Universities on hate-related incidents, and enforces compliance with the directive's provisions, including penalties for noncompliance.
+Type	Date	Member	Event	Outcome
+motion	April 23, 2024	Laura Smith	Moved	-
+motion	April 23, 2024	-	Debated	-
+motion	April 23, 2024	-	Vote	Carried on division"
+107,Motion 147,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_04E8FC4A-8BA6-EF11-B8E9-6045BD5CBA5B,"That, in the opinion of this House, the Government of Ontario should direct Ontario's single tier municipalities and regional governments to establish a Veteran Outreach and Homelessness Pilot Project, aimed at identifying unhoused service members, assisting them in applying for all eligible financial benefits, connecting them to much needed healthcare resources and ensuring they find permanent housing."
+107,Motion 73,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_73EC0B86-A679-EE11-8179-000D3AF4FD82,"That, in the opinion of this House, the Government of Ontario must consult with the Royal Canadian Legion Ontario Command to expand the veteran graphic licence plate to all licence plates for all vehicle types in the province."
+107,Motion 36,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_029B1C4E-C7BD-ED11-83FE-000D3AF40FC6,"That, in the opinion of this House, the Ministry of Health should expand the Ontario Health Insurance Plan to cover universal access to all prescription contraception.
+Type	Date	Member	Event	Outcome
+motion	November 29, 2023	Jennifer (Jennie) Stevens	Moved	-
+motion	November 29, 2023	-	Debated	-
+motion	November 29, 2023	-	Question put	Vote deferred
+motion	November 30, 2023	-	Vote	Lost on division"
+108,Motion 4,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_B80F8816-8DA7-EF11-B8E8-0022483E7007,
+108,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_49FE861C-8E9C-EF11-8A69-6045BD5BE34F,
+108,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_B69C14F0-EE96-EF11-8A69-002248B2E8A8,
+108,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_580BB480-7991-EF11-8A6A-002248AFD5B2,
+108,Motion 5,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_AAAA0743-7C0D-EF11-9F89-0022483D483F,
+108,Motion 4,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_220B0A20-FFFC-EE11-9F89-000D3AF307CC,
+108,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_E9DB8BD0-F7E6-EE11-A203-6045BD61612F,
+108,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_2B03D08A-01DC-EE11-904D-6045BD5D65A7,
+108,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_C1DED5B8-49D6-EE11-904D-6045BD60D367,
+108,Motion 5,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_D53174F2-F983-EE11-8179-000D3AF4FD82,
+108,Motion 4,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_DD4978AC-F878-EE11-8179-000D3AF4F44A,
+108,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_AF2862A1-EE6D-EE11-8179-000D3AF4FB27,
+108,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_FEF921A3-E962-EE11-8DF0-000D3AF4FB27,
+108,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_C8FBC185-6E5D-EE11-8DF0-000D3AF4FD82,
+108,Motion 52,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_B0BB0BAD-D7ED-ED11-8848-000D3AF4FB27,"That, in the opinion of this House, the Government of Ontario should terminate the lease with Therme Canada and stop the transfer of public funds to build a private spa at Ontario Place. "
+108,Motion 4,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_594E2531-E7DE-ED11-8846-000D3AF4F44A,
+108,Motion 3,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_9D76F851-DFC8-ED11-B595-000D3A0A0B92,
+108,Motion 2,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_44EFD93E-78B8-ED11-B596-002248D5A587,
+108,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_76CDB6C3-F3B2-ED11-83FD-000D3A0A2BD9,
+110,Motion 112,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_0D04F038-351C-EF11-840A-002248B1AE9E,"That, in the opinion of this House, the Government of Ontario should immediately bring in revisions to health and safety legislation, using examples of protective legislation already adopted in other jurisdictions, to protect workers exposed to new much higher temperatures at outdoor and indoor workplaces as a result of climate change."
+110,Motion 1,https://www.ola.org/en/legislative-business/status-business/opposition-day-debates-want-confidence-motions/#motion_B008B8AB-6C55-ED11-9561-000D3AF41FC2,
+112,Motion 47,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_9594E74E-6FCE-ED11-A7C5-002248D511E3,"That, in the opinion of this House, the government should make the passage of Bill 74, An Act to amend the Missing Persons Act, 2018, a priority for the 43rd Parliament."
+116,Motion 19,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_68A1534A-5864-ED11-9562-000D3AF41FC2,"That, in the opinion of this House, the Government of Ontario should consult with the public and its partners in the family court system to promote and ensure the availability of continuing education seminars for professionals in Ontario’s family court system, such as judges, justices of the peace, crown attorneys, custody assessors, and social workers, on matters related to intimate partner violence and coercive control in intimate partner and family relationships.
+Type	Date	Member	Event	Outcome
+motion	November 30, 2022	Effie J. Triantafilopoulos	Moved	-
+motion	November 30, 2022	-	Debated	-
+motion	November 30, 2022	-	Vote	Carried"
+118,Motion 119,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_BDBE4ACC-4D23-EF11-840A-6045BD5D4A28,"That, in the opinion of this House, all testing and licensing of commercial vehicle drivers should be done by public servants within the Ministry of Transportation. "
+120,Motion 18,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_293536CB-165A-ED11-9562-002248D51D1B,"That, in the opinion of this House, the Legislative Assembly of Ontario should provide an official statement of apology to the McIntyre Powder Project miners for their subjugation to the inhalation of finely ground aluminum dust known as ""McIntyre Powder"" and for the immediate and long-term health effects these miners suffered as a result."
+122,Motion 150,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_704685B2-44A8-EF11-B8E8-000D3AE860D8,"That, in the opinion of this House, the Government of Ontario should consult with stakeholders, investigate and recommend a system to swiftly end price gouging in the ticket resale market that limits the harm of automated bots, dynamic and predatory pricing."
+122,Motion 151,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_6C094B25-5CA8-EF11-B8E9-000D3A0C23B9,"That, in the opinion of this House, the Government of Ontario should seize the opportunity to promote jobs, tourism and economic development by creating equitable funding strategies and support for Ontario's arts, culture, and sports sectors."
+122,Motion 126,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_CDCBF915-2E24-EF11-840A-002248B1AE9E,"That, in the opinion of the House, the Ministry of the Attorney General should create backlog reduction panels of adjudicators solely tasked with clearing the backlogs at the Human Rights Tribunal and the Landlord Tenant Board."
+122,Motion 127,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_336ECD4C-2E24-EF11-840A-002248B1AE9E,"That in the opinion of the House, the Ministry of the Attorney General should increase Legal Aid Ontario funding and the income threshold for accessing Legal Aid."
+122,Motion 122,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_BA3100DB-6823-EF11-840A-002248B1AE9E,"That, in the opinion of this House, the provincial Government should, without delay, begin consultation to update the Commercial Tenancies Act and explore the feasibility of commercial rent control, commercial rent guidelines, and standardized commercial lease agreements to protect small business owners and promote ethical business practice."
+122,Motion 123,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_92869D0B-6923-EF11-840A-002248B1AE9E,"That, in the opinion of this House, the Ministry of Health should expand the Ontario Health Insurance Plan to cover human immunodeficiency virus (HIV) prevention such as pre-exposure prophylaxis (PrEP) and post-exposure prophylaxis (PEP), the human papillomavirus (HPV) vaccine at any age when recommended by a doctor, other sexually transmitted infection-related vaccines, and take home cervical cancer test kits."
+122,Motion 100,https://www.ola.org/en/legislative-business/status-business/private-members-motions/#motion_1C95F9FD-E400-EF11-9F89-000D3AF307CC,"That, in the opinion of this House, the Government of Ontario should ensure that the Judicial Appointments Advisory Committee uses a merit-based process that is independent from partisan interference and patronage."
