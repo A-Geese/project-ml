@@ -3,7 +3,7 @@ SCRIPT_DIR=$(dirname "$0")
 source "$SCRIPT_DIR/utils.sh"
 
 log "Running black..."
-black .
+black src/
 
 log "Running ruff..."
 ruff check . --fix
