@@ -18,6 +18,7 @@ dependencies = [
     # ai stuff :)
     "datasets",
     "ollama",
+    "instructor",
 ]
 
 [project.optional-dependencies]
